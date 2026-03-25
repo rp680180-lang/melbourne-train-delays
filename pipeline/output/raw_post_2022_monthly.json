@@ -1,0 +1,50 @@
+{
+  "jobIds": [
+    "3acd1e3d-0d89-4a3b-bc3e-06fa6d5188d6"
+  ],
+  "results": [
+    {
+      "jobId": "3acd1e3d-0d89-4a3b-bc3e-06fa6d5188d6",
+      "result": {
+        "data": {
+          "timestamp": "2026-03-25T23:02:32.198Z",
+          "rootActivityId": "637bab96-f44f-4746-b727-c28daca2cb75",
+          "fromCache": false,
+          "dsr": {
+            "DataShapes": [
+              {
+                "odata.error": {
+                  "code": "InvalidOrMalformedSemanticQueryDefinition_InvalidChildExpression",
+                  "source": "PowerBI",
+                  "message": {
+                    "lang": "en-US",
+                    "value": "Specific type(s) of expression on the ExpressionContainer of Expression should not be null"
+                  },
+                  "azure:values": [
+                    {
+                      "timestamp": "2026-03-25T23:02:32.1982988Z"
+                    },
+                    {
+                      "additionalMessages": [
+                        {
+                          "Code": "InvalidOrMalformedSemanticQueryDefinition_InvalidChildExpression",
+                          "Severity": "Error",
+                          "Message": "Specific type(s) of expression on the ExpressionContainer of Expression should not be null"
+                        },
+                        {
+                          "Code": "InvalidOrMalformedSemanticQueryDefinition_InvalidChildExpression",
+                          "Severity": "Error",
+                          "Message": "Specific type(s) of expression on the ExpressionContainer of Expression should not be null"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

@@ -3,10 +3,10 @@
   "dataRange": "FY 2000-2001 to FY 2025-2026",
   "totalYears": 26,
   "lineCount": 16,
-  "overallSpearmanR": 0.5459,
+  "overallSpearmanR": 0.4264,
   "overallSpearmanP": 0.0,
-  "significantYears": 8,
-  "totalAnalyzedYears": 11,
+  "significantYears": 17,
+  "totalAnalyzedYears": 27,
   "correlationDirection": "positive",
   "correlationStrength": "moderate",
   "bestLine": {

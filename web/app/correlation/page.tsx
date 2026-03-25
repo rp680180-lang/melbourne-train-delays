@@ -20,7 +20,9 @@ import summary from "@/data/summary.json";
 type YearData = (typeof correlationByYear)[keyof typeof correlationByYear];
 type Point = YearData["points"][0];
 
-const years = Object.keys(correlationByYear).sort();
+const allKeys = Object.keys(correlationByYear).sort();
+// Separate "All Years" from individual FYs
+const years = allKeys.filter((k) => k !== "All Years");
 
 function CustomTooltip({
   active,
@@ -97,7 +99,7 @@ function CustomDot(props: {
 }
 
 export default function CorrelationPage() {
-  const [selectedYear, setSelectedYear] = useState(years[years.length - 2]); // Latest complete FY
+  const [selectedYear, setSelectedYear] = useState("All Years");
   const yearData = (correlationByYear as Record<string, YearData>)[selectedYear];
 
   // Build correlation trend data
@@ -144,6 +146,20 @@ export default function CorrelationPage() {
 
         {/* Year selector */}
         <div className="flex flex-wrap gap-2 mb-8">
+          {/* All Years button first */}
+          <button
+            onClick={() => setSelectedYear("All Years")}
+            className="px-3 py-1.5 text-xs rounded-sm transition-all"
+            style={{
+              background: selectedYear === "All Years" ? "var(--accent-gold)" : "var(--bg-card)",
+              color: selectedYear === "All Years" ? "var(--bg-primary)" : "var(--text-secondary)",
+              border: `1px solid ${selectedYear === "All Years" ? "var(--accent-gold)" : "var(--border)"}`,
+              fontWeight: selectedYear === "All Years" ? 600 : 400,
+            }}
+          >
+            All Years *
+          </button>
+          <span className="self-center text-xs" style={{ color: "var(--border)" }}>|</span>
           {years.map((fy) => {
             const d = (correlationByYear as Record<string, YearData>)[fy];
             const isSelected = fy === selectedYear;
@@ -183,7 +199,7 @@ export default function CorrelationPage() {
         >
           <div className="flex justify-between items-center mb-4">
             <h3 className="text-lg" style={{ fontFamily: "var(--font-display)" }}>
-              FY {selectedYear}
+              {selectedYear === "All Years" ? "All Years Combined (Average per Line)" : `FY ${selectedYear}`}
             </h3>
             <div className="text-sm" style={{ color: "var(--text-secondary)" }}>
               <span style={{ color: "var(--accent-gold)" }}>

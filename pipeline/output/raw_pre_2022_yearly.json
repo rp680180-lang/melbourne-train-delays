@@ -1,0 +1,65 @@
+{
+  "jobIds": [
+    "847f301b-8511-401d-9d35-678b7390d3cd"
+  ],
+  "results": [
+    {
+      "jobId": "847f301b-8511-401d-9d35-678b7390d3cd",
+      "result": {
+        "data": {
+          "timestamp": "2026-03-25T23:02:28.848Z",
+          "rootActivityId": "0378d27d-9371-482d-b207-e3034da7e8f2",
+          "fromCache": false,
+          "dsr": {
+            "DataShapes": [
+              {
+                "odata.error": {
+                  "code": "CouldNotResolveSemanticQueryDefinition",
+                  "source": "User",
+                  "message": {
+                    "lang": "en-US",
+                    "value": "Could not resolve QueryDefinition due to invalid Measure reference '% ontime (Metro|dest)' in the SourceEntity ''.'Metro data'. This error often happens after the Measure or Entity was renamed or deleted. Please update the query/visual to use the new name or undo the name change."
+                  },
+                  "azure:values": [
+                    {
+                      "timestamp": "2026-03-25T23:02:28.8489324Z"
+                    },
+                    {
+                      "additionalMessages": [
+                        {
+                          "Code": "CouldNotResolveSemanticQueryDefinition",
+                          "Severity": "Error",
+                          "Message": "Could not resolve QueryDefinition due to invalid Measure reference '% ontime (Metro|dest)' in the SourceEntity ''.'Metro data'. This error often happens after the Measure or Entity was renamed or deleted. Please update the query/visual to use the new name or undo the name change."
+                        },
+                        {
+                          "Code": "CouldNotResolveSemanticQueryDefinition",
+                          "Severity": "Error",
+                          "Message": "Could not resolve QueryDefinition due to invalid Measure reference '% TT delivered (Metro)' in the SourceEntity ''.'Metro data'. This error often happens after the Measure or Entity was renamed or deleted. Please update the query/visual to use the new name or undo the name change."
+                        },
+                        {
+                          "Code": "CouldNotResolveSemanticQueryDefinition",
+                          "Severity": "Error",
+                          "Message": "Could not resolve QueryDefinition due to invalid Measure reference '% cancelled (Metro)' in the SourceEntity ''.'Metro data'. This error often happens after the Measure or Entity was renamed or deleted. Please update the query/visual to use the new name or undo the name change."
+                        },
+                        {
+                          "Code": "CouldNotResolveModelReferencesInSemanticQuery",
+                          "Severity": "Error",
+                          "Message": "Could not resolve model references in the Semantic Query.",
+                          "AffectedItems": [
+                            "Metro data[% ontime (Metro|dest)]",
+                            "Metro data[% TT delivered (Metro)]",
+                            "Metro data[% cancelled (Metro)]"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

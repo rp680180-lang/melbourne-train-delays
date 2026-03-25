@@ -15,10 +15,8 @@ import correlationByYear from "@/data/correlationByYear.json";
 type YearData = (typeof correlationByYear)[keyof typeof correlationByYear];
 type Point = YearData["points"][0];
 
-// Use most recent complete FY
-const years = Object.keys(correlationByYear).sort();
-const latestFY = years[years.length - 2]; // Skip partial current FY
-const data = (correlationByYear as Record<string, YearData>)[latestFY];
+// Use "All Years" combined view as default
+const data = (correlationByYear as Record<string, YearData>)["All Years"];
 
 function Dot(props: { cx?: number; cy?: number; payload?: Point & { x: number; y: number } }) {
   const { cx = 0, cy = 0, payload } = props;
@@ -60,8 +58,8 @@ export default function HomeCorrelationChart() {
     <div>
       <div className="flex justify-between items-center mb-2">
         <p className="text-xs" style={{ color: "var(--text-muted)" }}>
-          FY {latestFY} &middot; {"\u03C1"} = {data.spearmanR.toFixed(2)}{" "}
-          {data.significant ? "(significant)" : "(not significant)"}
+          All Years Combined &middot; {"\u03C1"} = {data.spearmanR.toFixed(2)}{" "}
+          (p = {data.spearmanP.toFixed(3)})
         </p>
       </div>
       <ResponsiveContainer width="100%" height={360}>

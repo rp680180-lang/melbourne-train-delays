@@ -219,8 +219,8 @@ def main():
 
     # ── 2. Correlation by Year ──
     print("\n2. Computing correlations by year...")
-    # Focus on last 10 FYs and exclude Stony Point (outlier rural line)
-    recent_fys = [fy for fy in all_fys if fy >= "2015-2016"]
+    # All FYs, exclude Stony Point (outlier rural line)
+    recent_fys = all_fys
     analysis_lines = [l for l in all_lines if l != "Stony Point" and l in line_seifa]
 
     correlations_by_year = {}
@@ -267,6 +267,49 @@ def main():
                 "n": n,
             }
 
+    # Add "All Years" combined entry using average punctuality per line
+    all_years_points = []
+    all_years_seifa = []
+    all_years_punct = []
+    for line in analysis_lines:
+        line_rows = [r for r in perf_data if r["line"] == line]
+        if not line_rows:
+            continue
+        seifa = line_seifa.get(line)
+        if not seifa:
+            continue
+        avg_p = statistics.mean([r["punctuality_pct"] for r in line_rows])
+        avg_r = statistics.mean([r["reliability_pct"] for r in line_rows if r.get("reliability_pct")])
+        all_years_points.append({
+            "line": line,
+            "seifa": seifa,
+            "punctuality": round(avg_p, 2),
+            "reliability": round(avg_r, 2),
+            "cancelled": None,
+            "color": LINE_COLORS.get(line, "#666"),
+        })
+        all_years_seifa.append(seifa)
+        all_years_punct.append(avg_p)
+
+    if len(all_years_seifa) >= 5:
+        r_val, p_val = spearman_r(all_years_seifa, all_years_punct)
+        n = len(all_years_seifa)
+        x_mean = sum(all_years_seifa) / n
+        y_mean = sum(all_years_punct) / n
+        ss_xy = sum((x - x_mean) * (y - y_mean) for x, y in zip(all_years_seifa, all_years_punct))
+        ss_xx = sum((x - x_mean) ** 2 for x in all_years_seifa)
+        slope = ss_xy / ss_xx if ss_xx else 0
+        intercept = y_mean - slope * x_mean
+        correlations_by_year["All Years"] = {
+            "points": all_years_points,
+            "spearmanR": round(r_val, 4),
+            "spearmanP": round(p_val, 4),
+            "significant": p_val < 0.05,
+            "slope": round(slope, 6),
+            "intercept": round(intercept, 2),
+            "n": n,
+        }
+
     save_json(os.path.join(WEB_DATA_DIR, "correlationByYear.json"), correlations_by_year)
 
     # Print correlation summary
@@ -296,8 +339,8 @@ def main():
     avg_seifa = statistics.mean([r["seifa"] for r in latest_with_seifa])
 
     # Overall correlation across all years
-    all_seifa = [line_seifa[r["line"]] for r in perf_data if r["line"] in line_seifa and r["line"] != "Stony Point" and r["financial_year"] >= "2015-2016"]
-    all_punct = [r["punctuality_pct"] for r in perf_data if r["line"] in line_seifa and r["line"] != "Stony Point" and r["financial_year"] >= "2015-2016"]
+    all_seifa = [line_seifa[r["line"]] for r in perf_data if r["line"] in line_seifa and r["line"] != "Stony Point"]
+    all_punct = [r["punctuality_pct"] for r in perf_data if r["line"] in line_seifa and r["line"] != "Stony Point"]
     overall_r, overall_p = spearman_r(all_seifa, all_punct)
 
     # Count significant years
@@ -335,7 +378,7 @@ def main():
     line_comparison = []
     for line in all_lines:
         line_data = [r for r in perf_data if r["line"] == line]
-        recent = [r for r in line_data if r["financial_year"] >= "2015-2016"]
+        recent = line_data  # Use all years
         latest = next((r for r in line_data if r["financial_year"] == latest_fy), None)
 
         avg_punct_10y = statistics.mean([r["punctuality_pct"] for r in recent]) if recent else None

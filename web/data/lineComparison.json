@@ -6,7 +6,7 @@
     "seifaScore": 1127.9,
     "latestPunctuality": 97.03,
     "latestReliability": 99.31,
-    "avgPunctuality10y": 96.9,
+    "avgPunctuality10y": 95.5,
     "trend": "stable",
     "stationCount": 14
   },
@@ -17,8 +17,8 @@
     "seifaScore": 1122.3,
     "latestPunctuality": 96.72,
     "latestReliability": 98.82,
-    "avgPunctuality10y": 96.2,
-    "trend": "improving",
+    "avgPunctuality10y": 94.4,
+    "trend": "stable",
     "stationCount": 11
   },
   {
@@ -28,7 +28,7 @@
     "seifaScore": 1107.3,
     "latestPunctuality": 94.99,
     "latestReliability": 99.22,
-    "avgPunctuality10y": 94.7,
+    "avgPunctuality10y": 94.8,
     "trend": "stable",
     "stationCount": 9
   },
@@ -39,7 +39,7 @@
     "seifaScore": 1128.1,
     "latestPunctuality": 94.96,
     "latestReliability": 99.5,
-    "avgPunctuality10y": 94.2,
+    "avgPunctuality10y": 94.1,
     "trend": "stable",
     "stationCount": 12
   },
@@ -50,7 +50,7 @@
     "seifaScore": 1039.8,
     "latestPunctuality": 94.87,
     "latestReliability": 98.98,
-    "avgPunctuality10y": 94.8,
+    "avgPunctuality10y": 94.1,
     "trend": "stable",
     "stationCount": 24
   },
@@ -61,8 +61,8 @@
     "seifaScore": 1095.4,
     "latestPunctuality": 94.7,
     "latestReliability": 98.88,
-    "avgPunctuality10y": 93.1,
-    "trend": "improving",
+    "avgPunctuality10y": 92.1,
+    "trend": "stable",
     "stationCount": 21
   },
   {
@@ -72,7 +72,7 @@
     "seifaScore": 992.9,
     "latestPunctuality": 94.6,
     "latestReliability": 98.73,
-    "avgPunctuality10y": 91.1,
+    "avgPunctuality10y": 88.5,
     "trend": "improving",
     "stationCount": 19
   },
@@ -83,7 +83,7 @@
     "seifaScore": 1101.9,
     "latestPunctuality": 94.19,
     "latestReliability": 99.03,
-    "avgPunctuality10y": 94.0,
+    "avgPunctuality10y": 92.2,
     "trend": "stable",
     "stationCount": 23
   },
@@ -94,7 +94,7 @@
     "seifaScore": 1023.9,
     "latestPunctuality": 93.93,
     "latestReliability": 98.21,
-    "avgPunctuality10y": 90.7,
+    "avgPunctuality10y": 87.0,
     "trend": "improving",
     "stationCount": 24
   },
@@ -105,7 +105,7 @@
     "seifaScore": 1064.6,
     "latestPunctuality": 92.91,
     "latestReliability": 99.08,
-    "avgPunctuality10y": 93.5,
+    "avgPunctuality10y": 92.8,
     "trend": "stable",
     "stationCount": 13
   },
@@ -116,7 +116,7 @@
     "seifaScore": 1053.4,
     "latestPunctuality": 92.79,
     "latestReliability": 99.01,
-    "avgPunctuality10y": 91.6,
+    "avgPunctuality10y": 90.7,
     "trend": "stable",
     "stationCount": 14
   },
@@ -127,7 +127,7 @@
     "seifaScore": 1082.7,
     "latestPunctuality": 92.47,
     "latestReliability": 98.58,
-    "avgPunctuality10y": 91.0,
+    "avgPunctuality10y": 88.0,
     "trend": "improving",
     "stationCount": 25
   },
@@ -138,8 +138,8 @@
     "seifaScore": 1074.6,
     "latestPunctuality": 91.76,
     "latestReliability": 98.75,
-    "avgPunctuality10y": 91.3,
-    "trend": "improving",
+    "avgPunctuality10y": 91.0,
+    "trend": "stable",
     "stationCount": 25
   },
   {
@@ -149,7 +149,7 @@
     "seifaScore": 953.4,
     "latestPunctuality": 89.98,
     "latestReliability": 95.13,
-    "avgPunctuality10y": 90.3,
+    "avgPunctuality10y": 93.4,
     "trend": "declining",
     "stationCount": 10
   },
@@ -160,7 +160,7 @@
     "seifaScore": 1027.2,
     "latestPunctuality": 89.11,
     "latestReliability": 98.82,
-    "avgPunctuality10y": 90.8,
+    "avgPunctuality10y": 90.9,
     "trend": "stable",
     "stationCount": 16
   },
@@ -171,8 +171,8 @@
     "seifaScore": 1050.8,
     "latestPunctuality": 87.95,
     "latestReliability": 98.52,
-    "avgPunctuality10y": 90.0,
-    "trend": "declining",
+    "avgPunctuality10y": 90.7,
+    "trend": "stable",
     "stationCount": 15
   }
 ]

@@ -1,4 +1,1954 @@
 {
+  "2000-2001": {
+    "points": [
+      {
+        "line": "Alamein",
+        "seifa": 1128.1,
+        "punctuality": 96.3,
+        "reliability": 99.61,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Belgrave",
+        "seifa": 1074.6,
+        "punctuality": 94.94,
+        "reliability": 99.19,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Craigieburn",
+        "seifa": 1050.8,
+        "punctuality": 96.19,
+        "reliability": 99.42,
+        "cancelled": null,
+        "color": "#FFBE00"
+      },
+      {
+        "line": "Cranbourne",
+        "seifa": 992.9,
+        "punctuality": 92.68,
+        "reliability": 98.99,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Frankston",
+        "seifa": 1082.7,
+        "punctuality": 93.29,
+        "reliability": 98.83,
+        "cancelled": null,
+        "color": "#028430"
+      },
+      {
+        "line": "Glen Waverley",
+        "seifa": 1127.9,
+        "punctuality": 96.04,
+        "reliability": 99.4,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Hurstbridge",
+        "seifa": 1101.9,
+        "punctuality": 93.86,
+        "reliability": 99.42,
+        "cancelled": null,
+        "color": "#BE1014"
+      },
+      {
+        "line": "Lilydale",
+        "seifa": 1095.4,
+        "punctuality": 95.0,
+        "reliability": 99.01,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Mernda",
+        "seifa": 1039.8,
+        "punctuality": 95.04,
+        "reliability": 99.54,
+        "cancelled": null,
+        "color": "#BE1014"
+      },
+      {
+        "line": "Pakenham",
+        "seifa": 1023.9,
+        "punctuality": 91.84,
+        "reliability": 99.32,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Sandringham",
+        "seifa": 1122.3,
+        "punctuality": 95.17,
+        "reliability": 98.91,
+        "cancelled": null,
+        "color": "#F178AF"
+      },
+      {
+        "line": "Sunbury",
+        "seifa": 1027.2,
+        "punctuality": 96.45,
+        "reliability": 99.6,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Upfield",
+        "seifa": 1064.6,
+        "punctuality": 96.86,
+        "reliability": 99.44,
+        "cancelled": null,
+        "color": "#FFBE00"
+      },
+      {
+        "line": "Werribee",
+        "seifa": 1053.4,
+        "punctuality": 95.23,
+        "reliability": 99.4,
+        "cancelled": null,
+        "color": "#F178AF"
+      },
+      {
+        "line": "Williamstown",
+        "seifa": 1107.3,
+        "punctuality": 97.99,
+        "reliability": 99.36,
+        "cancelled": null,
+        "color": "#F178AF"
+      }
+    ],
+    "spearmanR": 0.3321,
+    "spearmanP": 0.2265,
+    "significant": false,
+    "slope": 0.017329,
+    "intercept": 76.53,
+    "n": 15
+  },
+  "2001-2002": {
+    "points": [
+      {
+        "line": "Alamein",
+        "seifa": 1128.1,
+        "punctuality": 96.73,
+        "reliability": 99.74,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Belgrave",
+        "seifa": 1074.6,
+        "punctuality": 95.04,
+        "reliability": 99.63,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Craigieburn",
+        "seifa": 1050.8,
+        "punctuality": 96.99,
+        "reliability": 99.48,
+        "cancelled": null,
+        "color": "#FFBE00"
+      },
+      {
+        "line": "Cranbourne",
+        "seifa": 992.9,
+        "punctuality": 93.85,
+        "reliability": 98.76,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Frankston",
+        "seifa": 1082.7,
+        "punctuality": 94.0,
+        "reliability": 98.78,
+        "cancelled": null,
+        "color": "#028430"
+      },
+      {
+        "line": "Glen Waverley",
+        "seifa": 1127.9,
+        "punctuality": 96.07,
+        "reliability": 99.61,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Hurstbridge",
+        "seifa": 1101.9,
+        "punctuality": 93.31,
+        "reliability": 99.56,
+        "cancelled": null,
+        "color": "#BE1014"
+      },
+      {
+        "line": "Lilydale",
+        "seifa": 1095.4,
+        "punctuality": 94.54,
+        "reliability": 99.44,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Mernda",
+        "seifa": 1039.8,
+        "punctuality": 95.15,
+        "reliability": 99.61,
+        "cancelled": null,
+        "color": "#BE1014"
+      },
+      {
+        "line": "Pakenham",
+        "seifa": 1023.9,
+        "punctuality": 93.18,
+        "reliability": 99.23,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Sandringham",
+        "seifa": 1122.3,
+        "punctuality": 95.55,
+        "reliability": 98.79,
+        "cancelled": null,
+        "color": "#F178AF"
+      },
+      {
+        "line": "Sunbury",
+        "seifa": 1027.2,
+        "punctuality": 97.15,
+        "reliability": 99.61,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Upfield",
+        "seifa": 1064.6,
+        "punctuality": 97.26,
+        "reliability": 99.46,
+        "cancelled": null,
+        "color": "#FFBE00"
+      },
+      {
+        "line": "Werribee",
+        "seifa": 1053.4,
+        "punctuality": 96.68,
+        "reliability": 99.48,
+        "cancelled": null,
+        "color": "#F178AF"
+      },
+      {
+        "line": "Williamstown",
+        "seifa": 1107.3,
+        "punctuality": 98.43,
+        "reliability": 99.62,
+        "cancelled": null,
+        "color": "#F178AF"
+      }
+    ],
+    "spearmanR": 0.2179,
+    "spearmanP": 0.4354,
+    "significant": false,
+    "slope": 0.008863,
+    "intercept": 86.09,
+    "n": 15
+  },
+  "2002-2003": {
+    "points": [
+      {
+        "line": "Alamein",
+        "seifa": 1128.1,
+        "punctuality": 96.58,
+        "reliability": 99.53,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Belgrave",
+        "seifa": 1074.6,
+        "punctuality": 93.95,
+        "reliability": 99.53,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Craigieburn",
+        "seifa": 1050.8,
+        "punctuality": 97.43,
+        "reliability": 99.56,
+        "cancelled": null,
+        "color": "#FFBE00"
+      },
+      {
+        "line": "Cranbourne",
+        "seifa": 992.9,
+        "punctuality": 95.16,
+        "reliability": 99.4,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Frankston",
+        "seifa": 1082.7,
+        "punctuality": 94.45,
+        "reliability": 99.11,
+        "cancelled": null,
+        "color": "#028430"
+      },
+      {
+        "line": "Glen Waverley",
+        "seifa": 1127.9,
+        "punctuality": 95.83,
+        "reliability": 99.46,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Hurstbridge",
+        "seifa": 1101.9,
+        "punctuality": 92.85,
+        "reliability": 99.52,
+        "cancelled": null,
+        "color": "#BE1014"
+      },
+      {
+        "line": "Lilydale",
+        "seifa": 1095.4,
+        "punctuality": 94.13,
+        "reliability": 99.16,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Mernda",
+        "seifa": 1039.8,
+        "punctuality": 94.76,
+        "reliability": 99.64,
+        "cancelled": null,
+        "color": "#BE1014"
+      },
+      {
+        "line": "Pakenham",
+        "seifa": 1023.9,
+        "punctuality": 93.77,
+        "reliability": 99.44,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Sandringham",
+        "seifa": 1122.3,
+        "punctuality": 96.85,
+        "reliability": 99.27,
+        "cancelled": null,
+        "color": "#F178AF"
+      },
+      {
+        "line": "Sunbury",
+        "seifa": 1027.2,
+        "punctuality": 97.28,
+        "reliability": 99.71,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Upfield",
+        "seifa": 1064.6,
+        "punctuality": 97.01,
+        "reliability": 99.62,
+        "cancelled": null,
+        "color": "#FFBE00"
+      },
+      {
+        "line": "Werribee",
+        "seifa": 1053.4,
+        "punctuality": 96.57,
+        "reliability": 99.6,
+        "cancelled": null,
+        "color": "#F178AF"
+      },
+      {
+        "line": "Williamstown",
+        "seifa": 1107.3,
+        "punctuality": 98.57,
+        "reliability": 99.73,
+        "cancelled": null,
+        "color": "#F178AF"
+      }
+    ],
+    "spearmanR": 0.0964,
+    "spearmanP": 0.7325,
+    "significant": false,
+    "slope": 0.004515,
+    "intercept": 90.84,
+    "n": 15
+  },
+  "2003-2004": {
+    "points": [
+      {
+        "line": "Alamein",
+        "seifa": 1128.1,
+        "punctuality": 95.84,
+        "reliability": 99.22,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Belgrave",
+        "seifa": 1074.6,
+        "punctuality": 93.26,
+        "reliability": 99.22,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Craigieburn",
+        "seifa": 1050.8,
+        "punctuality": 96.15,
+        "reliability": 98.56,
+        "cancelled": null,
+        "color": "#FFBE00"
+      },
+      {
+        "line": "Cranbourne",
+        "seifa": 992.9,
+        "punctuality": 90.31,
+        "reliability": 98.21,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Frankston",
+        "seifa": 1082.7,
+        "punctuality": 89.96,
+        "reliability": 97.5,
+        "cancelled": null,
+        "color": "#028430"
+      },
+      {
+        "line": "Glen Waverley",
+        "seifa": 1127.9,
+        "punctuality": 95.54,
+        "reliability": 99.32,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Hurstbridge",
+        "seifa": 1101.9,
+        "punctuality": 91.82,
+        "reliability": 99.36,
+        "cancelled": null,
+        "color": "#BE1014"
+      },
+      {
+        "line": "Lilydale",
+        "seifa": 1095.4,
+        "punctuality": 93.4,
+        "reliability": 98.51,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Mernda",
+        "seifa": 1039.8,
+        "punctuality": 94.32,
+        "reliability": 99.43,
+        "cancelled": null,
+        "color": "#BE1014"
+      },
+      {
+        "line": "Pakenham",
+        "seifa": 1023.9,
+        "punctuality": 89.05,
+        "reliability": 98.2,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Sandringham",
+        "seifa": 1122.3,
+        "punctuality": 94.09,
+        "reliability": 97.5,
+        "cancelled": null,
+        "color": "#F178AF"
+      },
+      {
+        "line": "Sunbury",
+        "seifa": 1027.2,
+        "punctuality": 95.74,
+        "reliability": 99.24,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Upfield",
+        "seifa": 1064.6,
+        "punctuality": 95.62,
+        "reliability": 99.03,
+        "cancelled": null,
+        "color": "#FFBE00"
+      },
+      {
+        "line": "Werribee",
+        "seifa": 1053.4,
+        "punctuality": 95.81,
+        "reliability": 98.78,
+        "cancelled": null,
+        "color": "#F178AF"
+      },
+      {
+        "line": "Williamstown",
+        "seifa": 1107.3,
+        "punctuality": 97.72,
+        "reliability": 98.31,
+        "cancelled": null,
+        "color": "#F178AF"
+      }
+    ],
+    "spearmanR": 0.2714,
+    "spearmanP": 0.3278,
+    "significant": false,
+    "slope": 0.022956,
+    "intercept": 69.28,
+    "n": 15
+  },
+  "2004-2005": {
+    "points": [
+      {
+        "line": "Alamein",
+        "seifa": 1128.1,
+        "punctuality": 94.29,
+        "reliability": 99.13,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Belgrave",
+        "seifa": 1074.6,
+        "punctuality": 91.71,
+        "reliability": 99.0,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Craigieburn",
+        "seifa": 1050.8,
+        "punctuality": 93.84,
+        "reliability": 98.35,
+        "cancelled": null,
+        "color": "#FFBE00"
+      },
+      {
+        "line": "Cranbourne",
+        "seifa": 992.9,
+        "punctuality": 80.89,
+        "reliability": 98.35,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Frankston",
+        "seifa": 1082.7,
+        "punctuality": 86.98,
+        "reliability": 97.77,
+        "cancelled": null,
+        "color": "#028430"
+      },
+      {
+        "line": "Glen Waverley",
+        "seifa": 1127.9,
+        "punctuality": 94.95,
+        "reliability": 98.78,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Hurstbridge",
+        "seifa": 1101.9,
+        "punctuality": 89.59,
+        "reliability": 99.02,
+        "cancelled": null,
+        "color": "#BE1014"
+      },
+      {
+        "line": "Lilydale",
+        "seifa": 1095.4,
+        "punctuality": 92.05,
+        "reliability": 98.2,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Mernda",
+        "seifa": 1039.8,
+        "punctuality": 93.69,
+        "reliability": 99.23,
+        "cancelled": null,
+        "color": "#BE1014"
+      },
+      {
+        "line": "Pakenham",
+        "seifa": 1023.9,
+        "punctuality": 83.02,
+        "reliability": 98.28,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Sandringham",
+        "seifa": 1122.3,
+        "punctuality": 90.63,
+        "reliability": 97.54,
+        "cancelled": null,
+        "color": "#F178AF"
+      },
+      {
+        "line": "Sunbury",
+        "seifa": 1027.2,
+        "punctuality": 91.71,
+        "reliability": 99.05,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Upfield",
+        "seifa": 1064.6,
+        "punctuality": 93.78,
+        "reliability": 98.77,
+        "cancelled": null,
+        "color": "#FFBE00"
+      },
+      {
+        "line": "Werribee",
+        "seifa": 1053.4,
+        "punctuality": 93.12,
+        "reliability": 98.47,
+        "cancelled": null,
+        "color": "#F178AF"
+      },
+      {
+        "line": "Williamstown",
+        "seifa": 1107.3,
+        "punctuality": 96.0,
+        "reliability": 98.55,
+        "cancelled": null,
+        "color": "#F178AF"
+      }
+    ],
+    "spearmanR": 0.4812,
+    "spearmanP": 0.0693,
+    "significant": false,
+    "slope": 0.060186,
+    "intercept": 26.51,
+    "n": 15
+  },
+  "2005-2006": {
+    "points": [
+      {
+        "line": "Alamein",
+        "seifa": 1128.1,
+        "punctuality": 93.23,
+        "reliability": 98.86,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Belgrave",
+        "seifa": 1074.6,
+        "punctuality": 89.49,
+        "reliability": 99.0,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Craigieburn",
+        "seifa": 1050.8,
+        "punctuality": 91.18,
+        "reliability": 99.05,
+        "cancelled": null,
+        "color": "#FFBE00"
+      },
+      {
+        "line": "Cranbourne",
+        "seifa": 992.9,
+        "punctuality": 81.77,
+        "reliability": 99.06,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Frankston",
+        "seifa": 1082.7,
+        "punctuality": 84.08,
+        "reliability": 98.74,
+        "cancelled": null,
+        "color": "#028430"
+      },
+      {
+        "line": "Glen Waverley",
+        "seifa": 1127.9,
+        "punctuality": 93.7,
+        "reliability": 98.98,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Hurstbridge",
+        "seifa": 1101.9,
+        "punctuality": 89.32,
+        "reliability": 98.95,
+        "cancelled": null,
+        "color": "#BE1014"
+      },
+      {
+        "line": "Lilydale",
+        "seifa": 1095.4,
+        "punctuality": 90.08,
+        "reliability": 98.49,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Mernda",
+        "seifa": 1039.8,
+        "punctuality": 92.85,
+        "reliability": 99.07,
+        "cancelled": null,
+        "color": "#BE1014"
+      },
+      {
+        "line": "Pakenham",
+        "seifa": 1023.9,
+        "punctuality": 83.58,
+        "reliability": 99.2,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Sandringham",
+        "seifa": 1122.3,
+        "punctuality": 90.66,
+        "reliability": 98.48,
+        "cancelled": null,
+        "color": "#F178AF"
+      },
+      {
+        "line": "Sunbury",
+        "seifa": 1027.2,
+        "punctuality": 90.3,
+        "reliability": 99.35,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Upfield",
+        "seifa": 1064.6,
+        "punctuality": 90.7,
+        "reliability": 99.21,
+        "cancelled": null,
+        "color": "#FFBE00"
+      },
+      {
+        "line": "Werribee",
+        "seifa": 1053.4,
+        "punctuality": 90.78,
+        "reliability": 99.18,
+        "cancelled": null,
+        "color": "#F178AF"
+      },
+      {
+        "line": "Williamstown",
+        "seifa": 1107.3,
+        "punctuality": 95.73,
+        "reliability": 99.34,
+        "cancelled": null,
+        "color": "#F178AF"
+      }
+    ],
+    "spearmanR": 0.4929,
+    "spearmanP": 0.062,
+    "significant": false,
+    "slope": 0.0562,
+    "intercept": 29.54,
+    "n": 15
+  },
+  "2006-2007": {
+    "points": [
+      {
+        "line": "Alamein",
+        "seifa": 1128.1,
+        "punctuality": 93.16,
+        "reliability": 98.92,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Belgrave",
+        "seifa": 1074.6,
+        "punctuality": 90.05,
+        "reliability": 99.1,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Craigieburn",
+        "seifa": 1050.8,
+        "punctuality": 91.21,
+        "reliability": 98.84,
+        "cancelled": null,
+        "color": "#FFBE00"
+      },
+      {
+        "line": "Cranbourne",
+        "seifa": 992.9,
+        "punctuality": 82.3,
+        "reliability": 98.99,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Frankston",
+        "seifa": 1082.7,
+        "punctuality": 81.89,
+        "reliability": 98.41,
+        "cancelled": null,
+        "color": "#028430"
+      },
+      {
+        "line": "Glen Waverley",
+        "seifa": 1127.9,
+        "punctuality": 93.24,
+        "reliability": 98.94,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Hurstbridge",
+        "seifa": 1101.9,
+        "punctuality": 87.69,
+        "reliability": 98.56,
+        "cancelled": null,
+        "color": "#BE1014"
+      },
+      {
+        "line": "Lilydale",
+        "seifa": 1095.4,
+        "punctuality": 90.12,
+        "reliability": 97.98,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Mernda",
+        "seifa": 1039.8,
+        "punctuality": 92.21,
+        "reliability": 98.81,
+        "cancelled": null,
+        "color": "#BE1014"
+      },
+      {
+        "line": "Pakenham",
+        "seifa": 1023.9,
+        "punctuality": 78.21,
+        "reliability": 98.51,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Sandringham",
+        "seifa": 1122.3,
+        "punctuality": 88.61,
+        "reliability": 98.44,
+        "cancelled": null,
+        "color": "#F178AF"
+      },
+      {
+        "line": "Sunbury",
+        "seifa": 1027.2,
+        "punctuality": 87.98,
+        "reliability": 99.24,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Upfield",
+        "seifa": 1064.6,
+        "punctuality": 91.52,
+        "reliability": 99.18,
+        "cancelled": null,
+        "color": "#FFBE00"
+      },
+      {
+        "line": "Werribee",
+        "seifa": 1053.4,
+        "punctuality": 89.62,
+        "reliability": 98.92,
+        "cancelled": null,
+        "color": "#F178AF"
+      },
+      {
+        "line": "Williamstown",
+        "seifa": 1107.3,
+        "punctuality": 95.08,
+        "reliability": 99.11,
+        "cancelled": null,
+        "color": "#F178AF"
+      }
+    ],
+    "spearmanR": 0.5071,
+    "spearmanP": 0.0537,
+    "significant": false,
+    "slope": 0.062131,
+    "intercept": 22.2,
+    "n": 15
+  },
+  "2007-2008": {
+    "points": [
+      {
+        "line": "Alamein",
+        "seifa": 1128.1,
+        "punctuality": 93.47,
+        "reliability": 98.74,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Belgrave",
+        "seifa": 1074.6,
+        "punctuality": 89.46,
+        "reliability": 98.86,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Craigieburn",
+        "seifa": 1050.8,
+        "punctuality": 86.49,
+        "reliability": 98.56,
+        "cancelled": null,
+        "color": "#FFBE00"
+      },
+      {
+        "line": "Cranbourne",
+        "seifa": 992.9,
+        "punctuality": 81.44,
+        "reliability": 98.9,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Frankston",
+        "seifa": 1082.7,
+        "punctuality": 79.4,
+        "reliability": 98.6,
+        "cancelled": null,
+        "color": "#028430"
+      },
+      {
+        "line": "Glen Waverley",
+        "seifa": 1127.9,
+        "punctuality": 92.27,
+        "reliability": 98.83,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Hurstbridge",
+        "seifa": 1101.9,
+        "punctuality": 86.78,
+        "reliability": 98.78,
+        "cancelled": null,
+        "color": "#BE1014"
+      },
+      {
+        "line": "Lilydale",
+        "seifa": 1095.4,
+        "punctuality": 89.82,
+        "reliability": 98.08,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Mernda",
+        "seifa": 1039.8,
+        "punctuality": 91.78,
+        "reliability": 98.93,
+        "cancelled": null,
+        "color": "#BE1014"
+      },
+      {
+        "line": "Pakenham",
+        "seifa": 1023.9,
+        "punctuality": 76.81,
+        "reliability": 98.62,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Sandringham",
+        "seifa": 1122.3,
+        "punctuality": 89.95,
+        "reliability": 98.51,
+        "cancelled": null,
+        "color": "#F178AF"
+      },
+      {
+        "line": "Sunbury",
+        "seifa": 1027.2,
+        "punctuality": 86.28,
+        "reliability": 99.36,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Upfield",
+        "seifa": 1064.6,
+        "punctuality": 90.33,
+        "reliability": 99.16,
+        "cancelled": null,
+        "color": "#FFBE00"
+      },
+      {
+        "line": "Werribee",
+        "seifa": 1053.4,
+        "punctuality": 87.2,
+        "reliability": 98.87,
+        "cancelled": null,
+        "color": "#F178AF"
+      },
+      {
+        "line": "Williamstown",
+        "seifa": 1107.3,
+        "punctuality": 93.83,
+        "reliability": 99.04,
+        "cancelled": null,
+        "color": "#F178AF"
+      }
+    ],
+    "spearmanR": 0.675,
+    "spearmanP": 0.0058,
+    "significant": true,
+    "slope": 0.075358,
+    "intercept": 6.84,
+    "n": 15
+  },
+  "2008-2009": {
+    "points": [
+      {
+        "line": "Alamein",
+        "seifa": 1128.1,
+        "punctuality": 93.6,
+        "reliability": 98.94,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Belgrave",
+        "seifa": 1074.6,
+        "punctuality": 89.12,
+        "reliability": 98.81,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Craigieburn",
+        "seifa": 1050.8,
+        "punctuality": 86.83,
+        "reliability": 98.62,
+        "cancelled": null,
+        "color": "#FFBE00"
+      },
+      {
+        "line": "Cranbourne",
+        "seifa": 992.9,
+        "punctuality": 82.91,
+        "reliability": 98.34,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Frankston",
+        "seifa": 1082.7,
+        "punctuality": 77.66,
+        "reliability": 98.22,
+        "cancelled": null,
+        "color": "#028430"
+      },
+      {
+        "line": "Glen Waverley",
+        "seifa": 1127.9,
+        "punctuality": 92.73,
+        "reliability": 98.66,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Hurstbridge",
+        "seifa": 1101.9,
+        "punctuality": 86.74,
+        "reliability": 98.49,
+        "cancelled": null,
+        "color": "#BE1014"
+      },
+      {
+        "line": "Lilydale",
+        "seifa": 1095.4,
+        "punctuality": 90.26,
+        "reliability": 97.89,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Mernda",
+        "seifa": 1039.8,
+        "punctuality": 91.34,
+        "reliability": 98.69,
+        "cancelled": null,
+        "color": "#BE1014"
+      },
+      {
+        "line": "Pakenham",
+        "seifa": 1023.9,
+        "punctuality": 76.5,
+        "reliability": 98.22,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Sandringham",
+        "seifa": 1122.3,
+        "punctuality": 90.95,
+        "reliability": 98.13,
+        "cancelled": null,
+        "color": "#F178AF"
+      },
+      {
+        "line": "Sunbury",
+        "seifa": 1027.2,
+        "punctuality": 88.33,
+        "reliability": 99.14,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Upfield",
+        "seifa": 1064.6,
+        "punctuality": 90.03,
+        "reliability": 98.63,
+        "cancelled": null,
+        "color": "#FFBE00"
+      },
+      {
+        "line": "Werribee",
+        "seifa": 1053.4,
+        "punctuality": 85.94,
+        "reliability": 98.58,
+        "cancelled": null,
+        "color": "#F178AF"
+      },
+      {
+        "line": "Williamstown",
+        "seifa": 1107.3,
+        "punctuality": 92.72,
+        "reliability": 98.72,
+        "cancelled": null,
+        "color": "#F178AF"
+      }
+    ],
+    "spearmanR": 0.6714,
+    "spearmanP": 0.0061,
+    "significant": true,
+    "slope": 0.070074,
+    "intercept": 12.53,
+    "n": 15
+  },
+  "2009-2010": {
+    "points": [
+      {
+        "line": "Alamein",
+        "seifa": 1128.1,
+        "punctuality": 91.52,
+        "reliability": 99.12,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Belgrave",
+        "seifa": 1074.6,
+        "punctuality": 86.85,
+        "reliability": 99.19,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Craigieburn",
+        "seifa": 1050.8,
+        "punctuality": 83.99,
+        "reliability": 98.96,
+        "cancelled": null,
+        "color": "#FFBE00"
+      },
+      {
+        "line": "Cranbourne",
+        "seifa": 992.9,
+        "punctuality": 81.99,
+        "reliability": 99.16,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Frankston",
+        "seifa": 1082.7,
+        "punctuality": 73.3,
+        "reliability": 98.65,
+        "cancelled": null,
+        "color": "#028430"
+      },
+      {
+        "line": "Glen Waverley",
+        "seifa": 1127.9,
+        "punctuality": 90.94,
+        "reliability": 99.03,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Hurstbridge",
+        "seifa": 1101.9,
+        "punctuality": 86.93,
+        "reliability": 98.65,
+        "cancelled": null,
+        "color": "#BE1014"
+      },
+      {
+        "line": "Lilydale",
+        "seifa": 1095.4,
+        "punctuality": 86.84,
+        "reliability": 98.32,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Mernda",
+        "seifa": 1039.8,
+        "punctuality": 90.18,
+        "reliability": 99.25,
+        "cancelled": null,
+        "color": "#BE1014"
+      },
+      {
+        "line": "Pakenham",
+        "seifa": 1023.9,
+        "punctuality": 73.74,
+        "reliability": 98.77,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Sandringham",
+        "seifa": 1122.3,
+        "punctuality": 90.7,
+        "reliability": 99.12,
+        "cancelled": null,
+        "color": "#F178AF"
+      },
+      {
+        "line": "Sunbury",
+        "seifa": 1027.2,
+        "punctuality": 85.3,
+        "reliability": 99.47,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Upfield",
+        "seifa": 1064.6,
+        "punctuality": 87.03,
+        "reliability": 99.44,
+        "cancelled": null,
+        "color": "#FFBE00"
+      },
+      {
+        "line": "Werribee",
+        "seifa": 1053.4,
+        "punctuality": 78.78,
+        "reliability": 98.22,
+        "cancelled": null,
+        "color": "#F178AF"
+      },
+      {
+        "line": "Williamstown",
+        "seifa": 1107.3,
+        "punctuality": 90.72,
+        "reliability": 98.57,
+        "cancelled": null,
+        "color": "#F178AF"
+      }
+    ],
+    "spearmanR": 0.7071,
+    "spearmanP": 0.0032,
+    "significant": true,
+    "slope": 0.078336,
+    "intercept": 1.21,
+    "n": 15
+  },
+  "2010-2011": {
+    "points": [
+      {
+        "line": "Alamein",
+        "seifa": 1128.1,
+        "punctuality": 91.29,
+        "reliability": 99.04,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Belgrave",
+        "seifa": 1074.6,
+        "punctuality": 87.36,
+        "reliability": 98.94,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Craigieburn",
+        "seifa": 1050.8,
+        "punctuality": 85.08,
+        "reliability": 98.98,
+        "cancelled": null,
+        "color": "#FFBE00"
+      },
+      {
+        "line": "Cranbourne",
+        "seifa": 992.9,
+        "punctuality": 79.85,
+        "reliability": 98.84,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Frankston",
+        "seifa": 1082.7,
+        "punctuality": 71.04,
+        "reliability": 98.28,
+        "cancelled": null,
+        "color": "#028430"
+      },
+      {
+        "line": "Glen Waverley",
+        "seifa": 1127.9,
+        "punctuality": 93.74,
+        "reliability": 99.25,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Hurstbridge",
+        "seifa": 1101.9,
+        "punctuality": 89.71,
+        "reliability": 98.87,
+        "cancelled": null,
+        "color": "#BE1014"
+      },
+      {
+        "line": "Lilydale",
+        "seifa": 1095.4,
+        "punctuality": 88.78,
+        "reliability": 98.24,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Mernda",
+        "seifa": 1039.8,
+        "punctuality": 91.67,
+        "reliability": 99.23,
+        "cancelled": null,
+        "color": "#BE1014"
+      },
+      {
+        "line": "Pakenham",
+        "seifa": 1023.9,
+        "punctuality": 73.77,
+        "reliability": 98.45,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Sandringham",
+        "seifa": 1122.3,
+        "punctuality": 90.6,
+        "reliability": 98.49,
+        "cancelled": null,
+        "color": "#F178AF"
+      },
+      {
+        "line": "Sunbury",
+        "seifa": 1027.2,
+        "punctuality": 86.72,
+        "reliability": 99.28,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Upfield",
+        "seifa": 1064.6,
+        "punctuality": 85.26,
+        "reliability": 99.34,
+        "cancelled": null,
+        "color": "#FFBE00"
+      },
+      {
+        "line": "Werribee",
+        "seifa": 1053.4,
+        "punctuality": 82.4,
+        "reliability": 98.17,
+        "cancelled": null,
+        "color": "#F178AF"
+      },
+      {
+        "line": "Williamstown",
+        "seifa": 1107.3,
+        "punctuality": 91.86,
+        "reliability": 98.55,
+        "cancelled": null,
+        "color": "#F178AF"
+      }
+    ],
+    "spearmanR": 0.6607,
+    "spearmanP": 0.0073,
+    "significant": true,
+    "slope": 0.088915,
+    "intercept": -9.45,
+    "n": 15
+  },
+  "2011-2012": {
+    "points": [
+      {
+        "line": "Alamein",
+        "seifa": 1128.1,
+        "punctuality": 90.38,
+        "reliability": 98.92,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Belgrave",
+        "seifa": 1074.6,
+        "punctuality": 87.04,
+        "reliability": 98.9,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Craigieburn",
+        "seifa": 1050.8,
+        "punctuality": 88.02,
+        "reliability": 98.54,
+        "cancelled": null,
+        "color": "#FFBE00"
+      },
+      {
+        "line": "Cranbourne",
+        "seifa": 992.9,
+        "punctuality": 87.5,
+        "reliability": 98.15,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Frankston",
+        "seifa": 1082.7,
+        "punctuality": 88.48,
+        "reliability": 97.88,
+        "cancelled": null,
+        "color": "#028430"
+      },
+      {
+        "line": "Glen Waverley",
+        "seifa": 1127.9,
+        "punctuality": 94.44,
+        "reliability": 98.76,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Hurstbridge",
+        "seifa": 1101.9,
+        "punctuality": 89.78,
+        "reliability": 98.36,
+        "cancelled": null,
+        "color": "#BE1014"
+      },
+      {
+        "line": "Lilydale",
+        "seifa": 1095.4,
+        "punctuality": 88.9,
+        "reliability": 98.13,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Mernda",
+        "seifa": 1039.8,
+        "punctuality": 92.72,
+        "reliability": 98.93,
+        "cancelled": null,
+        "color": "#BE1014"
+      },
+      {
+        "line": "Pakenham",
+        "seifa": 1023.9,
+        "punctuality": 85.33,
+        "reliability": 98.08,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Sandringham",
+        "seifa": 1122.3,
+        "punctuality": 95.64,
+        "reliability": 98.71,
+        "cancelled": null,
+        "color": "#F178AF"
+      },
+      {
+        "line": "Sunbury",
+        "seifa": 1027.2,
+        "punctuality": 88.04,
+        "reliability": 99.03,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Upfield",
+        "seifa": 1064.6,
+        "punctuality": 87.97,
+        "reliability": 98.91,
+        "cancelled": null,
+        "color": "#FFBE00"
+      },
+      {
+        "line": "Werribee",
+        "seifa": 1053.4,
+        "punctuality": 89.38,
+        "reliability": 98.33,
+        "cancelled": null,
+        "color": "#F178AF"
+      },
+      {
+        "line": "Williamstown",
+        "seifa": 1107.3,
+        "punctuality": 92.05,
+        "reliability": 98.82,
+        "cancelled": null,
+        "color": "#F178AF"
+      }
+    ],
+    "spearmanR": 0.6821,
+    "spearmanP": 0.0051,
+    "significant": true,
+    "slope": 0.044219,
+    "intercept": 42.27,
+    "n": 15
+  },
+  "2012-2013": {
+    "points": [
+      {
+        "line": "Alamein",
+        "seifa": 1128.1,
+        "punctuality": 93.72,
+        "reliability": 98.73,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Belgrave",
+        "seifa": 1074.6,
+        "punctuality": 90.2,
+        "reliability": 98.51,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Craigieburn",
+        "seifa": 1050.8,
+        "punctuality": 89.75,
+        "reliability": 97.82,
+        "cancelled": null,
+        "color": "#FFBE00"
+      },
+      {
+        "line": "Cranbourne",
+        "seifa": 992.9,
+        "punctuality": 88.41,
+        "reliability": 97.96,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Frankston",
+        "seifa": 1082.7,
+        "punctuality": 91.13,
+        "reliability": 97.81,
+        "cancelled": null,
+        "color": "#028430"
+      },
+      {
+        "line": "Glen Waverley",
+        "seifa": 1127.9,
+        "punctuality": 95.53,
+        "reliability": 99.11,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Hurstbridge",
+        "seifa": 1101.9,
+        "punctuality": 95.17,
+        "reliability": 98.81,
+        "cancelled": null,
+        "color": "#BE1014"
+      },
+      {
+        "line": "Lilydale",
+        "seifa": 1095.4,
+        "punctuality": 91.28,
+        "reliability": 97.64,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Mernda",
+        "seifa": 1039.8,
+        "punctuality": 96.26,
+        "reliability": 99.15,
+        "cancelled": null,
+        "color": "#BE1014"
+      },
+      {
+        "line": "Pakenham",
+        "seifa": 1023.9,
+        "punctuality": 88.57,
+        "reliability": 98.16,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Sandringham",
+        "seifa": 1122.3,
+        "punctuality": 96.39,
+        "reliability": 98.68,
+        "cancelled": null,
+        "color": "#F178AF"
+      },
+      {
+        "line": "Sunbury",
+        "seifa": 1027.2,
+        "punctuality": 88.01,
+        "reliability": 98.55,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Upfield",
+        "seifa": 1064.6,
+        "punctuality": 91.82,
+        "reliability": 98.73,
+        "cancelled": null,
+        "color": "#FFBE00"
+      },
+      {
+        "line": "Werribee",
+        "seifa": 1053.4,
+        "punctuality": 90.12,
+        "reliability": 97.97,
+        "cancelled": null,
+        "color": "#F178AF"
+      },
+      {
+        "line": "Williamstown",
+        "seifa": 1107.3,
+        "punctuality": 93.06,
+        "reliability": 98.66,
+        "cancelled": null,
+        "color": "#F178AF"
+      }
+    ],
+    "spearmanR": 0.7321,
+    "spearmanP": 0.0019,
+    "significant": true,
+    "slope": 0.049493,
+    "intercept": 38.86,
+    "n": 15
+  },
+  "2013-2014": {
+    "points": [
+      {
+        "line": "Alamein",
+        "seifa": 1128.1,
+        "punctuality": 95.98,
+        "reliability": 99.25,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Belgrave",
+        "seifa": 1074.6,
+        "punctuality": 93.04,
+        "reliability": 99.02,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Craigieburn",
+        "seifa": 1050.8,
+        "punctuality": 91.71,
+        "reliability": 98.65,
+        "cancelled": null,
+        "color": "#FFBE00"
+      },
+      {
+        "line": "Cranbourne",
+        "seifa": 992.9,
+        "punctuality": 89.38,
+        "reliability": 98.63,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Frankston",
+        "seifa": 1082.7,
+        "punctuality": 90.52,
+        "reliability": 98.3,
+        "cancelled": null,
+        "color": "#028430"
+      },
+      {
+        "line": "Glen Waverley",
+        "seifa": 1127.9,
+        "punctuality": 96.76,
+        "reliability": 99.52,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Hurstbridge",
+        "seifa": 1101.9,
+        "punctuality": 95.68,
+        "reliability": 99.19,
+        "cancelled": null,
+        "color": "#BE1014"
+      },
+      {
+        "line": "Lilydale",
+        "seifa": 1095.4,
+        "punctuality": 93.72,
+        "reliability": 99.03,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Mernda",
+        "seifa": 1039.8,
+        "punctuality": 96.63,
+        "reliability": 99.37,
+        "cancelled": null,
+        "color": "#BE1014"
+      },
+      {
+        "line": "Pakenham",
+        "seifa": 1023.9,
+        "punctuality": 88.87,
+        "reliability": 98.64,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Sandringham",
+        "seifa": 1122.3,
+        "punctuality": 95.77,
+        "reliability": 98.96,
+        "cancelled": null,
+        "color": "#F178AF"
+      },
+      {
+        "line": "Sunbury",
+        "seifa": 1027.2,
+        "punctuality": 90.87,
+        "reliability": 98.89,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Upfield",
+        "seifa": 1064.6,
+        "punctuality": 94.17,
+        "reliability": 99.12,
+        "cancelled": null,
+        "color": "#FFBE00"
+      },
+      {
+        "line": "Werribee",
+        "seifa": 1053.4,
+        "punctuality": 90.09,
+        "reliability": 98.51,
+        "cancelled": null,
+        "color": "#F178AF"
+      },
+      {
+        "line": "Williamstown",
+        "seifa": 1107.3,
+        "punctuality": 93.67,
+        "reliability": 99.19,
+        "cancelled": null,
+        "color": "#F178AF"
+      }
+    ],
+    "spearmanR": 0.6893,
+    "spearmanP": 0.0045,
+    "significant": true,
+    "slope": 0.047608,
+    "intercept": 42.05,
+    "n": 15
+  },
+  "2014-2015": {
+    "points": [
+      {
+        "line": "Alamein",
+        "seifa": 1128.1,
+        "punctuality": 94.93,
+        "reliability": 99.31,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Belgrave",
+        "seifa": 1074.6,
+        "punctuality": 90.69,
+        "reliability": 99.01,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Craigieburn",
+        "seifa": 1050.8,
+        "punctuality": 92.36,
+        "reliability": 98.54,
+        "cancelled": null,
+        "color": "#FFBE00"
+      },
+      {
+        "line": "Cranbourne",
+        "seifa": 992.9,
+        "punctuality": 89.98,
+        "reliability": 98.11,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Frankston",
+        "seifa": 1082.7,
+        "punctuality": 90.13,
+        "reliability": 98.24,
+        "cancelled": null,
+        "color": "#028430"
+      },
+      {
+        "line": "Glen Waverley",
+        "seifa": 1127.9,
+        "punctuality": 96.13,
+        "reliability": 99.37,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Hurstbridge",
+        "seifa": 1101.9,
+        "punctuality": 94.18,
+        "reliability": 99.15,
+        "cancelled": null,
+        "color": "#BE1014"
+      },
+      {
+        "line": "Lilydale",
+        "seifa": 1095.4,
+        "punctuality": 91.99,
+        "reliability": 98.52,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Mernda",
+        "seifa": 1039.8,
+        "punctuality": 95.13,
+        "reliability": 99.47,
+        "cancelled": null,
+        "color": "#BE1014"
+      },
+      {
+        "line": "Pakenham",
+        "seifa": 1023.9,
+        "punctuality": 89.29,
+        "reliability": 98.31,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Sandringham",
+        "seifa": 1122.3,
+        "punctuality": 95.38,
+        "reliability": 99.03,
+        "cancelled": null,
+        "color": "#F178AF"
+      },
+      {
+        "line": "Sunbury",
+        "seifa": 1027.2,
+        "punctuality": 93.21,
+        "reliability": 99.08,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Upfield",
+        "seifa": 1064.6,
+        "punctuality": 94.03,
+        "reliability": 99.23,
+        "cancelled": null,
+        "color": "#FFBE00"
+      },
+      {
+        "line": "Werribee",
+        "seifa": 1053.4,
+        "punctuality": 90.16,
+        "reliability": 98.54,
+        "cancelled": null,
+        "color": "#F178AF"
+      },
+      {
+        "line": "Williamstown",
+        "seifa": 1107.3,
+        "punctuality": 94.21,
+        "reliability": 99.07,
+        "cancelled": null,
+        "color": "#F178AF"
+      }
+    ],
+    "spearmanR": 0.6536,
+    "spearmanP": 0.0082,
+    "significant": true,
+    "slope": 0.034135,
+    "intercept": 56.16,
+    "n": 15
+  },
   "2015-2016": {
     "points": [
       {
@@ -1427,6 +3377,136 @@
     "significant": false,
     "slope": 0.017168,
     "intercept": 75.93,
+    "n": 15
+  },
+  "All Years": {
+    "points": [
+      {
+        "line": "Alamein",
+        "seifa": 1128.1,
+        "punctuality": 94.11,
+        "reliability": 99.15,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Belgrave",
+        "seifa": 1074.6,
+        "punctuality": 91.01,
+        "reliability": 99.01,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Craigieburn",
+        "seifa": 1050.8,
+        "punctuality": 90.68,
+        "reliability": 98.63,
+        "cancelled": null,
+        "color": "#FFBE00"
+      },
+      {
+        "line": "Cranbourne",
+        "seifa": 992.9,
+        "punctuality": 88.49,
+        "reliability": 98.49,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Frankston",
+        "seifa": 1082.7,
+        "punctuality": 87.97,
+        "reliability": 98.26,
+        "cancelled": null,
+        "color": "#028430"
+      },
+      {
+        "line": "Glen Waverley",
+        "seifa": 1127.9,
+        "punctuality": 95.52,
+        "reliability": 99.16,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Hurstbridge",
+        "seifa": 1101.9,
+        "punctuality": 92.2,
+        "reliability": 98.91,
+        "cancelled": null,
+        "color": "#BE1014"
+      },
+      {
+        "line": "Lilydale",
+        "seifa": 1095.4,
+        "punctuality": 92.1,
+        "reliability": 98.51,
+        "cancelled": null,
+        "color": "#152C6B"
+      },
+      {
+        "line": "Mernda",
+        "seifa": 1039.8,
+        "punctuality": 94.08,
+        "reliability": 99.06,
+        "cancelled": null,
+        "color": "#BE1014"
+      },
+      {
+        "line": "Pakenham",
+        "seifa": 1023.9,
+        "punctuality": 87.04,
+        "reliability": 98.32,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Sandringham",
+        "seifa": 1122.3,
+        "punctuality": 94.44,
+        "reliability": 98.74,
+        "cancelled": null,
+        "color": "#F178AF"
+      },
+      {
+        "line": "Sunbury",
+        "seifa": 1027.2,
+        "punctuality": 90.87,
+        "reliability": 99.07,
+        "cancelled": null,
+        "color": "#34ACE1"
+      },
+      {
+        "line": "Upfield",
+        "seifa": 1064.6,
+        "punctuality": 92.76,
+        "reliability": 99.1,
+        "cancelled": null,
+        "color": "#FFBE00"
+      },
+      {
+        "line": "Werribee",
+        "seifa": 1053.4,
+        "punctuality": 90.75,
+        "reliability": 98.61,
+        "cancelled": null,
+        "color": "#F178AF"
+      },
+      {
+        "line": "Williamstown",
+        "seifa": 1107.3,
+        "punctuality": 94.75,
+        "reliability": 98.97,
+        "cancelled": null,
+        "color": "#F178AF"
+      }
+    ],
+    "spearmanR": 0.7393,
+    "spearmanP": 0.0016,
+    "significant": true,
+    "slope": 0.043517,
+    "intercept": 45.1,
     "n": 15
   }
 }
