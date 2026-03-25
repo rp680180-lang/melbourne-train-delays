@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import {
   ComposedChart,
   Scatter,
@@ -47,6 +48,13 @@ function Dot(props: { cx?: number; cy?: number; payload?: Point & { x: number; y
 }
 
 export default function HomeCorrelationChart() {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+
+  if (!data || !mounted) {
+    return <div style={{ height: 360, background: "var(--bg-secondary)", borderRadius: 4 }} />;
+  }
+
   const minX = Math.min(...data.points.map((p) => p.seifa)) - 20;
   const maxX = Math.max(...data.points.map((p) => p.seifa)) + 20;
   const regression = [
@@ -62,83 +70,85 @@ export default function HomeCorrelationChart() {
           (p = {data.spearmanP.toFixed(3)})
         </p>
       </div>
-      <ResponsiveContainer width="100%" height={360}>
-        <ComposedChart margin={{ top: 15, right: 20, bottom: 30, left: 10 }}>
-          <CartesianGrid
-            strokeDasharray="3 3"
-            stroke="var(--border)"
-            strokeOpacity={0.5}
-          />
-          <XAxis
-            dataKey="x"
-            type="number"
-            domain={[940, 1150]}
-            tick={{ fill: "var(--text-muted)", fontSize: 10 }}
-            label={{
-              value: "IRSAD Score (Wealth)",
-              position: "bottom",
-              offset: 10,
-              fill: "var(--text-secondary)",
-              fontSize: 11,
-            }}
-          />
-          <YAxis
-            dataKey="y"
-            type="number"
-            domain={[85, 100]}
-            tick={{ fill: "var(--text-muted)", fontSize: 10 }}
-            label={{
-              value: "Punctuality %",
-              angle: -90,
-              position: "insideLeft",
-              offset: 0,
-              fill: "var(--text-secondary)",
-              fontSize: 11,
-            }}
-          />
-          <Line
-            data={regression}
-            dataKey="y"
-            stroke="var(--accent-gold)"
-            strokeWidth={1.5}
-            strokeDasharray="6 4"
-            dot={false}
-            isAnimationActive={false}
-          />
-          <Scatter
-            data={data.points.map((p) => ({
-              ...p,
-              x: p.seifa,
-              y: p.punctuality,
-            }))}
-            shape={<Dot />}
-          />
-          <Tooltip
-            content={({ active, payload }) => {
-              if (!active || !payload?.length) return null;
-              const d = payload[0].payload as Point & { x: number; y: number };
-              return (
-                <div
-                  className="p-2 rounded-sm text-xs"
-                  style={{
-                    background: "var(--bg-elevated)",
-                    border: "1px solid var(--border)",
-                    boxShadow: "0 4px 16px rgba(0,0,0,0.4)",
-                  }}
-                >
-                  <p style={{ color: "var(--text-primary)", fontWeight: 500 }}>
-                    {d.line}
-                  </p>
-                  <p style={{ color: "var(--text-secondary)" }}>
-                    Punctuality: {d.punctuality.toFixed(1)}% | IRSAD: {d.seifa}
-                  </p>
-                </div>
-              );
-            }}
-            cursor={false}
-          />
-        </ComposedChart>
-      </ResponsiveContainer>
+      <div style={{ width: "100%", height: 360 }}>
+        <ResponsiveContainer width="100%" height="100%">
+          <ComposedChart margin={{ top: 15, right: 20, bottom: 30, left: 10 }}>
+            <CartesianGrid
+              strokeDasharray="3 3"
+              stroke="var(--border)"
+              strokeOpacity={0.5}
+            />
+            <XAxis
+              dataKey="x"
+              type="number"
+              domain={[940, 1150]}
+              tick={{ fill: "var(--text-muted)", fontSize: 10 }}
+              label={{
+                value: "IRSAD Score (Wealth)",
+                position: "bottom",
+                offset: 10,
+                fill: "var(--text-secondary)",
+                fontSize: 11,
+              }}
+            />
+            <YAxis
+              dataKey="y"
+              type="number"
+              domain={[85, 100]}
+              tick={{ fill: "var(--text-muted)", fontSize: 10 }}
+              label={{
+                value: "Punctuality %",
+                angle: -90,
+                position: "insideLeft",
+                offset: 0,
+                fill: "var(--text-secondary)",
+                fontSize: 11,
+              }}
+            />
+            <Line
+              data={regression}
+              dataKey="y"
+              stroke="var(--accent-gold)"
+              strokeWidth={1.5}
+              strokeDasharray="6 4"
+              dot={false}
+              isAnimationActive={false}
+            />
+            <Scatter
+              data={data.points.map((p) => ({
+                ...p,
+                x: p.seifa,
+                y: p.punctuality,
+              }))}
+              shape={<Dot />}
+            />
+            <Tooltip
+              content={({ active, payload }) => {
+                if (!active || !payload?.length) return null;
+                const d = payload[0].payload as Point & { x: number; y: number };
+                return (
+                  <div
+                    className="p-2 rounded-sm text-xs"
+                    style={{
+                      background: "var(--bg-elevated)",
+                      border: "1px solid var(--border)",
+                      boxShadow: "0 4px 16px rgba(0,0,0,0.4)",
+                    }}
+                  >
+                    <p style={{ color: "var(--text-primary)", fontWeight: 500 }}>
+                      {d.line}
+                    </p>
+                    <p style={{ color: "var(--text-secondary)" }}>
+                      Punctuality: {d.punctuality.toFixed(1)}% | IRSAD: {d.seifa}
+                    </p>
+                  </div>
+                );
+              }}
+              cursor={false}
+            />
+          </ComposedChart>
+        </ResponsiveContainer>
+      </div>
     </div>
   );
 }
