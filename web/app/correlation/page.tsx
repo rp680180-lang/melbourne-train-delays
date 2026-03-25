@@ -11,12 +11,24 @@ import {
   ResponsiveContainer,
   Line,
   ComposedChart,
-  Area,
+  LineChart,
+  Legend,
 } from "recharts";
-import correlationData from "@/data/correlationData.json";
+import correlationByYear from "@/data/correlationByYear.json";
 import summary from "@/data/summary.json";
 
-function CustomTooltip({ active, payload }: { active?: boolean; payload?: Array<{ payload: typeof correlationData.points[0] }> }) {
+type YearData = (typeof correlationByYear)[keyof typeof correlationByYear];
+type Point = YearData["points"][0];
+
+const years = Object.keys(correlationByYear).sort();
+
+function CustomTooltip({
+  active,
+  payload,
+}: {
+  active?: boolean;
+  payload?: Array<{ payload: Point & { x: number; y: number } }>;
+}) {
   if (!active || !payload?.length) return null;
   const d = payload[0].payload;
   return (
@@ -34,16 +46,18 @@ function CustomTooltip({ active, payload }: { active?: boolean; payload?: Array<
           style={{ background: d.color }}
         />
         <span style={{ color: "var(--text-primary)", fontWeight: 500 }}>
-          {d.lineName}
+          {d.line}
         </span>
       </div>
       <div
         className="text-xs space-y-0.5"
         style={{ color: "var(--text-secondary)" }}
       >
-        <p>Punctuality: {d.punctualityPct}%</p>
-        <p>IRSAD Score: {d.irsadScore}</p>
-        <p>Stations: {d.stationCount}</p>
+        <p>Punctuality: {d.punctuality.toFixed(1)}%</p>
+        <p>IRSAD Score: {d.seifa}</p>
+        {d.cancelled != null && (
+          <p>Cancelled: {d.cancelled.toFixed(1)}%</p>
+        )}
       </div>
     </div>
   );
@@ -52,17 +66,16 @@ function CustomTooltip({ active, payload }: { active?: boolean; payload?: Array<
 function CustomDot(props: {
   cx?: number;
   cy?: number;
-  payload?: typeof correlationData.points[0];
+  payload?: Point & { x: number; y: number };
 }) {
   const { cx = 0, cy = 0, payload } = props;
   if (!payload) return null;
-  const r = Math.max(6, Math.min(14, payload.stationCount / 2));
   return (
     <g>
       <circle
         cx={cx}
         cy={cy}
-        r={r}
+        r={7}
         fill={payload.color}
         fillOpacity={0.7}
         stroke={payload.color}
@@ -71,29 +84,40 @@ function CustomDot(props: {
       />
       <text
         x={cx}
-        y={cy - r - 4}
+        y={cy - 12}
         textAnchor="middle"
         fill="var(--text-muted)"
         fontSize={9}
         fontFamily="var(--font-body)"
       >
-        {payload.lineName}
+        {payload.line}
       </text>
     </g>
   );
 }
 
 export default function CorrelationPage() {
-  const [hoveredLine, setHoveredLine] = useState<string | null>(null);
-  const { statistics, regression, points } = correlationData;
+  const [selectedYear, setSelectedYear] = useState(years[years.length - 2]); // Latest complete FY
+  const yearData = (correlationByYear as Record<string, YearData>)[selectedYear];
 
-  // Build data for the regression line + confidence band
-  const regressionLine = regression.line.map((p, i) => ({
-    x: p.x,
-    y: p.y,
-    ciUpper: regression.ciUpper[i].y,
-    ciLower: regression.ciLower[i].y,
-  }));
+  // Build correlation trend data
+  const correlationTrend = years.map((fy) => {
+    const d = (correlationByYear as Record<string, YearData>)[fy];
+    return {
+      fy: fy.replace("20", "'").replace("-20", "\u2013'").replace("-", "\u2013"),
+      fyFull: fy,
+      r: d.spearmanR,
+      significant: d.significant,
+    };
+  });
+
+  // Build regression line from slope/intercept
+  const minX = Math.min(...yearData.points.map((p) => p.seifa)) - 20;
+  const maxX = Math.max(...yearData.points.map((p) => p.seifa)) + 20;
+  const regressionLine = [
+    { x: minX, y: yearData.intercept + yearData.slope * minX },
+    { x: maxX, y: yearData.intercept + yearData.slope * maxX },
+  ];
 
   return (
     <div style={{ background: "var(--bg-primary)" }}>
@@ -102,7 +126,7 @@ export default function CorrelationPage() {
           className="text-xs uppercase tracking-wider mb-4"
           style={{ color: "var(--accent-gold)", letterSpacing: "0.2em" }}
         >
-          Statistical Analysis
+          Statistical Analysis &middot; {summary.totalYears} Years of Data
         </p>
         <h1
           className="text-4xl md:text-5xl mb-4"
@@ -114,20 +138,72 @@ export default function CorrelationPage() {
           className="text-base max-w-2xl mb-12"
           style={{ color: "var(--text-secondary)" }}
         >
-          Each dot represents a train line. The x-axis shows the
-          population-weighted median IRSAD score (higher = wealthier suburbs),
-          and the y-axis shows the percentage of trains that arrived on time.
+          Each dot represents a train line. Use the year selector to see how the
+          wealth-punctuality relationship has evolved over a decade.
         </p>
+
+        {/* Year selector */}
+        <div className="flex flex-wrap gap-2 mb-8">
+          {years.map((fy) => {
+            const d = (correlationByYear as Record<string, YearData>)[fy];
+            const isSelected = fy === selectedYear;
+            return (
+              <button
+                key={fy}
+                onClick={() => setSelectedYear(fy)}
+                className="px-3 py-1.5 text-xs rounded-sm transition-all"
+                style={{
+                  background: isSelected ? "var(--accent-gold)" : "var(--bg-card)",
+                  color: isSelected ? "var(--bg-primary)" : "var(--text-secondary)",
+                  border: `1px solid ${isSelected ? "var(--accent-gold)" : "var(--border)"}`,
+                  fontWeight: isSelected ? 600 : 400,
+                }}
+              >
+                {fy}
+                {d.significant && (
+                  <span style={{ color: isSelected ? "var(--bg-primary)" : "var(--accent-gold)" }}>
+                    {" *"}
+                  </span>
+                )}
+              </button>
+            );
+          })}
+          <span className="text-xs self-center ml-2" style={{ color: "var(--text-muted)" }}>
+            * = statistically significant
+          </span>
+        </div>
 
         {/* Scatter plot */}
         <div
-          className="p-6 rounded-sm mb-10"
+          className="p-6 rounded-sm mb-4"
           style={{
             background: "var(--bg-card)",
             border: "1px solid var(--border)",
           }}
         >
-          <ResponsiveContainer width="100%" height={500}>
+          <div className="flex justify-between items-center mb-4">
+            <h3 className="text-lg" style={{ fontFamily: "var(--font-display)" }}>
+              FY {selectedYear}
+            </h3>
+            <div className="text-sm" style={{ color: "var(--text-secondary)" }}>
+              <span style={{ color: "var(--accent-gold)" }}>
+                {"\u03C1"} = {yearData.spearmanR.toFixed(3)}
+              </span>
+              {" | "}
+              <span>p = {yearData.spearmanP.toFixed(3)}</span>
+              {" | "}
+              <span
+                style={{
+                  color: yearData.significant
+                    ? "var(--accent-gold)"
+                    : "var(--text-muted)",
+                }}
+              >
+                {yearData.significant ? "Significant" : "Not significant"}
+              </span>
+            </div>
+          </div>
+          <ResponsiveContainer width="100%" height={450}>
             <ComposedChart
               margin={{ top: 20, right: 40, bottom: 40, left: 20 }}
             >
@@ -139,22 +215,29 @@ export default function CorrelationPage() {
               <XAxis
                 dataKey="x"
                 type="number"
-                domain={[920, 1160]}
-                tick={{ fill: "var(--text-muted)", fontSize: 11, fontFamily: "var(--font-body)" }}
+                domain={[940, 1150]}
+                tick={{
+                  fill: "var(--text-muted)",
+                  fontSize: 11,
+                  fontFamily: "var(--font-body)",
+                }}
                 label={{
                   value: "IRSAD Score (Suburb Wealth)",
                   position: "bottom",
                   offset: 15,
                   fill: "var(--text-secondary)",
                   fontSize: 12,
-                  fontFamily: "var(--font-body)",
                 }}
               />
               <YAxis
                 dataKey="y"
                 type="number"
-                domain={[88, 98]}
-                tick={{ fill: "var(--text-muted)", fontSize: 11, fontFamily: "var(--font-body)" }}
+                domain={[84, 100]}
+                tick={{
+                  fill: "var(--text-muted)",
+                  fontSize: 11,
+                  fontFamily: "var(--font-body)",
+                }}
                 label={{
                   value: "Punctuality %",
                   angle: -90,
@@ -162,28 +245,7 @@ export default function CorrelationPage() {
                   offset: 5,
                   fill: "var(--text-secondary)",
                   fontSize: 12,
-                  fontFamily: "var(--font-body)",
                 }}
-              />
-
-              {/* Confidence interval band */}
-              <Area
-                data={regressionLine}
-                dataKey="ciUpper"
-                stroke="none"
-                fill="var(--accent-gold)"
-                fillOpacity={0.06}
-                type="monotone"
-                isAnimationActive={false}
-              />
-              <Area
-                data={regressionLine}
-                dataKey="ciLower"
-                stroke="none"
-                fill="var(--bg-card)"
-                fillOpacity={1}
-                type="monotone"
-                isAnimationActive={false}
               />
 
               {/* Regression line */}
@@ -201,8 +263,8 @@ export default function CorrelationPage() {
               {/* 92% target reference line */}
               <Line
                 data={[
-                  { x: 920, y: 92 },
-                  { x: 1160, y: 92 },
+                  { x: 940, y: 92 },
+                  { x: 1150, y: 92 },
                 ]}
                 dataKey="y"
                 stroke="var(--accent-red)"
@@ -215,23 +277,149 @@ export default function CorrelationPage() {
 
               {/* Data points */}
               <Scatter
-                data={points.map((p) => ({
+                data={yearData.points.map((p) => ({
                   ...p,
-                  x: p.irsadScore,
-                  y: p.punctualityPct,
+                  x: p.seifa,
+                  y: p.punctuality,
                 }))}
                 shape={<CustomDot />}
               />
 
-              <Tooltip
-                content={<CustomTooltip />}
-                cursor={false}
-              />
+              <Tooltip content={<CustomTooltip />} cursor={false} />
             </ComposedChart>
           </ResponsiveContainer>
         </div>
 
-        {/* Statistics */}
+        {/* Correlation trend over time */}
+        <div
+          className="p-6 rounded-sm mb-10"
+          style={{
+            background: "var(--bg-card)",
+            border: "1px solid var(--border)",
+          }}
+        >
+          <h3
+            className="text-xl mb-2"
+            style={{ fontFamily: "var(--font-display)" }}
+          >
+            How the correlation has changed over time
+          </h3>
+          <p className="text-sm mb-4" style={{ color: "var(--text-secondary)" }}>
+            Spearman {"\u03C1"} by financial year. Higher values = stronger link
+            between wealth and punctuality.
+          </p>
+          <ResponsiveContainer width="100%" height={250}>
+            <ComposedChart
+              data={correlationTrend}
+              margin={{ top: 10, right: 30, bottom: 10, left: 10 }}
+            >
+              <CartesianGrid
+                strokeDasharray="3 3"
+                stroke="var(--border)"
+                strokeOpacity={0.5}
+              />
+              <XAxis
+                dataKey="fy"
+                tick={{
+                  fill: "var(--text-muted)",
+                  fontSize: 10,
+                  fontFamily: "var(--font-body)",
+                }}
+              />
+              <YAxis
+                domain={[0, 1]}
+                tick={{
+                  fill: "var(--text-muted)",
+                  fontSize: 11,
+                  fontFamily: "var(--font-body)",
+                }}
+                label={{
+                  value: "Spearman \u03C1",
+                  angle: -90,
+                  position: "insideLeft",
+                  offset: 5,
+                  fill: "var(--text-secondary)",
+                  fontSize: 12,
+                }}
+              />
+              <Line
+                dataKey="r"
+                stroke="var(--accent-gold)"
+                strokeWidth={2}
+                dot={(props) => {
+                  const { cx = 0, cy = 0, payload } = props as { cx?: number; cy?: number; payload?: { significant: boolean; fyFull: string } };
+                  if (!payload) return <circle />;
+                  return (
+                    <circle
+                      key={payload.fyFull}
+                      cx={cx}
+                      cy={cy}
+                      r={payload.significant ? 5 : 4}
+                      fill={
+                        payload.significant
+                          ? "var(--accent-gold)"
+                          : "var(--bg-card)"
+                      }
+                      stroke="var(--accent-gold)"
+                      strokeWidth={1.5}
+                      style={{ cursor: "pointer" }}
+                      onClick={() => setSelectedYear(payload.fyFull)}
+                    />
+                  );
+                }}
+              />
+              {/* Significance threshold reference */}
+              <Line
+                data={correlationTrend.map((d) => ({ ...d, threshold: 0.05 }))}
+                dataKey="threshold"
+                stroke="var(--accent-red)"
+                strokeWidth={1}
+                strokeDasharray="4 4"
+                strokeOpacity={0.3}
+                dot={false}
+                isAnimationActive={false}
+              />
+              <Tooltip
+                content={({ active, payload }) => {
+                  if (!active || !payload?.length) return null;
+                  const d = payload[0].payload;
+                  return (
+                    <div
+                      className="p-2 rounded-sm text-xs"
+                      style={{
+                        background: "var(--bg-elevated)",
+                        border: "1px solid var(--border)",
+                      }}
+                    >
+                      <p style={{ color: "var(--text-primary)" }}>
+                        FY {d.fyFull}
+                      </p>
+                      <p style={{ color: "var(--accent-gold)" }}>
+                        {"\u03C1"} = {d.r.toFixed(3)}
+                      </p>
+                      <p
+                        style={{
+                          color: d.significant
+                            ? "var(--accent-gold)"
+                            : "var(--text-muted)",
+                        }}
+                      >
+                        {d.significant
+                          ? "Statistically significant"
+                          : "Not significant"}
+                      </p>
+                    </div>
+                  );
+                }}
+              />
+            </ComposedChart>
+          </ResponsiveContainer>
+          <p className="text-xs mt-2" style={{ color: "var(--text-muted)" }}>
+            Filled dots = statistically significant (p &lt; 0.05). Hollow dots = not significant. Click to view year.
+          </p>
+        </div>
+
+        {/* Interpretation */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
           <div
             className="p-6 rounded-sm"
@@ -244,68 +432,37 @@ export default function CorrelationPage() {
               className="text-xl mb-4"
               style={{ fontFamily: "var(--font-display)" }}
             >
-              Statistical results
+              Key findings
             </h3>
-            <div className="space-y-3">
-              {[
-                {
-                  label: "Spearman \u03C1",
-                  value: statistics.spearmanR.toFixed(3),
-                  note: "Rank correlation coefficient",
-                },
-                {
-                  label: "p-value (Spearman)",
-                  value: statistics.spearmanP.toFixed(4),
-                  note: statistics.significant
-                    ? "Significant at 95%"
-                    : "Not significant at 95%",
-                },
-                {
-                  label: "Pearson r",
-                  value: statistics.pearsonR.toFixed(3),
-                  note: "Linear correlation coefficient",
-                },
-                {
-                  label: "R\u00B2",
-                  value: statistics.rSquared.toFixed(3),
-                  note: `${(statistics.rSquared * 100).toFixed(1)}% of variance explained`,
-                },
-                {
-                  label: "Sample size",
-                  value: `n = ${statistics.n}`,
-                  note: "One observation per train line",
-                },
-              ].map((stat) => (
-                <div
-                  key={stat.label}
-                  className="flex justify-between items-baseline py-2"
-                  style={{ borderBottom: "1px solid var(--border)" }}
-                >
-                  <div>
-                    <span
-                      className="text-sm"
-                      style={{ color: "var(--text-secondary)" }}
-                    >
-                      {stat.label}
-                    </span>
-                    <span
-                      className="text-xs block"
-                      style={{ color: "var(--text-muted)" }}
-                    >
-                      {stat.note}
-                    </span>
-                  </div>
-                  <span
-                    className="text-lg tabular-nums"
-                    style={{
-                      fontFamily: "var(--font-display)",
-                      color: "var(--accent-gold)",
-                    }}
-                  >
-                    {stat.value}
-                  </span>
-                </div>
-              ))}
+            <div
+              className="space-y-4 text-sm leading-relaxed"
+              style={{ color: "var(--text-secondary)" }}
+            >
+              <p>
+                The wealth-punctuality correlation was{" "}
+                <strong style={{ color: "var(--accent-gold)" }}>
+                  statistically significant in {summary.significantYears} of{" "}
+                  {summary.totalAnalyzedYears} years
+                </strong>{" "}
+                analysed, with Spearman {"\u03C1"} ranging from 0.24 to 0.77.
+              </p>
+              <p>
+                The <strong style={{ color: "var(--text-primary)" }}>
+                  strongest correlations were pre-COVID
+                </strong>{" "}
+                (2017&ndash;2020, {"\u03C1"} &gt; 0.7), suggesting the link between
+                wealth and service quality was most pronounced under normal
+                operating conditions.
+              </p>
+              <p>
+                The correlation{" "}
+                <strong style={{ color: "var(--text-primary)" }}>
+                  weakened during 2021&ndash;2023
+                </strong>{" "}
+                as COVID disruptions, reduced services, and staffing issues
+                affected all lines more uniformly. It has begun recovering
+                in 2023&ndash;2025.
+              </p>
             </div>
           </div>
 
@@ -320,91 +477,41 @@ export default function CorrelationPage() {
               className="text-xl mb-4"
               style={{ fontFamily: "var(--font-display)" }}
             >
-              What this means
+              Potential confounders
             </h3>
-            <div className="space-y-4 text-sm leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-              <p>
-                The Spearman rank correlation of{" "}
-                <strong style={{ color: "var(--accent-gold)" }}>
-                  \u03C1 = {statistics.spearmanR.toFixed(2)}
-                </strong>{" "}
-                suggests a {summary.correlationStrength} {summary.correlationDirection}{" "}
-                relationship between suburb wealth and train punctuality. Lines
-                serving wealthier suburbs tend to have better on-time performance.
-              </p>
-              <p>
-                However, with a p-value of{" "}
-                <strong style={{ color: "var(--text-primary)" }}>
-                  {statistics.spearmanP.toFixed(3)}
-                </strong>
-                , this result{" "}
-                {statistics.significant
-                  ? "is statistically significant"
-                  : "does not reach statistical significance"}{" "}
-                at the conventional 95% confidence level. With only {statistics.n}{" "}
-                data points, we lack the statistical power to draw strong conclusions.
-              </p>
-              <p>
-                The R\u00B2 of {statistics.rSquared.toFixed(2)} means that suburb
-                wealth explains about{" "}
-                {(statistics.rSquared * 100).toFixed(0)}% of the variation in
-                punctuality across lines. The remaining{" "}
-                {(100 - statistics.rSquared * 100).toFixed(0)}% is driven by other
-                factors.
-              </p>
+            <div
+              className="space-y-3 text-sm leading-relaxed"
+              style={{ color: "var(--text-secondary)" }}
+            >
+              {[
+                {
+                  title: "Line length & distance from CBD",
+                  text: "Wealthier suburbs tend to be inner-city with shorter lines that naturally perform better.",
+                },
+                {
+                  title: "Infrastructure age & investment",
+                  text: "Older infrastructure is more fault-prone. Lines serving wealthy areas may receive more maintenance.",
+                },
+                {
+                  title: "Level crossings",
+                  text: "More level crossings mean more disruptions. The Level Crossing Removal Project has been uneven.",
+                },
+                {
+                  title: "Patronage & crowding",
+                  text: "Busier lines experience more dwell time at stations, cascading into delays.",
+                },
+              ].map((item) => (
+                <div key={item.title}>
+                  <h4
+                    className="text-sm font-medium mb-0.5"
+                    style={{ color: "var(--text-primary)" }}
+                  >
+                    {item.title}
+                  </h4>
+                  <p>{item.text}</p>
+                </div>
+              ))}
             </div>
-          </div>
-        </div>
-
-        {/* Confounders */}
-        <div
-          className="p-8 rounded-sm"
-          style={{
-            background: "var(--bg-card)",
-            border: "1px solid var(--border)",
-          }}
-        >
-          <p
-            className="text-xs uppercase tracking-wider mb-4"
-            style={{ color: "var(--accent-copper)", letterSpacing: "0.15em" }}
-          >
-            Potential Confounders
-          </p>
-          <h3
-            className="text-2xl mb-6"
-            style={{ fontFamily: "var(--font-display)" }}
-          >
-            What else could explain the pattern?
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm" style={{ color: "var(--text-secondary)" }}>
-            {[
-              {
-                title: "Line length & distance from CBD",
-                text: "Longer lines have more opportunities for delays. Wealthier suburbs tend to be inner-city with shorter lines, which naturally perform better.",
-              },
-              {
-                title: "Infrastructure age",
-                text: "Older infrastructure is more prone to faults. Lines serving established wealthy suburbs may have received more maintenance investment.",
-              },
-              {
-                title: "Level crossings",
-                text: "Lines with more level crossings experience more disruptions. The Level Crossing Removal Project has targeted some of the worst but not all.",
-              },
-              {
-                title: "Patronage & crowding",
-                text: "Busier lines may experience more dwell time at stations, cascading into delays. Patronage patterns don\u2019t perfectly correlate with wealth.",
-              },
-            ].map((item) => (
-              <div key={item.title}>
-                <h4
-                  className="text-sm font-medium mb-1"
-                  style={{ color: "var(--text-primary)" }}
-                >
-                  {item.title}
-                </h4>
-                <p className="leading-relaxed">{item.text}</p>
-              </div>
-            ))}
           </div>
         </div>
       </div>

@@ -1,0 +1,2914 @@
+[
+  {
+    "line": "Alamein",
+    "financial_year": "2000-2001",
+    "punctuality_pct": 96.3,
+    "reliability_pct": 99.61,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Alamein",
+    "financial_year": "2001-2002",
+    "punctuality_pct": 96.73,
+    "reliability_pct": 99.74,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Alamein",
+    "financial_year": "2002-2003",
+    "punctuality_pct": 96.58,
+    "reliability_pct": 99.53,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Alamein",
+    "financial_year": "2003-2004",
+    "punctuality_pct": 95.84,
+    "reliability_pct": 99.22,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Alamein",
+    "financial_year": "2004-2005",
+    "punctuality_pct": 94.29,
+    "reliability_pct": 99.13,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Alamein",
+    "financial_year": "2005-2006",
+    "punctuality_pct": 93.23,
+    "reliability_pct": 98.86,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Alamein",
+    "financial_year": "2006-2007",
+    "punctuality_pct": 93.16,
+    "reliability_pct": 98.92,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Alamein",
+    "financial_year": "2007-2008",
+    "punctuality_pct": 93.47,
+    "reliability_pct": 98.74,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Alamein",
+    "financial_year": "2008-2009",
+    "punctuality_pct": 93.6,
+    "reliability_pct": 98.94,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Alamein",
+    "financial_year": "2009-2010",
+    "punctuality_pct": 91.52,
+    "reliability_pct": 99.12,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Alamein",
+    "financial_year": "2010-2011",
+    "punctuality_pct": 91.29,
+    "reliability_pct": 99.04,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Alamein",
+    "financial_year": "2011-2012",
+    "punctuality_pct": 90.38,
+    "reliability_pct": 98.92,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Alamein",
+    "financial_year": "2012-2013",
+    "punctuality_pct": 93.72,
+    "reliability_pct": 98.73,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Alamein",
+    "financial_year": "2013-2014",
+    "punctuality_pct": 95.98,
+    "reliability_pct": 99.25,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Alamein",
+    "financial_year": "2014-2015",
+    "punctuality_pct": 94.93,
+    "reliability_pct": 99.31,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Alamein",
+    "financial_year": "2015-2016",
+    "punctuality_pct": 93.85,
+    "reliability_pct": 99.23,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Alamein",
+    "financial_year": "2016-2017",
+    "punctuality_pct": 93.24,
+    "reliability_pct": 99.02,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Alamein",
+    "financial_year": "2017-2018",
+    "punctuality_pct": 93.04,
+    "reliability_pct": 99.19,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Alamein",
+    "financial_year": "2018-2019",
+    "punctuality_pct": 93.16,
+    "reliability_pct": 99.03,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Alamein",
+    "financial_year": "2019-2020",
+    "punctuality_pct": 94.4,
+    "reliability_pct": 99.11,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Alamein",
+    "financial_year": "2020-2021",
+    "punctuality_pct": 96.58,
+    "reliability_pct": 99.3,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Alamein",
+    "financial_year": "2021-2022",
+    "punctuality_pct": 94.52,
+    "reliability_pct": 98.76,
+    "cancelled_pct": 1.11
+  },
+  {
+    "line": "Alamein",
+    "financial_year": "2022-2023",
+    "punctuality_pct": 93.1,
+    "reliability_pct": 99.07,
+    "cancelled_pct": 0.8
+  },
+  {
+    "line": "Alamein",
+    "financial_year": "2023-2024",
+    "punctuality_pct": 93.64,
+    "reliability_pct": 99.35,
+    "cancelled_pct": 0.52
+  },
+  {
+    "line": "Alamein",
+    "financial_year": "2024-2025",
+    "punctuality_pct": 94.96,
+    "reliability_pct": 99.5,
+    "cancelled_pct": 0.41
+  },
+  {
+    "line": "Alamein",
+    "financial_year": "2025-2026",
+    "punctuality_pct": 95.45,
+    "reliability_pct": 99.37,
+    "cancelled_pct": 0.52
+  },
+  {
+    "line": "Belgrave",
+    "financial_year": "2000-2001",
+    "punctuality_pct": 94.94,
+    "reliability_pct": 99.19,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Belgrave",
+    "financial_year": "2001-2002",
+    "punctuality_pct": 95.04,
+    "reliability_pct": 99.63,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Belgrave",
+    "financial_year": "2002-2003",
+    "punctuality_pct": 93.95,
+    "reliability_pct": 99.53,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Belgrave",
+    "financial_year": "2003-2004",
+    "punctuality_pct": 93.26,
+    "reliability_pct": 99.22,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Belgrave",
+    "financial_year": "2004-2005",
+    "punctuality_pct": 91.71,
+    "reliability_pct": 99.0,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Belgrave",
+    "financial_year": "2005-2006",
+    "punctuality_pct": 89.49,
+    "reliability_pct": 99.0,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Belgrave",
+    "financial_year": "2006-2007",
+    "punctuality_pct": 90.05,
+    "reliability_pct": 99.1,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Belgrave",
+    "financial_year": "2007-2008",
+    "punctuality_pct": 89.46,
+    "reliability_pct": 98.86,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Belgrave",
+    "financial_year": "2008-2009",
+    "punctuality_pct": 89.12,
+    "reliability_pct": 98.81,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Belgrave",
+    "financial_year": "2009-2010",
+    "punctuality_pct": 86.85,
+    "reliability_pct": 99.19,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Belgrave",
+    "financial_year": "2010-2011",
+    "punctuality_pct": 87.36,
+    "reliability_pct": 98.94,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Belgrave",
+    "financial_year": "2011-2012",
+    "punctuality_pct": 87.04,
+    "reliability_pct": 98.9,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Belgrave",
+    "financial_year": "2012-2013",
+    "punctuality_pct": 90.2,
+    "reliability_pct": 98.51,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Belgrave",
+    "financial_year": "2013-2014",
+    "punctuality_pct": 93.04,
+    "reliability_pct": 99.02,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Belgrave",
+    "financial_year": "2014-2015",
+    "punctuality_pct": 90.69,
+    "reliability_pct": 99.01,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Belgrave",
+    "financial_year": "2015-2016",
+    "punctuality_pct": 89.96,
+    "reliability_pct": 98.88,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Belgrave",
+    "financial_year": "2016-2017",
+    "punctuality_pct": 89.82,
+    "reliability_pct": 98.69,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Belgrave",
+    "financial_year": "2017-2018",
+    "punctuality_pct": 90.61,
+    "reliability_pct": 99.02,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Belgrave",
+    "financial_year": "2018-2019",
+    "punctuality_pct": 88.56,
+    "reliability_pct": 98.78,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Belgrave",
+    "financial_year": "2019-2020",
+    "punctuality_pct": 92.0,
+    "reliability_pct": 99.03,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Belgrave",
+    "financial_year": "2020-2021",
+    "punctuality_pct": 94.75,
+    "reliability_pct": 99.27,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Belgrave",
+    "financial_year": "2021-2022",
+    "punctuality_pct": 91.55,
+    "reliability_pct": 98.55,
+    "cancelled_pct": 1.06
+  },
+  {
+    "line": "Belgrave",
+    "financial_year": "2022-2023",
+    "punctuality_pct": 91.31,
+    "reliability_pct": 98.92,
+    "cancelled_pct": 0.72
+  },
+  {
+    "line": "Belgrave",
+    "financial_year": "2023-2024",
+    "punctuality_pct": 91.52,
+    "reliability_pct": 99.13,
+    "cancelled_pct": 0.42
+  },
+  {
+    "line": "Belgrave",
+    "financial_year": "2024-2025",
+    "punctuality_pct": 91.76,
+    "reliability_pct": 98.75,
+    "cancelled_pct": 0.54
+  },
+  {
+    "line": "Belgrave",
+    "financial_year": "2025-2026",
+    "punctuality_pct": 92.13,
+    "reliability_pct": 99.22,
+    "cancelled_pct": 0.31
+  },
+  {
+    "line": "Craigieburn",
+    "financial_year": "2000-2001",
+    "punctuality_pct": 96.19,
+    "reliability_pct": 99.42,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Craigieburn",
+    "financial_year": "2001-2002",
+    "punctuality_pct": 96.99,
+    "reliability_pct": 99.48,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Craigieburn",
+    "financial_year": "2002-2003",
+    "punctuality_pct": 97.43,
+    "reliability_pct": 99.56,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Craigieburn",
+    "financial_year": "2003-2004",
+    "punctuality_pct": 96.15,
+    "reliability_pct": 98.56,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Craigieburn",
+    "financial_year": "2004-2005",
+    "punctuality_pct": 93.84,
+    "reliability_pct": 98.35,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Craigieburn",
+    "financial_year": "2005-2006",
+    "punctuality_pct": 91.18,
+    "reliability_pct": 99.05,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Craigieburn",
+    "financial_year": "2006-2007",
+    "punctuality_pct": 91.21,
+    "reliability_pct": 98.84,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Craigieburn",
+    "financial_year": "2007-2008",
+    "punctuality_pct": 86.49,
+    "reliability_pct": 98.56,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Craigieburn",
+    "financial_year": "2008-2009",
+    "punctuality_pct": 86.83,
+    "reliability_pct": 98.62,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Craigieburn",
+    "financial_year": "2009-2010",
+    "punctuality_pct": 83.99,
+    "reliability_pct": 98.96,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Craigieburn",
+    "financial_year": "2010-2011",
+    "punctuality_pct": 85.08,
+    "reliability_pct": 98.98,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Craigieburn",
+    "financial_year": "2011-2012",
+    "punctuality_pct": 88.02,
+    "reliability_pct": 98.54,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Craigieburn",
+    "financial_year": "2012-2013",
+    "punctuality_pct": 89.75,
+    "reliability_pct": 97.82,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Craigieburn",
+    "financial_year": "2013-2014",
+    "punctuality_pct": 91.71,
+    "reliability_pct": 98.65,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Craigieburn",
+    "financial_year": "2014-2015",
+    "punctuality_pct": 92.36,
+    "reliability_pct": 98.54,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Craigieburn",
+    "financial_year": "2015-2016",
+    "punctuality_pct": 92.02,
+    "reliability_pct": 98.18,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Craigieburn",
+    "financial_year": "2016-2017",
+    "punctuality_pct": 91.19,
+    "reliability_pct": 98.72,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Craigieburn",
+    "financial_year": "2017-2018",
+    "punctuality_pct": 88.24,
+    "reliability_pct": 98.53,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Craigieburn",
+    "financial_year": "2018-2019",
+    "punctuality_pct": 88.89,
+    "reliability_pct": 98.35,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Craigieburn",
+    "financial_year": "2019-2020",
+    "punctuality_pct": 90.42,
+    "reliability_pct": 98.3,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Craigieburn",
+    "financial_year": "2020-2021",
+    "punctuality_pct": 94.17,
+    "reliability_pct": 98.74,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Craigieburn",
+    "financial_year": "2021-2022",
+    "punctuality_pct": 91.14,
+    "reliability_pct": 97.35,
+    "cancelled_pct": 2.48
+  },
+  {
+    "line": "Craigieburn",
+    "financial_year": "2022-2023",
+    "punctuality_pct": 88.44,
+    "reliability_pct": 98.47,
+    "cancelled_pct": 1.32
+  },
+  {
+    "line": "Craigieburn",
+    "financial_year": "2023-2024",
+    "punctuality_pct": 87.64,
+    "reliability_pct": 98.48,
+    "cancelled_pct": 1.27
+  },
+  {
+    "line": "Craigieburn",
+    "financial_year": "2024-2025",
+    "punctuality_pct": 87.95,
+    "reliability_pct": 98.52,
+    "cancelled_pct": 1.21
+  },
+  {
+    "line": "Craigieburn",
+    "financial_year": "2025-2026",
+    "punctuality_pct": 90.25,
+    "reliability_pct": 98.75,
+    "cancelled_pct": 1.02
+  },
+  {
+    "line": "Cranbourne",
+    "financial_year": "2000-2001",
+    "punctuality_pct": 92.68,
+    "reliability_pct": 98.99,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Cranbourne",
+    "financial_year": "2001-2002",
+    "punctuality_pct": 93.85,
+    "reliability_pct": 98.76,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Cranbourne",
+    "financial_year": "2002-2003",
+    "punctuality_pct": 95.16,
+    "reliability_pct": 99.4,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Cranbourne",
+    "financial_year": "2003-2004",
+    "punctuality_pct": 90.31,
+    "reliability_pct": 98.21,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Cranbourne",
+    "financial_year": "2004-2005",
+    "punctuality_pct": 80.89,
+    "reliability_pct": 98.35,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Cranbourne",
+    "financial_year": "2005-2006",
+    "punctuality_pct": 81.77,
+    "reliability_pct": 99.06,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Cranbourne",
+    "financial_year": "2006-2007",
+    "punctuality_pct": 82.3,
+    "reliability_pct": 98.99,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Cranbourne",
+    "financial_year": "2007-2008",
+    "punctuality_pct": 81.44,
+    "reliability_pct": 98.9,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Cranbourne",
+    "financial_year": "2008-2009",
+    "punctuality_pct": 82.91,
+    "reliability_pct": 98.34,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Cranbourne",
+    "financial_year": "2009-2010",
+    "punctuality_pct": 81.99,
+    "reliability_pct": 99.16,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Cranbourne",
+    "financial_year": "2010-2011",
+    "punctuality_pct": 79.85,
+    "reliability_pct": 98.84,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Cranbourne",
+    "financial_year": "2011-2012",
+    "punctuality_pct": 87.5,
+    "reliability_pct": 98.15,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Cranbourne",
+    "financial_year": "2012-2013",
+    "punctuality_pct": 88.41,
+    "reliability_pct": 97.96,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Cranbourne",
+    "financial_year": "2013-2014",
+    "punctuality_pct": 89.38,
+    "reliability_pct": 98.63,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Cranbourne",
+    "financial_year": "2014-2015",
+    "punctuality_pct": 89.98,
+    "reliability_pct": 98.11,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Cranbourne",
+    "financial_year": "2015-2016",
+    "punctuality_pct": 88.08,
+    "reliability_pct": 97.91,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Cranbourne",
+    "financial_year": "2016-2017",
+    "punctuality_pct": 86.44,
+    "reliability_pct": 98.39,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Cranbourne",
+    "financial_year": "2017-2018",
+    "punctuality_pct": 89.2,
+    "reliability_pct": 97.91,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Cranbourne",
+    "financial_year": "2018-2019",
+    "punctuality_pct": 85.41,
+    "reliability_pct": 97.81,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Cranbourne",
+    "financial_year": "2019-2020",
+    "punctuality_pct": 88.02,
+    "reliability_pct": 98.17,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Cranbourne",
+    "financial_year": "2020-2021",
+    "punctuality_pct": 92.48,
+    "reliability_pct": 98.78,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Cranbourne",
+    "financial_year": "2021-2022",
+    "punctuality_pct": 93.65,
+    "reliability_pct": 96.92,
+    "cancelled_pct": 2.66
+  },
+  {
+    "line": "Cranbourne",
+    "financial_year": "2022-2023",
+    "punctuality_pct": 93.86,
+    "reliability_pct": 98.37,
+    "cancelled_pct": 1.33
+  },
+  {
+    "line": "Cranbourne",
+    "financial_year": "2023-2024",
+    "punctuality_pct": 94.19,
+    "reliability_pct": 98.67,
+    "cancelled_pct": 1.07
+  },
+  {
+    "line": "Cranbourne",
+    "financial_year": "2024-2025",
+    "punctuality_pct": 94.6,
+    "reliability_pct": 98.73,
+    "cancelled_pct": 0.96
+  },
+  {
+    "line": "Cranbourne",
+    "financial_year": "2025-2026",
+    "punctuality_pct": 96.28,
+    "reliability_pct": 99.26,
+    "cancelled_pct": 0.53
+  },
+  {
+    "line": "Frankston",
+    "financial_year": "2000-2001",
+    "punctuality_pct": 93.29,
+    "reliability_pct": 98.83,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Frankston",
+    "financial_year": "2001-2002",
+    "punctuality_pct": 94.0,
+    "reliability_pct": 98.78,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Frankston",
+    "financial_year": "2002-2003",
+    "punctuality_pct": 94.45,
+    "reliability_pct": 99.11,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Frankston",
+    "financial_year": "2003-2004",
+    "punctuality_pct": 89.96,
+    "reliability_pct": 97.5,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Frankston",
+    "financial_year": "2004-2005",
+    "punctuality_pct": 86.98,
+    "reliability_pct": 97.77,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Frankston",
+    "financial_year": "2005-2006",
+    "punctuality_pct": 84.08,
+    "reliability_pct": 98.74,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Frankston",
+    "financial_year": "2006-2007",
+    "punctuality_pct": 81.89,
+    "reliability_pct": 98.41,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Frankston",
+    "financial_year": "2007-2008",
+    "punctuality_pct": 79.4,
+    "reliability_pct": 98.6,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Frankston",
+    "financial_year": "2008-2009",
+    "punctuality_pct": 77.66,
+    "reliability_pct": 98.22,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Frankston",
+    "financial_year": "2009-2010",
+    "punctuality_pct": 73.3,
+    "reliability_pct": 98.65,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Frankston",
+    "financial_year": "2010-2011",
+    "punctuality_pct": 71.04,
+    "reliability_pct": 98.28,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Frankston",
+    "financial_year": "2011-2012",
+    "punctuality_pct": 88.48,
+    "reliability_pct": 97.88,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Frankston",
+    "financial_year": "2012-2013",
+    "punctuality_pct": 91.13,
+    "reliability_pct": 97.81,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Frankston",
+    "financial_year": "2013-2014",
+    "punctuality_pct": 90.52,
+    "reliability_pct": 98.3,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Frankston",
+    "financial_year": "2014-2015",
+    "punctuality_pct": 90.13,
+    "reliability_pct": 98.24,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Frankston",
+    "financial_year": "2015-2016",
+    "punctuality_pct": 90.28,
+    "reliability_pct": 98.17,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Frankston",
+    "financial_year": "2016-2017",
+    "punctuality_pct": 89.51,
+    "reliability_pct": 98.29,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Frankston",
+    "financial_year": "2017-2018",
+    "punctuality_pct": 90.15,
+    "reliability_pct": 98.6,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Frankston",
+    "financial_year": "2018-2019",
+    "punctuality_pct": 89.23,
+    "reliability_pct": 97.83,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Frankston",
+    "financial_year": "2019-2020",
+    "punctuality_pct": 88.57,
+    "reliability_pct": 97.62,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Frankston",
+    "financial_year": "2020-2021",
+    "punctuality_pct": 93.4,
+    "reliability_pct": 98.13,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Frankston",
+    "financial_year": "2021-2022",
+    "punctuality_pct": 91.62,
+    "reliability_pct": 97.28,
+    "cancelled_pct": 2.55
+  },
+  {
+    "line": "Frankston",
+    "financial_year": "2022-2023",
+    "punctuality_pct": 89.62,
+    "reliability_pct": 98.05,
+    "cancelled_pct": 1.67
+  },
+  {
+    "line": "Frankston",
+    "financial_year": "2023-2024",
+    "punctuality_pct": 93.37,
+    "reliability_pct": 98.4,
+    "cancelled_pct": 1.26
+  },
+  {
+    "line": "Frankston",
+    "financial_year": "2024-2025",
+    "punctuality_pct": 92.47,
+    "reliability_pct": 98.58,
+    "cancelled_pct": 1.15
+  },
+  {
+    "line": "Frankston",
+    "financial_year": "2025-2026",
+    "punctuality_pct": 92.6,
+    "reliability_pct": 98.76,
+    "cancelled_pct": 0.98
+  },
+  {
+    "line": "Glen Waverley",
+    "financial_year": "2000-2001",
+    "punctuality_pct": 96.04,
+    "reliability_pct": 99.4,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Glen Waverley",
+    "financial_year": "2001-2002",
+    "punctuality_pct": 96.07,
+    "reliability_pct": 99.61,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Glen Waverley",
+    "financial_year": "2002-2003",
+    "punctuality_pct": 95.83,
+    "reliability_pct": 99.46,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Glen Waverley",
+    "financial_year": "2003-2004",
+    "punctuality_pct": 95.54,
+    "reliability_pct": 99.32,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Glen Waverley",
+    "financial_year": "2004-2005",
+    "punctuality_pct": 94.95,
+    "reliability_pct": 98.78,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Glen Waverley",
+    "financial_year": "2005-2006",
+    "punctuality_pct": 93.7,
+    "reliability_pct": 98.98,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Glen Waverley",
+    "financial_year": "2006-2007",
+    "punctuality_pct": 93.24,
+    "reliability_pct": 98.94,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Glen Waverley",
+    "financial_year": "2007-2008",
+    "punctuality_pct": 92.27,
+    "reliability_pct": 98.83,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Glen Waverley",
+    "financial_year": "2008-2009",
+    "punctuality_pct": 92.73,
+    "reliability_pct": 98.66,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Glen Waverley",
+    "financial_year": "2009-2010",
+    "punctuality_pct": 90.94,
+    "reliability_pct": 99.03,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Glen Waverley",
+    "financial_year": "2010-2011",
+    "punctuality_pct": 93.74,
+    "reliability_pct": 99.25,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Glen Waverley",
+    "financial_year": "2011-2012",
+    "punctuality_pct": 94.44,
+    "reliability_pct": 98.76,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Glen Waverley",
+    "financial_year": "2012-2013",
+    "punctuality_pct": 95.53,
+    "reliability_pct": 99.11,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Glen Waverley",
+    "financial_year": "2013-2014",
+    "punctuality_pct": 96.76,
+    "reliability_pct": 99.52,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Glen Waverley",
+    "financial_year": "2014-2015",
+    "punctuality_pct": 96.13,
+    "reliability_pct": 99.37,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Glen Waverley",
+    "financial_year": "2015-2016",
+    "punctuality_pct": 96.2,
+    "reliability_pct": 99.02,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Glen Waverley",
+    "financial_year": "2016-2017",
+    "punctuality_pct": 96.59,
+    "reliability_pct": 99.36,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Glen Waverley",
+    "financial_year": "2017-2018",
+    "punctuality_pct": 96.55,
+    "reliability_pct": 99.32,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Glen Waverley",
+    "financial_year": "2018-2019",
+    "punctuality_pct": 96.01,
+    "reliability_pct": 98.9,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Glen Waverley",
+    "financial_year": "2019-2020",
+    "punctuality_pct": 96.77,
+    "reliability_pct": 99.13,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Glen Waverley",
+    "financial_year": "2020-2021",
+    "punctuality_pct": 98.08,
+    "reliability_pct": 99.34,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Glen Waverley",
+    "financial_year": "2021-2022",
+    "punctuality_pct": 97.15,
+    "reliability_pct": 98.84,
+    "cancelled_pct": 1.04
+  },
+  {
+    "line": "Glen Waverley",
+    "financial_year": "2022-2023",
+    "punctuality_pct": 96.85,
+    "reliability_pct": 99.33,
+    "cancelled_pct": 0.53
+  },
+  {
+    "line": "Glen Waverley",
+    "financial_year": "2023-2024",
+    "punctuality_pct": 96.9,
+    "reliability_pct": 99.26,
+    "cancelled_pct": 0.51
+  },
+  {
+    "line": "Glen Waverley",
+    "financial_year": "2024-2025",
+    "punctuality_pct": 97.03,
+    "reliability_pct": 99.31,
+    "cancelled_pct": 0.51
+  },
+  {
+    "line": "Glen Waverley",
+    "financial_year": "2025-2026",
+    "punctuality_pct": 97.55,
+    "reliability_pct": 99.38,
+    "cancelled_pct": 0.47
+  },
+  {
+    "line": "Hurstbridge",
+    "financial_year": "2000-2001",
+    "punctuality_pct": 93.86,
+    "reliability_pct": 99.42,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Hurstbridge",
+    "financial_year": "2001-2002",
+    "punctuality_pct": 93.31,
+    "reliability_pct": 99.56,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Hurstbridge",
+    "financial_year": "2002-2003",
+    "punctuality_pct": 92.85,
+    "reliability_pct": 99.52,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Hurstbridge",
+    "financial_year": "2003-2004",
+    "punctuality_pct": 91.82,
+    "reliability_pct": 99.36,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Hurstbridge",
+    "financial_year": "2004-2005",
+    "punctuality_pct": 89.59,
+    "reliability_pct": 99.02,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Hurstbridge",
+    "financial_year": "2005-2006",
+    "punctuality_pct": 89.32,
+    "reliability_pct": 98.95,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Hurstbridge",
+    "financial_year": "2006-2007",
+    "punctuality_pct": 87.69,
+    "reliability_pct": 98.56,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Hurstbridge",
+    "financial_year": "2007-2008",
+    "punctuality_pct": 86.78,
+    "reliability_pct": 98.78,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Hurstbridge",
+    "financial_year": "2008-2009",
+    "punctuality_pct": 86.74,
+    "reliability_pct": 98.49,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Hurstbridge",
+    "financial_year": "2009-2010",
+    "punctuality_pct": 86.93,
+    "reliability_pct": 98.65,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Hurstbridge",
+    "financial_year": "2010-2011",
+    "punctuality_pct": 89.71,
+    "reliability_pct": 98.87,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Hurstbridge",
+    "financial_year": "2011-2012",
+    "punctuality_pct": 89.78,
+    "reliability_pct": 98.36,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Hurstbridge",
+    "financial_year": "2012-2013",
+    "punctuality_pct": 95.17,
+    "reliability_pct": 98.81,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Hurstbridge",
+    "financial_year": "2013-2014",
+    "punctuality_pct": 95.68,
+    "reliability_pct": 99.19,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Hurstbridge",
+    "financial_year": "2014-2015",
+    "punctuality_pct": 94.18,
+    "reliability_pct": 99.15,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Hurstbridge",
+    "financial_year": "2015-2016",
+    "punctuality_pct": 93.78,
+    "reliability_pct": 99.03,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Hurstbridge",
+    "financial_year": "2016-2017",
+    "punctuality_pct": 93.45,
+    "reliability_pct": 99.14,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Hurstbridge",
+    "financial_year": "2017-2018",
+    "punctuality_pct": 93.47,
+    "reliability_pct": 98.99,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Hurstbridge",
+    "financial_year": "2018-2019",
+    "punctuality_pct": 92.98,
+    "reliability_pct": 98.75,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Hurstbridge",
+    "financial_year": "2019-2020",
+    "punctuality_pct": 94.38,
+    "reliability_pct": 98.98,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Hurstbridge",
+    "financial_year": "2020-2021",
+    "punctuality_pct": 96.01,
+    "reliability_pct": 99.24,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Hurstbridge",
+    "financial_year": "2021-2022",
+    "punctuality_pct": 94.57,
+    "reliability_pct": 98.84,
+    "cancelled_pct": 0.85
+  },
+  {
+    "line": "Hurstbridge",
+    "financial_year": "2022-2023",
+    "punctuality_pct": 92.8,
+    "reliability_pct": 98.99,
+    "cancelled_pct": 0.69
+  },
+  {
+    "line": "Hurstbridge",
+    "financial_year": "2023-2024",
+    "punctuality_pct": 93.09,
+    "reliability_pct": 98.75,
+    "cancelled_pct": 0.85
+  },
+  {
+    "line": "Hurstbridge",
+    "financial_year": "2024-2025",
+    "punctuality_pct": 94.19,
+    "reliability_pct": 99.03,
+    "cancelled_pct": 0.68
+  },
+  {
+    "line": "Hurstbridge",
+    "financial_year": "2025-2026",
+    "punctuality_pct": 95.06,
+    "reliability_pct": 97.13,
+    "cancelled_pct": 2.65
+  },
+  {
+    "line": "Lilydale",
+    "financial_year": "2000-2001",
+    "punctuality_pct": 95.0,
+    "reliability_pct": 99.01,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Lilydale",
+    "financial_year": "2001-2002",
+    "punctuality_pct": 94.54,
+    "reliability_pct": 99.44,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Lilydale",
+    "financial_year": "2002-2003",
+    "punctuality_pct": 94.13,
+    "reliability_pct": 99.16,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Lilydale",
+    "financial_year": "2003-2004",
+    "punctuality_pct": 93.4,
+    "reliability_pct": 98.51,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Lilydale",
+    "financial_year": "2004-2005",
+    "punctuality_pct": 92.05,
+    "reliability_pct": 98.2,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Lilydale",
+    "financial_year": "2005-2006",
+    "punctuality_pct": 90.08,
+    "reliability_pct": 98.49,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Lilydale",
+    "financial_year": "2006-2007",
+    "punctuality_pct": 90.12,
+    "reliability_pct": 97.98,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Lilydale",
+    "financial_year": "2007-2008",
+    "punctuality_pct": 89.82,
+    "reliability_pct": 98.08,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Lilydale",
+    "financial_year": "2008-2009",
+    "punctuality_pct": 90.26,
+    "reliability_pct": 97.89,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Lilydale",
+    "financial_year": "2009-2010",
+    "punctuality_pct": 86.84,
+    "reliability_pct": 98.32,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Lilydale",
+    "financial_year": "2010-2011",
+    "punctuality_pct": 88.78,
+    "reliability_pct": 98.24,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Lilydale",
+    "financial_year": "2011-2012",
+    "punctuality_pct": 88.9,
+    "reliability_pct": 98.13,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Lilydale",
+    "financial_year": "2012-2013",
+    "punctuality_pct": 91.28,
+    "reliability_pct": 97.64,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Lilydale",
+    "financial_year": "2013-2014",
+    "punctuality_pct": 93.72,
+    "reliability_pct": 99.03,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Lilydale",
+    "financial_year": "2014-2015",
+    "punctuality_pct": 91.99,
+    "reliability_pct": 98.52,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Lilydale",
+    "financial_year": "2015-2016",
+    "punctuality_pct": 91.01,
+    "reliability_pct": 98.31,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Lilydale",
+    "financial_year": "2016-2017",
+    "punctuality_pct": 90.91,
+    "reliability_pct": 98.46,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Lilydale",
+    "financial_year": "2017-2018",
+    "punctuality_pct": 91.75,
+    "reliability_pct": 98.33,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Lilydale",
+    "financial_year": "2018-2019",
+    "punctuality_pct": 90.12,
+    "reliability_pct": 98.06,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Lilydale",
+    "financial_year": "2019-2020",
+    "punctuality_pct": 92.77,
+    "reliability_pct": 98.28,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Lilydale",
+    "financial_year": "2020-2021",
+    "punctuality_pct": 95.76,
+    "reliability_pct": 98.7,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Lilydale",
+    "financial_year": "2021-2022",
+    "punctuality_pct": 93.85,
+    "reliability_pct": 98.41,
+    "cancelled_pct": 1.29
+  },
+  {
+    "line": "Lilydale",
+    "financial_year": "2022-2023",
+    "punctuality_pct": 93.39,
+    "reliability_pct": 98.99,
+    "cancelled_pct": 0.76
+  },
+  {
+    "line": "Lilydale",
+    "financial_year": "2023-2024",
+    "punctuality_pct": 94.4,
+    "reliability_pct": 98.93,
+    "cancelled_pct": 0.71
+  },
+  {
+    "line": "Lilydale",
+    "financial_year": "2024-2025",
+    "punctuality_pct": 94.7,
+    "reliability_pct": 98.88,
+    "cancelled_pct": 0.71
+  },
+  {
+    "line": "Lilydale",
+    "financial_year": "2025-2026",
+    "punctuality_pct": 95.12,
+    "reliability_pct": 99.19,
+    "cancelled_pct": 0.49
+  },
+  {
+    "line": "Mernda",
+    "financial_year": "2000-2001",
+    "punctuality_pct": 95.04,
+    "reliability_pct": 99.54,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Mernda",
+    "financial_year": "2001-2002",
+    "punctuality_pct": 95.15,
+    "reliability_pct": 99.61,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Mernda",
+    "financial_year": "2002-2003",
+    "punctuality_pct": 94.76,
+    "reliability_pct": 99.64,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Mernda",
+    "financial_year": "2003-2004",
+    "punctuality_pct": 94.32,
+    "reliability_pct": 99.43,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Mernda",
+    "financial_year": "2004-2005",
+    "punctuality_pct": 93.69,
+    "reliability_pct": 99.23,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Mernda",
+    "financial_year": "2005-2006",
+    "punctuality_pct": 92.85,
+    "reliability_pct": 99.07,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Mernda",
+    "financial_year": "2006-2007",
+    "punctuality_pct": 92.21,
+    "reliability_pct": 98.81,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Mernda",
+    "financial_year": "2007-2008",
+    "punctuality_pct": 91.78,
+    "reliability_pct": 98.93,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Mernda",
+    "financial_year": "2008-2009",
+    "punctuality_pct": 91.34,
+    "reliability_pct": 98.69,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Mernda",
+    "financial_year": "2009-2010",
+    "punctuality_pct": 90.18,
+    "reliability_pct": 99.25,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Mernda",
+    "financial_year": "2010-2011",
+    "punctuality_pct": 91.67,
+    "reliability_pct": 99.23,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Mernda",
+    "financial_year": "2011-2012",
+    "punctuality_pct": 92.72,
+    "reliability_pct": 98.93,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Mernda",
+    "financial_year": "2012-2013",
+    "punctuality_pct": 96.26,
+    "reliability_pct": 99.15,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Mernda",
+    "financial_year": "2013-2014",
+    "punctuality_pct": 96.63,
+    "reliability_pct": 99.37,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Mernda",
+    "financial_year": "2014-2015",
+    "punctuality_pct": 95.13,
+    "reliability_pct": 99.47,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Mernda",
+    "financial_year": "2015-2016",
+    "punctuality_pct": 95.05,
+    "reliability_pct": 99.16,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Mernda",
+    "financial_year": "2016-2017",
+    "punctuality_pct": 94.6,
+    "reliability_pct": 99.27,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Mernda",
+    "financial_year": "2017-2018",
+    "punctuality_pct": 93.84,
+    "reliability_pct": 99.07,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Mernda",
+    "financial_year": "2018-2019",
+    "punctuality_pct": 93.24,
+    "reliability_pct": 98.49,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Mernda",
+    "financial_year": "2019-2020",
+    "punctuality_pct": 94.03,
+    "reliability_pct": 98.73,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Mernda",
+    "financial_year": "2020-2021",
+    "punctuality_pct": 96.2,
+    "reliability_pct": 99.1,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Mernda",
+    "financial_year": "2021-2022",
+    "punctuality_pct": 95.79,
+    "reliability_pct": 98.34,
+    "cancelled_pct": 1.37
+  },
+  {
+    "line": "Mernda",
+    "financial_year": "2022-2023",
+    "punctuality_pct": 94.58,
+    "reliability_pct": 99.09,
+    "cancelled_pct": 0.67
+  },
+  {
+    "line": "Mernda",
+    "financial_year": "2023-2024",
+    "punctuality_pct": 94.3,
+    "reliability_pct": 98.83,
+    "cancelled_pct": 0.89
+  },
+  {
+    "line": "Mernda",
+    "financial_year": "2024-2025",
+    "punctuality_pct": 94.87,
+    "reliability_pct": 98.98,
+    "cancelled_pct": 0.77
+  },
+  {
+    "line": "Mernda",
+    "financial_year": "2025-2026",
+    "punctuality_pct": 95.76,
+    "reliability_pct": 98.05,
+    "cancelled_pct": 1.15
+  },
+  {
+    "line": "Pakenham",
+    "financial_year": "2000-2001",
+    "punctuality_pct": 91.84,
+    "reliability_pct": 99.32,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Pakenham",
+    "financial_year": "2001-2002",
+    "punctuality_pct": 93.18,
+    "reliability_pct": 99.23,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Pakenham",
+    "financial_year": "2002-2003",
+    "punctuality_pct": 93.77,
+    "reliability_pct": 99.44,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Pakenham",
+    "financial_year": "2003-2004",
+    "punctuality_pct": 89.05,
+    "reliability_pct": 98.2,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Pakenham",
+    "financial_year": "2004-2005",
+    "punctuality_pct": 83.02,
+    "reliability_pct": 98.28,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Pakenham",
+    "financial_year": "2005-2006",
+    "punctuality_pct": 83.58,
+    "reliability_pct": 99.2,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Pakenham",
+    "financial_year": "2006-2007",
+    "punctuality_pct": 78.21,
+    "reliability_pct": 98.51,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Pakenham",
+    "financial_year": "2007-2008",
+    "punctuality_pct": 76.81,
+    "reliability_pct": 98.62,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Pakenham",
+    "financial_year": "2008-2009",
+    "punctuality_pct": 76.5,
+    "reliability_pct": 98.22,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Pakenham",
+    "financial_year": "2009-2010",
+    "punctuality_pct": 73.74,
+    "reliability_pct": 98.77,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Pakenham",
+    "financial_year": "2010-2011",
+    "punctuality_pct": 73.77,
+    "reliability_pct": 98.45,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Pakenham",
+    "financial_year": "2011-2012",
+    "punctuality_pct": 85.33,
+    "reliability_pct": 98.08,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Pakenham",
+    "financial_year": "2012-2013",
+    "punctuality_pct": 88.57,
+    "reliability_pct": 98.16,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Pakenham",
+    "financial_year": "2013-2014",
+    "punctuality_pct": 88.87,
+    "reliability_pct": 98.64,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Pakenham",
+    "financial_year": "2014-2015",
+    "punctuality_pct": 89.29,
+    "reliability_pct": 98.31,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Pakenham",
+    "financial_year": "2015-2016",
+    "punctuality_pct": 87.85,
+    "reliability_pct": 98.22,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Pakenham",
+    "financial_year": "2016-2017",
+    "punctuality_pct": 86.16,
+    "reliability_pct": 98.5,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Pakenham",
+    "financial_year": "2017-2018",
+    "punctuality_pct": 87.55,
+    "reliability_pct": 98.39,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Pakenham",
+    "financial_year": "2018-2019",
+    "punctuality_pct": 86.05,
+    "reliability_pct": 97.69,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Pakenham",
+    "financial_year": "2019-2020",
+    "punctuality_pct": 88.99,
+    "reliability_pct": 97.86,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Pakenham",
+    "financial_year": "2020-2021",
+    "punctuality_pct": 93.33,
+    "reliability_pct": 98.46,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Pakenham",
+    "financial_year": "2021-2022",
+    "punctuality_pct": 92.58,
+    "reliability_pct": 95.4,
+    "cancelled_pct": 3.88
+  },
+  {
+    "line": "Pakenham",
+    "financial_year": "2022-2023",
+    "punctuality_pct": 92.21,
+    "reliability_pct": 97.27,
+    "cancelled_pct": 2.38
+  },
+  {
+    "line": "Pakenham",
+    "financial_year": "2023-2024",
+    "punctuality_pct": 92.93,
+    "reliability_pct": 98.24,
+    "cancelled_pct": 1.41
+  },
+  {
+    "line": "Pakenham",
+    "financial_year": "2024-2025",
+    "punctuality_pct": 93.93,
+    "reliability_pct": 98.21,
+    "cancelled_pct": 1.44
+  },
+  {
+    "line": "Pakenham",
+    "financial_year": "2025-2026",
+    "punctuality_pct": 95.85,
+    "reliability_pct": 98.58,
+    "cancelled_pct": 1.12
+  },
+  {
+    "line": "Sandringham",
+    "financial_year": "2000-2001",
+    "punctuality_pct": 95.17,
+    "reliability_pct": 98.91,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sandringham",
+    "financial_year": "2001-2002",
+    "punctuality_pct": 95.55,
+    "reliability_pct": 98.79,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sandringham",
+    "financial_year": "2002-2003",
+    "punctuality_pct": 96.85,
+    "reliability_pct": 99.27,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sandringham",
+    "financial_year": "2003-2004",
+    "punctuality_pct": 94.09,
+    "reliability_pct": 97.5,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sandringham",
+    "financial_year": "2004-2005",
+    "punctuality_pct": 90.63,
+    "reliability_pct": 97.54,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sandringham",
+    "financial_year": "2005-2006",
+    "punctuality_pct": 90.66,
+    "reliability_pct": 98.48,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sandringham",
+    "financial_year": "2006-2007",
+    "punctuality_pct": 88.61,
+    "reliability_pct": 98.44,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sandringham",
+    "financial_year": "2007-2008",
+    "punctuality_pct": 89.95,
+    "reliability_pct": 98.51,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sandringham",
+    "financial_year": "2008-2009",
+    "punctuality_pct": 90.95,
+    "reliability_pct": 98.13,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sandringham",
+    "financial_year": "2009-2010",
+    "punctuality_pct": 90.7,
+    "reliability_pct": 99.12,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sandringham",
+    "financial_year": "2010-2011",
+    "punctuality_pct": 90.6,
+    "reliability_pct": 98.49,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sandringham",
+    "financial_year": "2011-2012",
+    "punctuality_pct": 95.64,
+    "reliability_pct": 98.71,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sandringham",
+    "financial_year": "2012-2013",
+    "punctuality_pct": 96.39,
+    "reliability_pct": 98.68,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sandringham",
+    "financial_year": "2013-2014",
+    "punctuality_pct": 95.77,
+    "reliability_pct": 98.96,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sandringham",
+    "financial_year": "2014-2015",
+    "punctuality_pct": 95.38,
+    "reliability_pct": 99.03,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sandringham",
+    "financial_year": "2015-2016",
+    "punctuality_pct": 95.22,
+    "reliability_pct": 98.87,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sandringham",
+    "financial_year": "2016-2017",
+    "punctuality_pct": 95.44,
+    "reliability_pct": 98.89,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sandringham",
+    "financial_year": "2017-2018",
+    "punctuality_pct": 95.61,
+    "reliability_pct": 98.86,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sandringham",
+    "financial_year": "2018-2019",
+    "punctuality_pct": 95.32,
+    "reliability_pct": 98.98,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sandringham",
+    "financial_year": "2019-2020",
+    "punctuality_pct": 95.04,
+    "reliability_pct": 99.06,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sandringham",
+    "financial_year": "2020-2021",
+    "punctuality_pct": 97.68,
+    "reliability_pct": 99.29,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sandringham",
+    "financial_year": "2021-2022",
+    "punctuality_pct": 97.37,
+    "reliability_pct": 98.38,
+    "cancelled_pct": 1.58
+  },
+  {
+    "line": "Sandringham",
+    "financial_year": "2022-2023",
+    "punctuality_pct": 96.17,
+    "reliability_pct": 98.91,
+    "cancelled_pct": 1.02
+  },
+  {
+    "line": "Sandringham",
+    "financial_year": "2023-2024",
+    "punctuality_pct": 96.57,
+    "reliability_pct": 99.12,
+    "cancelled_pct": 0.78
+  },
+  {
+    "line": "Sandringham",
+    "financial_year": "2024-2025",
+    "punctuality_pct": 96.72,
+    "reliability_pct": 98.82,
+    "cancelled_pct": 1.05
+  },
+  {
+    "line": "Sandringham",
+    "financial_year": "2025-2026",
+    "punctuality_pct": 97.39,
+    "reliability_pct": 99.41,
+    "cancelled_pct": 0.54
+  },
+  {
+    "line": "Stony Point",
+    "financial_year": "2000-2001",
+    "punctuality_pct": 96.59,
+    "reliability_pct": 97.68,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Stony Point",
+    "financial_year": "2001-2002",
+    "punctuality_pct": 97.15,
+    "reliability_pct": 99.15,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Stony Point",
+    "financial_year": "2002-2003",
+    "punctuality_pct": 96.29,
+    "reliability_pct": 98.96,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Stony Point",
+    "financial_year": "2003-2004",
+    "punctuality_pct": 96.06,
+    "reliability_pct": 96.74,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Stony Point",
+    "financial_year": "2004-2005",
+    "punctuality_pct": 94.3,
+    "reliability_pct": 95.01,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Stony Point",
+    "financial_year": "2005-2006",
+    "punctuality_pct": 93.65,
+    "reliability_pct": 93.78,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Stony Point",
+    "financial_year": "2006-2007",
+    "punctuality_pct": 94.73,
+    "reliability_pct": 97.54,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Stony Point",
+    "financial_year": "2007-2008",
+    "punctuality_pct": 94.42,
+    "reliability_pct": 96.11,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Stony Point",
+    "financial_year": "2008-2009",
+    "punctuality_pct": 94.97,
+    "reliability_pct": 97.22,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Stony Point",
+    "financial_year": "2009-2010",
+    "punctuality_pct": 95.39,
+    "reliability_pct": 97.2,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Stony Point",
+    "financial_year": "2010-2011",
+    "punctuality_pct": 92.53,
+    "reliability_pct": 97.07,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Stony Point",
+    "financial_year": "2011-2012",
+    "punctuality_pct": 97.06,
+    "reliability_pct": 97.93,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Stony Point",
+    "financial_year": "2012-2013",
+    "punctuality_pct": 97.23,
+    "reliability_pct": 97.5,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Stony Point",
+    "financial_year": "2013-2014",
+    "punctuality_pct": 96.78,
+    "reliability_pct": 97.46,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Stony Point",
+    "financial_year": "2014-2015",
+    "punctuality_pct": 97.15,
+    "reliability_pct": 94.05,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Stony Point",
+    "financial_year": "2015-2016",
+    "punctuality_pct": 95.59,
+    "reliability_pct": 96.77,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Stony Point",
+    "financial_year": "2016-2017",
+    "punctuality_pct": 87.12,
+    "reliability_pct": 97.21,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Stony Point",
+    "financial_year": "2017-2018",
+    "punctuality_pct": 92.19,
+    "reliability_pct": 94.71,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Stony Point",
+    "financial_year": "2018-2019",
+    "punctuality_pct": 91.92,
+    "reliability_pct": 96.91,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Stony Point",
+    "financial_year": "2019-2020",
+    "punctuality_pct": 90.67,
+    "reliability_pct": 94.99,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Stony Point",
+    "financial_year": "2020-2021",
+    "punctuality_pct": 93.17,
+    "reliability_pct": 91.81,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Stony Point",
+    "financial_year": "2021-2022",
+    "punctuality_pct": 85.89,
+    "reliability_pct": 94.56,
+    "cancelled_pct": 5.42
+  },
+  {
+    "line": "Stony Point",
+    "financial_year": "2022-2023",
+    "punctuality_pct": 85.59,
+    "reliability_pct": 94.34,
+    "cancelled_pct": 5.65
+  },
+  {
+    "line": "Stony Point",
+    "financial_year": "2023-2024",
+    "punctuality_pct": 89.2,
+    "reliability_pct": 94.94,
+    "cancelled_pct": 5.04
+  },
+  {
+    "line": "Stony Point",
+    "financial_year": "2024-2025",
+    "punctuality_pct": 89.98,
+    "reliability_pct": 95.13,
+    "cancelled_pct": 4.82
+  },
+  {
+    "line": "Stony Point",
+    "financial_year": "2025-2026",
+    "punctuality_pct": 91.67,
+    "reliability_pct": 94.81,
+    "cancelled_pct": 5.16
+  },
+  {
+    "line": "Sunbury",
+    "financial_year": "2000-2001",
+    "punctuality_pct": 96.45,
+    "reliability_pct": 99.6,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sunbury",
+    "financial_year": "2001-2002",
+    "punctuality_pct": 97.15,
+    "reliability_pct": 99.61,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sunbury",
+    "financial_year": "2002-2003",
+    "punctuality_pct": 97.28,
+    "reliability_pct": 99.71,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sunbury",
+    "financial_year": "2003-2004",
+    "punctuality_pct": 95.74,
+    "reliability_pct": 99.24,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sunbury",
+    "financial_year": "2004-2005",
+    "punctuality_pct": 91.71,
+    "reliability_pct": 99.05,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sunbury",
+    "financial_year": "2005-2006",
+    "punctuality_pct": 90.3,
+    "reliability_pct": 99.35,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sunbury",
+    "financial_year": "2006-2007",
+    "punctuality_pct": 87.98,
+    "reliability_pct": 99.24,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sunbury",
+    "financial_year": "2007-2008",
+    "punctuality_pct": 86.28,
+    "reliability_pct": 99.36,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sunbury",
+    "financial_year": "2008-2009",
+    "punctuality_pct": 88.33,
+    "reliability_pct": 99.14,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sunbury",
+    "financial_year": "2009-2010",
+    "punctuality_pct": 85.3,
+    "reliability_pct": 99.47,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sunbury",
+    "financial_year": "2010-2011",
+    "punctuality_pct": 86.72,
+    "reliability_pct": 99.28,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sunbury",
+    "financial_year": "2011-2012",
+    "punctuality_pct": 88.04,
+    "reliability_pct": 99.03,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sunbury",
+    "financial_year": "2012-2013",
+    "punctuality_pct": 88.01,
+    "reliability_pct": 98.55,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sunbury",
+    "financial_year": "2013-2014",
+    "punctuality_pct": 90.87,
+    "reliability_pct": 98.89,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sunbury",
+    "financial_year": "2014-2015",
+    "punctuality_pct": 93.21,
+    "reliability_pct": 99.08,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sunbury",
+    "financial_year": "2015-2016",
+    "punctuality_pct": 92.01,
+    "reliability_pct": 99.0,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sunbury",
+    "financial_year": "2016-2017",
+    "punctuality_pct": 91.44,
+    "reliability_pct": 99.21,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sunbury",
+    "financial_year": "2017-2018",
+    "punctuality_pct": 89.58,
+    "reliability_pct": 99.16,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sunbury",
+    "financial_year": "2018-2019",
+    "punctuality_pct": 90.06,
+    "reliability_pct": 98.79,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sunbury",
+    "financial_year": "2019-2020",
+    "punctuality_pct": 90.35,
+    "reliability_pct": 98.73,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sunbury",
+    "financial_year": "2020-2021",
+    "punctuality_pct": 94.25,
+    "reliability_pct": 99.13,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Sunbury",
+    "financial_year": "2021-2022",
+    "punctuality_pct": 91.64,
+    "reliability_pct": 97.74,
+    "cancelled_pct": 2.08
+  },
+  {
+    "line": "Sunbury",
+    "financial_year": "2022-2023",
+    "punctuality_pct": 90.38,
+    "reliability_pct": 98.88,
+    "cancelled_pct": 0.99
+  },
+  {
+    "line": "Sunbury",
+    "financial_year": "2023-2024",
+    "punctuality_pct": 89.28,
+    "reliability_pct": 98.8,
+    "cancelled_pct": 0.97
+  },
+  {
+    "line": "Sunbury",
+    "financial_year": "2024-2025",
+    "punctuality_pct": 89.11,
+    "reliability_pct": 98.82,
+    "cancelled_pct": 0.99
+  },
+  {
+    "line": "Sunbury",
+    "financial_year": "2025-2026",
+    "punctuality_pct": 91.13,
+    "reliability_pct": 98.95,
+    "cancelled_pct": 0.88
+  },
+  {
+    "line": "Upfield",
+    "financial_year": "2000-2001",
+    "punctuality_pct": 96.86,
+    "reliability_pct": 99.44,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Upfield",
+    "financial_year": "2001-2002",
+    "punctuality_pct": 97.26,
+    "reliability_pct": 99.46,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Upfield",
+    "financial_year": "2002-2003",
+    "punctuality_pct": 97.01,
+    "reliability_pct": 99.62,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Upfield",
+    "financial_year": "2003-2004",
+    "punctuality_pct": 95.62,
+    "reliability_pct": 99.03,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Upfield",
+    "financial_year": "2004-2005",
+    "punctuality_pct": 93.78,
+    "reliability_pct": 98.77,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Upfield",
+    "financial_year": "2005-2006",
+    "punctuality_pct": 90.7,
+    "reliability_pct": 99.21,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Upfield",
+    "financial_year": "2006-2007",
+    "punctuality_pct": 91.52,
+    "reliability_pct": 99.18,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Upfield",
+    "financial_year": "2007-2008",
+    "punctuality_pct": 90.33,
+    "reliability_pct": 99.16,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Upfield",
+    "financial_year": "2008-2009",
+    "punctuality_pct": 90.03,
+    "reliability_pct": 98.63,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Upfield",
+    "financial_year": "2009-2010",
+    "punctuality_pct": 87.03,
+    "reliability_pct": 99.44,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Upfield",
+    "financial_year": "2010-2011",
+    "punctuality_pct": 85.26,
+    "reliability_pct": 99.34,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Upfield",
+    "financial_year": "2011-2012",
+    "punctuality_pct": 87.97,
+    "reliability_pct": 98.91,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Upfield",
+    "financial_year": "2012-2013",
+    "punctuality_pct": 91.82,
+    "reliability_pct": 98.73,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Upfield",
+    "financial_year": "2013-2014",
+    "punctuality_pct": 94.17,
+    "reliability_pct": 99.12,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Upfield",
+    "financial_year": "2014-2015",
+    "punctuality_pct": 94.03,
+    "reliability_pct": 99.23,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Upfield",
+    "financial_year": "2015-2016",
+    "punctuality_pct": 93.97,
+    "reliability_pct": 99.07,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Upfield",
+    "financial_year": "2016-2017",
+    "punctuality_pct": 92.91,
+    "reliability_pct": 99.06,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Upfield",
+    "financial_year": "2017-2018",
+    "punctuality_pct": 91.81,
+    "reliability_pct": 98.95,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Upfield",
+    "financial_year": "2018-2019",
+    "punctuality_pct": 92.9,
+    "reliability_pct": 98.86,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Upfield",
+    "financial_year": "2019-2020",
+    "punctuality_pct": 93.37,
+    "reliability_pct": 99.04,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Upfield",
+    "financial_year": "2020-2021",
+    "punctuality_pct": 95.86,
+    "reliability_pct": 99.33,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Upfield",
+    "financial_year": "2021-2022",
+    "punctuality_pct": 94.66,
+    "reliability_pct": 98.66,
+    "cancelled_pct": 1.23
+  },
+  {
+    "line": "Upfield",
+    "financial_year": "2022-2023",
+    "punctuality_pct": 92.86,
+    "reliability_pct": 98.97,
+    "cancelled_pct": 0.84
+  },
+  {
+    "line": "Upfield",
+    "financial_year": "2023-2024",
+    "punctuality_pct": 92.74,
+    "reliability_pct": 99.07,
+    "cancelled_pct": 0.61
+  },
+  {
+    "line": "Upfield",
+    "financial_year": "2024-2025",
+    "punctuality_pct": 92.91,
+    "reliability_pct": 99.08,
+    "cancelled_pct": 0.53
+  },
+  {
+    "line": "Upfield",
+    "financial_year": "2025-2026",
+    "punctuality_pct": 94.42,
+    "reliability_pct": 99.21,
+    "cancelled_pct": 0.43
+  },
+  {
+    "line": "Werribee",
+    "financial_year": "2000-2001",
+    "punctuality_pct": 95.23,
+    "reliability_pct": 99.4,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Werribee",
+    "financial_year": "2001-2002",
+    "punctuality_pct": 96.68,
+    "reliability_pct": 99.48,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Werribee",
+    "financial_year": "2002-2003",
+    "punctuality_pct": 96.57,
+    "reliability_pct": 99.6,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Werribee",
+    "financial_year": "2003-2004",
+    "punctuality_pct": 95.81,
+    "reliability_pct": 98.78,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Werribee",
+    "financial_year": "2004-2005",
+    "punctuality_pct": 93.12,
+    "reliability_pct": 98.47,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Werribee",
+    "financial_year": "2005-2006",
+    "punctuality_pct": 90.78,
+    "reliability_pct": 99.18,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Werribee",
+    "financial_year": "2006-2007",
+    "punctuality_pct": 89.62,
+    "reliability_pct": 98.92,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Werribee",
+    "financial_year": "2007-2008",
+    "punctuality_pct": 87.2,
+    "reliability_pct": 98.87,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Werribee",
+    "financial_year": "2008-2009",
+    "punctuality_pct": 85.94,
+    "reliability_pct": 98.58,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Werribee",
+    "financial_year": "2009-2010",
+    "punctuality_pct": 78.78,
+    "reliability_pct": 98.22,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Werribee",
+    "financial_year": "2010-2011",
+    "punctuality_pct": 82.4,
+    "reliability_pct": 98.17,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Werribee",
+    "financial_year": "2011-2012",
+    "punctuality_pct": 89.38,
+    "reliability_pct": 98.33,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Werribee",
+    "financial_year": "2012-2013",
+    "punctuality_pct": 90.12,
+    "reliability_pct": 97.97,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Werribee",
+    "financial_year": "2013-2014",
+    "punctuality_pct": 90.09,
+    "reliability_pct": 98.51,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Werribee",
+    "financial_year": "2014-2015",
+    "punctuality_pct": 90.16,
+    "reliability_pct": 98.54,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Werribee",
+    "financial_year": "2015-2016",
+    "punctuality_pct": 92.96,
+    "reliability_pct": 98.62,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Werribee",
+    "financial_year": "2016-2017",
+    "punctuality_pct": 92.29,
+    "reliability_pct": 98.83,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Werribee",
+    "financial_year": "2017-2018",
+    "punctuality_pct": 91.48,
+    "reliability_pct": 99.02,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Werribee",
+    "financial_year": "2018-2019",
+    "punctuality_pct": 90.03,
+    "reliability_pct": 97.88,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Werribee",
+    "financial_year": "2019-2020",
+    "punctuality_pct": 89.95,
+    "reliability_pct": 98.33,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Werribee",
+    "financial_year": "2020-2021",
+    "punctuality_pct": 93.78,
+    "reliability_pct": 98.15,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Werribee",
+    "financial_year": "2021-2022",
+    "punctuality_pct": 92.47,
+    "reliability_pct": 97.49,
+    "cancelled_pct": 2.2
+  },
+  {
+    "line": "Werribee",
+    "financial_year": "2022-2023",
+    "punctuality_pct": 89.27,
+    "reliability_pct": 98.35,
+    "cancelled_pct": 1.32
+  },
+  {
+    "line": "Werribee",
+    "financial_year": "2023-2024",
+    "punctuality_pct": 90.62,
+    "reliability_pct": 98.29,
+    "cancelled_pct": 1.29
+  },
+  {
+    "line": "Werribee",
+    "financial_year": "2024-2025",
+    "punctuality_pct": 92.79,
+    "reliability_pct": 99.01,
+    "cancelled_pct": 0.7
+  },
+  {
+    "line": "Werribee",
+    "financial_year": "2025-2026",
+    "punctuality_pct": 91.87,
+    "reliability_pct": 99.0,
+    "cancelled_pct": 0.68
+  },
+  {
+    "line": "Williamstown",
+    "financial_year": "2000-2001",
+    "punctuality_pct": 97.99,
+    "reliability_pct": 99.36,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Williamstown",
+    "financial_year": "2001-2002",
+    "punctuality_pct": 98.43,
+    "reliability_pct": 99.62,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Williamstown",
+    "financial_year": "2002-2003",
+    "punctuality_pct": 98.57,
+    "reliability_pct": 99.73,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Williamstown",
+    "financial_year": "2003-2004",
+    "punctuality_pct": 97.72,
+    "reliability_pct": 98.31,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Williamstown",
+    "financial_year": "2004-2005",
+    "punctuality_pct": 96.0,
+    "reliability_pct": 98.55,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Williamstown",
+    "financial_year": "2005-2006",
+    "punctuality_pct": 95.73,
+    "reliability_pct": 99.34,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Williamstown",
+    "financial_year": "2006-2007",
+    "punctuality_pct": 95.08,
+    "reliability_pct": 99.11,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Williamstown",
+    "financial_year": "2007-2008",
+    "punctuality_pct": 93.83,
+    "reliability_pct": 99.04,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Williamstown",
+    "financial_year": "2008-2009",
+    "punctuality_pct": 92.72,
+    "reliability_pct": 98.72,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Williamstown",
+    "financial_year": "2009-2010",
+    "punctuality_pct": 90.72,
+    "reliability_pct": 98.57,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Williamstown",
+    "financial_year": "2010-2011",
+    "punctuality_pct": 91.86,
+    "reliability_pct": 98.55,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Williamstown",
+    "financial_year": "2011-2012",
+    "punctuality_pct": 92.05,
+    "reliability_pct": 98.82,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Williamstown",
+    "financial_year": "2012-2013",
+    "punctuality_pct": 93.06,
+    "reliability_pct": 98.66,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Williamstown",
+    "financial_year": "2013-2014",
+    "punctuality_pct": 93.67,
+    "reliability_pct": 99.19,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Williamstown",
+    "financial_year": "2014-2015",
+    "punctuality_pct": 94.21,
+    "reliability_pct": 99.07,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Williamstown",
+    "financial_year": "2015-2016",
+    "punctuality_pct": 95.06,
+    "reliability_pct": 99.15,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Williamstown",
+    "financial_year": "2016-2017",
+    "punctuality_pct": 94.56,
+    "reliability_pct": 99.01,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Williamstown",
+    "financial_year": "2017-2018",
+    "punctuality_pct": 95.39,
+    "reliability_pct": 99.41,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Williamstown",
+    "financial_year": "2018-2019",
+    "punctuality_pct": 94.67,
+    "reliability_pct": 99.02,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Williamstown",
+    "financial_year": "2019-2020",
+    "punctuality_pct": 93.98,
+    "reliability_pct": 98.81,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Williamstown",
+    "financial_year": "2020-2021",
+    "punctuality_pct": 96.07,
+    "reliability_pct": 99.21,
+    "cancelled_pct": null
+  },
+  {
+    "line": "Williamstown",
+    "financial_year": "2021-2022",
+    "punctuality_pct": 95.31,
+    "reliability_pct": 98.04,
+    "cancelled_pct": 1.9
+  },
+  {
+    "line": "Williamstown",
+    "financial_year": "2022-2023",
+    "punctuality_pct": 93.33,
+    "reliability_pct": 98.63,
+    "cancelled_pct": 1.26
+  },
+  {
+    "line": "Williamstown",
+    "financial_year": "2023-2024",
+    "punctuality_pct": 94.33,
+    "reliability_pct": 98.87,
+    "cancelled_pct": 1.05
+  },
+  {
+    "line": "Williamstown",
+    "financial_year": "2024-2025",
+    "punctuality_pct": 94.99,
+    "reliability_pct": 99.22,
+    "cancelled_pct": 0.7
+  },
+  {
+    "line": "Williamstown",
+    "financial_year": "2025-2026",
+    "punctuality_pct": 94.3,
+    "reliability_pct": 99.3,
+    "cancelled_pct": 0.59
+  }
+]

@@ -1,0 +1,2610 @@
+{
+  "Alamein": {
+    "color": "#152C6B",
+    "seifaScore": 1128.1,
+    "group": "Burnley",
+    "years": [
+      {
+        "fy": "2000-2001",
+        "punctuality": 96.3,
+        "reliability": 99.61,
+        "cancelled": null
+      },
+      {
+        "fy": "2001-2002",
+        "punctuality": 96.73,
+        "reliability": 99.74,
+        "cancelled": null
+      },
+      {
+        "fy": "2002-2003",
+        "punctuality": 96.58,
+        "reliability": 99.53,
+        "cancelled": null
+      },
+      {
+        "fy": "2003-2004",
+        "punctuality": 95.84,
+        "reliability": 99.22,
+        "cancelled": null
+      },
+      {
+        "fy": "2004-2005",
+        "punctuality": 94.29,
+        "reliability": 99.13,
+        "cancelled": null
+      },
+      {
+        "fy": "2005-2006",
+        "punctuality": 93.23,
+        "reliability": 98.86,
+        "cancelled": null
+      },
+      {
+        "fy": "2006-2007",
+        "punctuality": 93.16,
+        "reliability": 98.92,
+        "cancelled": null
+      },
+      {
+        "fy": "2007-2008",
+        "punctuality": 93.47,
+        "reliability": 98.74,
+        "cancelled": null
+      },
+      {
+        "fy": "2008-2009",
+        "punctuality": 93.6,
+        "reliability": 98.94,
+        "cancelled": null
+      },
+      {
+        "fy": "2009-2010",
+        "punctuality": 91.52,
+        "reliability": 99.12,
+        "cancelled": null
+      },
+      {
+        "fy": "2010-2011",
+        "punctuality": 91.29,
+        "reliability": 99.04,
+        "cancelled": null
+      },
+      {
+        "fy": "2011-2012",
+        "punctuality": 90.38,
+        "reliability": 98.92,
+        "cancelled": null
+      },
+      {
+        "fy": "2012-2013",
+        "punctuality": 93.72,
+        "reliability": 98.73,
+        "cancelled": null
+      },
+      {
+        "fy": "2013-2014",
+        "punctuality": 95.98,
+        "reliability": 99.25,
+        "cancelled": null
+      },
+      {
+        "fy": "2014-2015",
+        "punctuality": 94.93,
+        "reliability": 99.31,
+        "cancelled": null
+      },
+      {
+        "fy": "2015-2016",
+        "punctuality": 93.85,
+        "reliability": 99.23,
+        "cancelled": null
+      },
+      {
+        "fy": "2016-2017",
+        "punctuality": 93.24,
+        "reliability": 99.02,
+        "cancelled": null
+      },
+      {
+        "fy": "2017-2018",
+        "punctuality": 93.04,
+        "reliability": 99.19,
+        "cancelled": null
+      },
+      {
+        "fy": "2018-2019",
+        "punctuality": 93.16,
+        "reliability": 99.03,
+        "cancelled": null
+      },
+      {
+        "fy": "2019-2020",
+        "punctuality": 94.4,
+        "reliability": 99.11,
+        "cancelled": null
+      },
+      {
+        "fy": "2020-2021",
+        "punctuality": 96.58,
+        "reliability": 99.3,
+        "cancelled": null
+      },
+      {
+        "fy": "2021-2022",
+        "punctuality": 94.52,
+        "reliability": 98.76,
+        "cancelled": 1.11
+      },
+      {
+        "fy": "2022-2023",
+        "punctuality": 93.1,
+        "reliability": 99.07,
+        "cancelled": 0.8
+      },
+      {
+        "fy": "2023-2024",
+        "punctuality": 93.64,
+        "reliability": 99.35,
+        "cancelled": 0.52
+      },
+      {
+        "fy": "2024-2025",
+        "punctuality": 94.96,
+        "reliability": 99.5,
+        "cancelled": 0.41
+      },
+      {
+        "fy": "2025-2026",
+        "punctuality": 95.45,
+        "reliability": 99.37,
+        "cancelled": 0.52
+      }
+    ]
+  },
+  "Belgrave": {
+    "color": "#152C6B",
+    "seifaScore": 1074.6,
+    "group": "Burnley",
+    "years": [
+      {
+        "fy": "2000-2001",
+        "punctuality": 94.94,
+        "reliability": 99.19,
+        "cancelled": null
+      },
+      {
+        "fy": "2001-2002",
+        "punctuality": 95.04,
+        "reliability": 99.63,
+        "cancelled": null
+      },
+      {
+        "fy": "2002-2003",
+        "punctuality": 93.95,
+        "reliability": 99.53,
+        "cancelled": null
+      },
+      {
+        "fy": "2003-2004",
+        "punctuality": 93.26,
+        "reliability": 99.22,
+        "cancelled": null
+      },
+      {
+        "fy": "2004-2005",
+        "punctuality": 91.71,
+        "reliability": 99.0,
+        "cancelled": null
+      },
+      {
+        "fy": "2005-2006",
+        "punctuality": 89.49,
+        "reliability": 99.0,
+        "cancelled": null
+      },
+      {
+        "fy": "2006-2007",
+        "punctuality": 90.05,
+        "reliability": 99.1,
+        "cancelled": null
+      },
+      {
+        "fy": "2007-2008",
+        "punctuality": 89.46,
+        "reliability": 98.86,
+        "cancelled": null
+      },
+      {
+        "fy": "2008-2009",
+        "punctuality": 89.12,
+        "reliability": 98.81,
+        "cancelled": null
+      },
+      {
+        "fy": "2009-2010",
+        "punctuality": 86.85,
+        "reliability": 99.19,
+        "cancelled": null
+      },
+      {
+        "fy": "2010-2011",
+        "punctuality": 87.36,
+        "reliability": 98.94,
+        "cancelled": null
+      },
+      {
+        "fy": "2011-2012",
+        "punctuality": 87.04,
+        "reliability": 98.9,
+        "cancelled": null
+      },
+      {
+        "fy": "2012-2013",
+        "punctuality": 90.2,
+        "reliability": 98.51,
+        "cancelled": null
+      },
+      {
+        "fy": "2013-2014",
+        "punctuality": 93.04,
+        "reliability": 99.02,
+        "cancelled": null
+      },
+      {
+        "fy": "2014-2015",
+        "punctuality": 90.69,
+        "reliability": 99.01,
+        "cancelled": null
+      },
+      {
+        "fy": "2015-2016",
+        "punctuality": 89.96,
+        "reliability": 98.88,
+        "cancelled": null
+      },
+      {
+        "fy": "2016-2017",
+        "punctuality": 89.82,
+        "reliability": 98.69,
+        "cancelled": null
+      },
+      {
+        "fy": "2017-2018",
+        "punctuality": 90.61,
+        "reliability": 99.02,
+        "cancelled": null
+      },
+      {
+        "fy": "2018-2019",
+        "punctuality": 88.56,
+        "reliability": 98.78,
+        "cancelled": null
+      },
+      {
+        "fy": "2019-2020",
+        "punctuality": 92.0,
+        "reliability": 99.03,
+        "cancelled": null
+      },
+      {
+        "fy": "2020-2021",
+        "punctuality": 94.75,
+        "reliability": 99.27,
+        "cancelled": null
+      },
+      {
+        "fy": "2021-2022",
+        "punctuality": 91.55,
+        "reliability": 98.55,
+        "cancelled": 1.06
+      },
+      {
+        "fy": "2022-2023",
+        "punctuality": 91.31,
+        "reliability": 98.92,
+        "cancelled": 0.72
+      },
+      {
+        "fy": "2023-2024",
+        "punctuality": 91.52,
+        "reliability": 99.13,
+        "cancelled": 0.42
+      },
+      {
+        "fy": "2024-2025",
+        "punctuality": 91.76,
+        "reliability": 98.75,
+        "cancelled": 0.54
+      },
+      {
+        "fy": "2025-2026",
+        "punctuality": 92.13,
+        "reliability": 99.22,
+        "cancelled": 0.31
+      }
+    ]
+  },
+  "Craigieburn": {
+    "color": "#FFBE00",
+    "seifaScore": 1050.8,
+    "group": "Northern",
+    "years": [
+      {
+        "fy": "2000-2001",
+        "punctuality": 96.19,
+        "reliability": 99.42,
+        "cancelled": null
+      },
+      {
+        "fy": "2001-2002",
+        "punctuality": 96.99,
+        "reliability": 99.48,
+        "cancelled": null
+      },
+      {
+        "fy": "2002-2003",
+        "punctuality": 97.43,
+        "reliability": 99.56,
+        "cancelled": null
+      },
+      {
+        "fy": "2003-2004",
+        "punctuality": 96.15,
+        "reliability": 98.56,
+        "cancelled": null
+      },
+      {
+        "fy": "2004-2005",
+        "punctuality": 93.84,
+        "reliability": 98.35,
+        "cancelled": null
+      },
+      {
+        "fy": "2005-2006",
+        "punctuality": 91.18,
+        "reliability": 99.05,
+        "cancelled": null
+      },
+      {
+        "fy": "2006-2007",
+        "punctuality": 91.21,
+        "reliability": 98.84,
+        "cancelled": null
+      },
+      {
+        "fy": "2007-2008",
+        "punctuality": 86.49,
+        "reliability": 98.56,
+        "cancelled": null
+      },
+      {
+        "fy": "2008-2009",
+        "punctuality": 86.83,
+        "reliability": 98.62,
+        "cancelled": null
+      },
+      {
+        "fy": "2009-2010",
+        "punctuality": 83.99,
+        "reliability": 98.96,
+        "cancelled": null
+      },
+      {
+        "fy": "2010-2011",
+        "punctuality": 85.08,
+        "reliability": 98.98,
+        "cancelled": null
+      },
+      {
+        "fy": "2011-2012",
+        "punctuality": 88.02,
+        "reliability": 98.54,
+        "cancelled": null
+      },
+      {
+        "fy": "2012-2013",
+        "punctuality": 89.75,
+        "reliability": 97.82,
+        "cancelled": null
+      },
+      {
+        "fy": "2013-2014",
+        "punctuality": 91.71,
+        "reliability": 98.65,
+        "cancelled": null
+      },
+      {
+        "fy": "2014-2015",
+        "punctuality": 92.36,
+        "reliability": 98.54,
+        "cancelled": null
+      },
+      {
+        "fy": "2015-2016",
+        "punctuality": 92.02,
+        "reliability": 98.18,
+        "cancelled": null
+      },
+      {
+        "fy": "2016-2017",
+        "punctuality": 91.19,
+        "reliability": 98.72,
+        "cancelled": null
+      },
+      {
+        "fy": "2017-2018",
+        "punctuality": 88.24,
+        "reliability": 98.53,
+        "cancelled": null
+      },
+      {
+        "fy": "2018-2019",
+        "punctuality": 88.89,
+        "reliability": 98.35,
+        "cancelled": null
+      },
+      {
+        "fy": "2019-2020",
+        "punctuality": 90.42,
+        "reliability": 98.3,
+        "cancelled": null
+      },
+      {
+        "fy": "2020-2021",
+        "punctuality": 94.17,
+        "reliability": 98.74,
+        "cancelled": null
+      },
+      {
+        "fy": "2021-2022",
+        "punctuality": 91.14,
+        "reliability": 97.35,
+        "cancelled": 2.48
+      },
+      {
+        "fy": "2022-2023",
+        "punctuality": 88.44,
+        "reliability": 98.47,
+        "cancelled": 1.32
+      },
+      {
+        "fy": "2023-2024",
+        "punctuality": 87.64,
+        "reliability": 98.48,
+        "cancelled": 1.27
+      },
+      {
+        "fy": "2024-2025",
+        "punctuality": 87.95,
+        "reliability": 98.52,
+        "cancelled": 1.21
+      },
+      {
+        "fy": "2025-2026",
+        "punctuality": 90.25,
+        "reliability": 98.75,
+        "cancelled": 1.02
+      }
+    ]
+  },
+  "Cranbourne": {
+    "color": "#34ACE1",
+    "seifaScore": 992.9,
+    "group": "Caulfield",
+    "years": [
+      {
+        "fy": "2000-2001",
+        "punctuality": 92.68,
+        "reliability": 98.99,
+        "cancelled": null
+      },
+      {
+        "fy": "2001-2002",
+        "punctuality": 93.85,
+        "reliability": 98.76,
+        "cancelled": null
+      },
+      {
+        "fy": "2002-2003",
+        "punctuality": 95.16,
+        "reliability": 99.4,
+        "cancelled": null
+      },
+      {
+        "fy": "2003-2004",
+        "punctuality": 90.31,
+        "reliability": 98.21,
+        "cancelled": null
+      },
+      {
+        "fy": "2004-2005",
+        "punctuality": 80.89,
+        "reliability": 98.35,
+        "cancelled": null
+      },
+      {
+        "fy": "2005-2006",
+        "punctuality": 81.77,
+        "reliability": 99.06,
+        "cancelled": null
+      },
+      {
+        "fy": "2006-2007",
+        "punctuality": 82.3,
+        "reliability": 98.99,
+        "cancelled": null
+      },
+      {
+        "fy": "2007-2008",
+        "punctuality": 81.44,
+        "reliability": 98.9,
+        "cancelled": null
+      },
+      {
+        "fy": "2008-2009",
+        "punctuality": 82.91,
+        "reliability": 98.34,
+        "cancelled": null
+      },
+      {
+        "fy": "2009-2010",
+        "punctuality": 81.99,
+        "reliability": 99.16,
+        "cancelled": null
+      },
+      {
+        "fy": "2010-2011",
+        "punctuality": 79.85,
+        "reliability": 98.84,
+        "cancelled": null
+      },
+      {
+        "fy": "2011-2012",
+        "punctuality": 87.5,
+        "reliability": 98.15,
+        "cancelled": null
+      },
+      {
+        "fy": "2012-2013",
+        "punctuality": 88.41,
+        "reliability": 97.96,
+        "cancelled": null
+      },
+      {
+        "fy": "2013-2014",
+        "punctuality": 89.38,
+        "reliability": 98.63,
+        "cancelled": null
+      },
+      {
+        "fy": "2014-2015",
+        "punctuality": 89.98,
+        "reliability": 98.11,
+        "cancelled": null
+      },
+      {
+        "fy": "2015-2016",
+        "punctuality": 88.08,
+        "reliability": 97.91,
+        "cancelled": null
+      },
+      {
+        "fy": "2016-2017",
+        "punctuality": 86.44,
+        "reliability": 98.39,
+        "cancelled": null
+      },
+      {
+        "fy": "2017-2018",
+        "punctuality": 89.2,
+        "reliability": 97.91,
+        "cancelled": null
+      },
+      {
+        "fy": "2018-2019",
+        "punctuality": 85.41,
+        "reliability": 97.81,
+        "cancelled": null
+      },
+      {
+        "fy": "2019-2020",
+        "punctuality": 88.02,
+        "reliability": 98.17,
+        "cancelled": null
+      },
+      {
+        "fy": "2020-2021",
+        "punctuality": 92.48,
+        "reliability": 98.78,
+        "cancelled": null
+      },
+      {
+        "fy": "2021-2022",
+        "punctuality": 93.65,
+        "reliability": 96.92,
+        "cancelled": 2.66
+      },
+      {
+        "fy": "2022-2023",
+        "punctuality": 93.86,
+        "reliability": 98.37,
+        "cancelled": 1.33
+      },
+      {
+        "fy": "2023-2024",
+        "punctuality": 94.19,
+        "reliability": 98.67,
+        "cancelled": 1.07
+      },
+      {
+        "fy": "2024-2025",
+        "punctuality": 94.6,
+        "reliability": 98.73,
+        "cancelled": 0.96
+      },
+      {
+        "fy": "2025-2026",
+        "punctuality": 96.28,
+        "reliability": 99.26,
+        "cancelled": 0.53
+      }
+    ]
+  },
+  "Frankston": {
+    "color": "#028430",
+    "seifaScore": 1082.7,
+    "group": "Caulfield",
+    "years": [
+      {
+        "fy": "2000-2001",
+        "punctuality": 93.29,
+        "reliability": 98.83,
+        "cancelled": null
+      },
+      {
+        "fy": "2001-2002",
+        "punctuality": 94.0,
+        "reliability": 98.78,
+        "cancelled": null
+      },
+      {
+        "fy": "2002-2003",
+        "punctuality": 94.45,
+        "reliability": 99.11,
+        "cancelled": null
+      },
+      {
+        "fy": "2003-2004",
+        "punctuality": 89.96,
+        "reliability": 97.5,
+        "cancelled": null
+      },
+      {
+        "fy": "2004-2005",
+        "punctuality": 86.98,
+        "reliability": 97.77,
+        "cancelled": null
+      },
+      {
+        "fy": "2005-2006",
+        "punctuality": 84.08,
+        "reliability": 98.74,
+        "cancelled": null
+      },
+      {
+        "fy": "2006-2007",
+        "punctuality": 81.89,
+        "reliability": 98.41,
+        "cancelled": null
+      },
+      {
+        "fy": "2007-2008",
+        "punctuality": 79.4,
+        "reliability": 98.6,
+        "cancelled": null
+      },
+      {
+        "fy": "2008-2009",
+        "punctuality": 77.66,
+        "reliability": 98.22,
+        "cancelled": null
+      },
+      {
+        "fy": "2009-2010",
+        "punctuality": 73.3,
+        "reliability": 98.65,
+        "cancelled": null
+      },
+      {
+        "fy": "2010-2011",
+        "punctuality": 71.04,
+        "reliability": 98.28,
+        "cancelled": null
+      },
+      {
+        "fy": "2011-2012",
+        "punctuality": 88.48,
+        "reliability": 97.88,
+        "cancelled": null
+      },
+      {
+        "fy": "2012-2013",
+        "punctuality": 91.13,
+        "reliability": 97.81,
+        "cancelled": null
+      },
+      {
+        "fy": "2013-2014",
+        "punctuality": 90.52,
+        "reliability": 98.3,
+        "cancelled": null
+      },
+      {
+        "fy": "2014-2015",
+        "punctuality": 90.13,
+        "reliability": 98.24,
+        "cancelled": null
+      },
+      {
+        "fy": "2015-2016",
+        "punctuality": 90.28,
+        "reliability": 98.17,
+        "cancelled": null
+      },
+      {
+        "fy": "2016-2017",
+        "punctuality": 89.51,
+        "reliability": 98.29,
+        "cancelled": null
+      },
+      {
+        "fy": "2017-2018",
+        "punctuality": 90.15,
+        "reliability": 98.6,
+        "cancelled": null
+      },
+      {
+        "fy": "2018-2019",
+        "punctuality": 89.23,
+        "reliability": 97.83,
+        "cancelled": null
+      },
+      {
+        "fy": "2019-2020",
+        "punctuality": 88.57,
+        "reliability": 97.62,
+        "cancelled": null
+      },
+      {
+        "fy": "2020-2021",
+        "punctuality": 93.4,
+        "reliability": 98.13,
+        "cancelled": null
+      },
+      {
+        "fy": "2021-2022",
+        "punctuality": 91.62,
+        "reliability": 97.28,
+        "cancelled": 2.55
+      },
+      {
+        "fy": "2022-2023",
+        "punctuality": 89.62,
+        "reliability": 98.05,
+        "cancelled": 1.67
+      },
+      {
+        "fy": "2023-2024",
+        "punctuality": 93.37,
+        "reliability": 98.4,
+        "cancelled": 1.26
+      },
+      {
+        "fy": "2024-2025",
+        "punctuality": 92.47,
+        "reliability": 98.58,
+        "cancelled": 1.15
+      },
+      {
+        "fy": "2025-2026",
+        "punctuality": 92.6,
+        "reliability": 98.76,
+        "cancelled": 0.98
+      }
+    ]
+  },
+  "Glen Waverley": {
+    "color": "#152C6B",
+    "seifaScore": 1127.9,
+    "group": "Burnley",
+    "years": [
+      {
+        "fy": "2000-2001",
+        "punctuality": 96.04,
+        "reliability": 99.4,
+        "cancelled": null
+      },
+      {
+        "fy": "2001-2002",
+        "punctuality": 96.07,
+        "reliability": 99.61,
+        "cancelled": null
+      },
+      {
+        "fy": "2002-2003",
+        "punctuality": 95.83,
+        "reliability": 99.46,
+        "cancelled": null
+      },
+      {
+        "fy": "2003-2004",
+        "punctuality": 95.54,
+        "reliability": 99.32,
+        "cancelled": null
+      },
+      {
+        "fy": "2004-2005",
+        "punctuality": 94.95,
+        "reliability": 98.78,
+        "cancelled": null
+      },
+      {
+        "fy": "2005-2006",
+        "punctuality": 93.7,
+        "reliability": 98.98,
+        "cancelled": null
+      },
+      {
+        "fy": "2006-2007",
+        "punctuality": 93.24,
+        "reliability": 98.94,
+        "cancelled": null
+      },
+      {
+        "fy": "2007-2008",
+        "punctuality": 92.27,
+        "reliability": 98.83,
+        "cancelled": null
+      },
+      {
+        "fy": "2008-2009",
+        "punctuality": 92.73,
+        "reliability": 98.66,
+        "cancelled": null
+      },
+      {
+        "fy": "2009-2010",
+        "punctuality": 90.94,
+        "reliability": 99.03,
+        "cancelled": null
+      },
+      {
+        "fy": "2010-2011",
+        "punctuality": 93.74,
+        "reliability": 99.25,
+        "cancelled": null
+      },
+      {
+        "fy": "2011-2012",
+        "punctuality": 94.44,
+        "reliability": 98.76,
+        "cancelled": null
+      },
+      {
+        "fy": "2012-2013",
+        "punctuality": 95.53,
+        "reliability": 99.11,
+        "cancelled": null
+      },
+      {
+        "fy": "2013-2014",
+        "punctuality": 96.76,
+        "reliability": 99.52,
+        "cancelled": null
+      },
+      {
+        "fy": "2014-2015",
+        "punctuality": 96.13,
+        "reliability": 99.37,
+        "cancelled": null
+      },
+      {
+        "fy": "2015-2016",
+        "punctuality": 96.2,
+        "reliability": 99.02,
+        "cancelled": null
+      },
+      {
+        "fy": "2016-2017",
+        "punctuality": 96.59,
+        "reliability": 99.36,
+        "cancelled": null
+      },
+      {
+        "fy": "2017-2018",
+        "punctuality": 96.55,
+        "reliability": 99.32,
+        "cancelled": null
+      },
+      {
+        "fy": "2018-2019",
+        "punctuality": 96.01,
+        "reliability": 98.9,
+        "cancelled": null
+      },
+      {
+        "fy": "2019-2020",
+        "punctuality": 96.77,
+        "reliability": 99.13,
+        "cancelled": null
+      },
+      {
+        "fy": "2020-2021",
+        "punctuality": 98.08,
+        "reliability": 99.34,
+        "cancelled": null
+      },
+      {
+        "fy": "2021-2022",
+        "punctuality": 97.15,
+        "reliability": 98.84,
+        "cancelled": 1.04
+      },
+      {
+        "fy": "2022-2023",
+        "punctuality": 96.85,
+        "reliability": 99.33,
+        "cancelled": 0.53
+      },
+      {
+        "fy": "2023-2024",
+        "punctuality": 96.9,
+        "reliability": 99.26,
+        "cancelled": 0.51
+      },
+      {
+        "fy": "2024-2025",
+        "punctuality": 97.03,
+        "reliability": 99.31,
+        "cancelled": 0.51
+      },
+      {
+        "fy": "2025-2026",
+        "punctuality": 97.55,
+        "reliability": 99.38,
+        "cancelled": 0.47
+      }
+    ]
+  },
+  "Hurstbridge": {
+    "color": "#BE1014",
+    "seifaScore": 1101.9,
+    "group": "Clifton Hill",
+    "years": [
+      {
+        "fy": "2000-2001",
+        "punctuality": 93.86,
+        "reliability": 99.42,
+        "cancelled": null
+      },
+      {
+        "fy": "2001-2002",
+        "punctuality": 93.31,
+        "reliability": 99.56,
+        "cancelled": null
+      },
+      {
+        "fy": "2002-2003",
+        "punctuality": 92.85,
+        "reliability": 99.52,
+        "cancelled": null
+      },
+      {
+        "fy": "2003-2004",
+        "punctuality": 91.82,
+        "reliability": 99.36,
+        "cancelled": null
+      },
+      {
+        "fy": "2004-2005",
+        "punctuality": 89.59,
+        "reliability": 99.02,
+        "cancelled": null
+      },
+      {
+        "fy": "2005-2006",
+        "punctuality": 89.32,
+        "reliability": 98.95,
+        "cancelled": null
+      },
+      {
+        "fy": "2006-2007",
+        "punctuality": 87.69,
+        "reliability": 98.56,
+        "cancelled": null
+      },
+      {
+        "fy": "2007-2008",
+        "punctuality": 86.78,
+        "reliability": 98.78,
+        "cancelled": null
+      },
+      {
+        "fy": "2008-2009",
+        "punctuality": 86.74,
+        "reliability": 98.49,
+        "cancelled": null
+      },
+      {
+        "fy": "2009-2010",
+        "punctuality": 86.93,
+        "reliability": 98.65,
+        "cancelled": null
+      },
+      {
+        "fy": "2010-2011",
+        "punctuality": 89.71,
+        "reliability": 98.87,
+        "cancelled": null
+      },
+      {
+        "fy": "2011-2012",
+        "punctuality": 89.78,
+        "reliability": 98.36,
+        "cancelled": null
+      },
+      {
+        "fy": "2012-2013",
+        "punctuality": 95.17,
+        "reliability": 98.81,
+        "cancelled": null
+      },
+      {
+        "fy": "2013-2014",
+        "punctuality": 95.68,
+        "reliability": 99.19,
+        "cancelled": null
+      },
+      {
+        "fy": "2014-2015",
+        "punctuality": 94.18,
+        "reliability": 99.15,
+        "cancelled": null
+      },
+      {
+        "fy": "2015-2016",
+        "punctuality": 93.78,
+        "reliability": 99.03,
+        "cancelled": null
+      },
+      {
+        "fy": "2016-2017",
+        "punctuality": 93.45,
+        "reliability": 99.14,
+        "cancelled": null
+      },
+      {
+        "fy": "2017-2018",
+        "punctuality": 93.47,
+        "reliability": 98.99,
+        "cancelled": null
+      },
+      {
+        "fy": "2018-2019",
+        "punctuality": 92.98,
+        "reliability": 98.75,
+        "cancelled": null
+      },
+      {
+        "fy": "2019-2020",
+        "punctuality": 94.38,
+        "reliability": 98.98,
+        "cancelled": null
+      },
+      {
+        "fy": "2020-2021",
+        "punctuality": 96.01,
+        "reliability": 99.24,
+        "cancelled": null
+      },
+      {
+        "fy": "2021-2022",
+        "punctuality": 94.57,
+        "reliability": 98.84,
+        "cancelled": 0.85
+      },
+      {
+        "fy": "2022-2023",
+        "punctuality": 92.8,
+        "reliability": 98.99,
+        "cancelled": 0.69
+      },
+      {
+        "fy": "2023-2024",
+        "punctuality": 93.09,
+        "reliability": 98.75,
+        "cancelled": 0.85
+      },
+      {
+        "fy": "2024-2025",
+        "punctuality": 94.19,
+        "reliability": 99.03,
+        "cancelled": 0.68
+      },
+      {
+        "fy": "2025-2026",
+        "punctuality": 95.06,
+        "reliability": 97.13,
+        "cancelled": 2.65
+      }
+    ]
+  },
+  "Lilydale": {
+    "color": "#152C6B",
+    "seifaScore": 1095.4,
+    "group": "Burnley",
+    "years": [
+      {
+        "fy": "2000-2001",
+        "punctuality": 95.0,
+        "reliability": 99.01,
+        "cancelled": null
+      },
+      {
+        "fy": "2001-2002",
+        "punctuality": 94.54,
+        "reliability": 99.44,
+        "cancelled": null
+      },
+      {
+        "fy": "2002-2003",
+        "punctuality": 94.13,
+        "reliability": 99.16,
+        "cancelled": null
+      },
+      {
+        "fy": "2003-2004",
+        "punctuality": 93.4,
+        "reliability": 98.51,
+        "cancelled": null
+      },
+      {
+        "fy": "2004-2005",
+        "punctuality": 92.05,
+        "reliability": 98.2,
+        "cancelled": null
+      },
+      {
+        "fy": "2005-2006",
+        "punctuality": 90.08,
+        "reliability": 98.49,
+        "cancelled": null
+      },
+      {
+        "fy": "2006-2007",
+        "punctuality": 90.12,
+        "reliability": 97.98,
+        "cancelled": null
+      },
+      {
+        "fy": "2007-2008",
+        "punctuality": 89.82,
+        "reliability": 98.08,
+        "cancelled": null
+      },
+      {
+        "fy": "2008-2009",
+        "punctuality": 90.26,
+        "reliability": 97.89,
+        "cancelled": null
+      },
+      {
+        "fy": "2009-2010",
+        "punctuality": 86.84,
+        "reliability": 98.32,
+        "cancelled": null
+      },
+      {
+        "fy": "2010-2011",
+        "punctuality": 88.78,
+        "reliability": 98.24,
+        "cancelled": null
+      },
+      {
+        "fy": "2011-2012",
+        "punctuality": 88.9,
+        "reliability": 98.13,
+        "cancelled": null
+      },
+      {
+        "fy": "2012-2013",
+        "punctuality": 91.28,
+        "reliability": 97.64,
+        "cancelled": null
+      },
+      {
+        "fy": "2013-2014",
+        "punctuality": 93.72,
+        "reliability": 99.03,
+        "cancelled": null
+      },
+      {
+        "fy": "2014-2015",
+        "punctuality": 91.99,
+        "reliability": 98.52,
+        "cancelled": null
+      },
+      {
+        "fy": "2015-2016",
+        "punctuality": 91.01,
+        "reliability": 98.31,
+        "cancelled": null
+      },
+      {
+        "fy": "2016-2017",
+        "punctuality": 90.91,
+        "reliability": 98.46,
+        "cancelled": null
+      },
+      {
+        "fy": "2017-2018",
+        "punctuality": 91.75,
+        "reliability": 98.33,
+        "cancelled": null
+      },
+      {
+        "fy": "2018-2019",
+        "punctuality": 90.12,
+        "reliability": 98.06,
+        "cancelled": null
+      },
+      {
+        "fy": "2019-2020",
+        "punctuality": 92.77,
+        "reliability": 98.28,
+        "cancelled": null
+      },
+      {
+        "fy": "2020-2021",
+        "punctuality": 95.76,
+        "reliability": 98.7,
+        "cancelled": null
+      },
+      {
+        "fy": "2021-2022",
+        "punctuality": 93.85,
+        "reliability": 98.41,
+        "cancelled": 1.29
+      },
+      {
+        "fy": "2022-2023",
+        "punctuality": 93.39,
+        "reliability": 98.99,
+        "cancelled": 0.76
+      },
+      {
+        "fy": "2023-2024",
+        "punctuality": 94.4,
+        "reliability": 98.93,
+        "cancelled": 0.71
+      },
+      {
+        "fy": "2024-2025",
+        "punctuality": 94.7,
+        "reliability": 98.88,
+        "cancelled": 0.71
+      },
+      {
+        "fy": "2025-2026",
+        "punctuality": 95.12,
+        "reliability": 99.19,
+        "cancelled": 0.49
+      }
+    ]
+  },
+  "Mernda": {
+    "color": "#BE1014",
+    "seifaScore": 1039.8,
+    "group": "Clifton Hill",
+    "years": [
+      {
+        "fy": "2000-2001",
+        "punctuality": 95.04,
+        "reliability": 99.54,
+        "cancelled": null
+      },
+      {
+        "fy": "2001-2002",
+        "punctuality": 95.15,
+        "reliability": 99.61,
+        "cancelled": null
+      },
+      {
+        "fy": "2002-2003",
+        "punctuality": 94.76,
+        "reliability": 99.64,
+        "cancelled": null
+      },
+      {
+        "fy": "2003-2004",
+        "punctuality": 94.32,
+        "reliability": 99.43,
+        "cancelled": null
+      },
+      {
+        "fy": "2004-2005",
+        "punctuality": 93.69,
+        "reliability": 99.23,
+        "cancelled": null
+      },
+      {
+        "fy": "2005-2006",
+        "punctuality": 92.85,
+        "reliability": 99.07,
+        "cancelled": null
+      },
+      {
+        "fy": "2006-2007",
+        "punctuality": 92.21,
+        "reliability": 98.81,
+        "cancelled": null
+      },
+      {
+        "fy": "2007-2008",
+        "punctuality": 91.78,
+        "reliability": 98.93,
+        "cancelled": null
+      },
+      {
+        "fy": "2008-2009",
+        "punctuality": 91.34,
+        "reliability": 98.69,
+        "cancelled": null
+      },
+      {
+        "fy": "2009-2010",
+        "punctuality": 90.18,
+        "reliability": 99.25,
+        "cancelled": null
+      },
+      {
+        "fy": "2010-2011",
+        "punctuality": 91.67,
+        "reliability": 99.23,
+        "cancelled": null
+      },
+      {
+        "fy": "2011-2012",
+        "punctuality": 92.72,
+        "reliability": 98.93,
+        "cancelled": null
+      },
+      {
+        "fy": "2012-2013",
+        "punctuality": 96.26,
+        "reliability": 99.15,
+        "cancelled": null
+      },
+      {
+        "fy": "2013-2014",
+        "punctuality": 96.63,
+        "reliability": 99.37,
+        "cancelled": null
+      },
+      {
+        "fy": "2014-2015",
+        "punctuality": 95.13,
+        "reliability": 99.47,
+        "cancelled": null
+      },
+      {
+        "fy": "2015-2016",
+        "punctuality": 95.05,
+        "reliability": 99.16,
+        "cancelled": null
+      },
+      {
+        "fy": "2016-2017",
+        "punctuality": 94.6,
+        "reliability": 99.27,
+        "cancelled": null
+      },
+      {
+        "fy": "2017-2018",
+        "punctuality": 93.84,
+        "reliability": 99.07,
+        "cancelled": null
+      },
+      {
+        "fy": "2018-2019",
+        "punctuality": 93.24,
+        "reliability": 98.49,
+        "cancelled": null
+      },
+      {
+        "fy": "2019-2020",
+        "punctuality": 94.03,
+        "reliability": 98.73,
+        "cancelled": null
+      },
+      {
+        "fy": "2020-2021",
+        "punctuality": 96.2,
+        "reliability": 99.1,
+        "cancelled": null
+      },
+      {
+        "fy": "2021-2022",
+        "punctuality": 95.79,
+        "reliability": 98.34,
+        "cancelled": 1.37
+      },
+      {
+        "fy": "2022-2023",
+        "punctuality": 94.58,
+        "reliability": 99.09,
+        "cancelled": 0.67
+      },
+      {
+        "fy": "2023-2024",
+        "punctuality": 94.3,
+        "reliability": 98.83,
+        "cancelled": 0.89
+      },
+      {
+        "fy": "2024-2025",
+        "punctuality": 94.87,
+        "reliability": 98.98,
+        "cancelled": 0.77
+      },
+      {
+        "fy": "2025-2026",
+        "punctuality": 95.76,
+        "reliability": 98.05,
+        "cancelled": 1.15
+      }
+    ]
+  },
+  "Pakenham": {
+    "color": "#34ACE1",
+    "seifaScore": 1023.9,
+    "group": "Caulfield",
+    "years": [
+      {
+        "fy": "2000-2001",
+        "punctuality": 91.84,
+        "reliability": 99.32,
+        "cancelled": null
+      },
+      {
+        "fy": "2001-2002",
+        "punctuality": 93.18,
+        "reliability": 99.23,
+        "cancelled": null
+      },
+      {
+        "fy": "2002-2003",
+        "punctuality": 93.77,
+        "reliability": 99.44,
+        "cancelled": null
+      },
+      {
+        "fy": "2003-2004",
+        "punctuality": 89.05,
+        "reliability": 98.2,
+        "cancelled": null
+      },
+      {
+        "fy": "2004-2005",
+        "punctuality": 83.02,
+        "reliability": 98.28,
+        "cancelled": null
+      },
+      {
+        "fy": "2005-2006",
+        "punctuality": 83.58,
+        "reliability": 99.2,
+        "cancelled": null
+      },
+      {
+        "fy": "2006-2007",
+        "punctuality": 78.21,
+        "reliability": 98.51,
+        "cancelled": null
+      },
+      {
+        "fy": "2007-2008",
+        "punctuality": 76.81,
+        "reliability": 98.62,
+        "cancelled": null
+      },
+      {
+        "fy": "2008-2009",
+        "punctuality": 76.5,
+        "reliability": 98.22,
+        "cancelled": null
+      },
+      {
+        "fy": "2009-2010",
+        "punctuality": 73.74,
+        "reliability": 98.77,
+        "cancelled": null
+      },
+      {
+        "fy": "2010-2011",
+        "punctuality": 73.77,
+        "reliability": 98.45,
+        "cancelled": null
+      },
+      {
+        "fy": "2011-2012",
+        "punctuality": 85.33,
+        "reliability": 98.08,
+        "cancelled": null
+      },
+      {
+        "fy": "2012-2013",
+        "punctuality": 88.57,
+        "reliability": 98.16,
+        "cancelled": null
+      },
+      {
+        "fy": "2013-2014",
+        "punctuality": 88.87,
+        "reliability": 98.64,
+        "cancelled": null
+      },
+      {
+        "fy": "2014-2015",
+        "punctuality": 89.29,
+        "reliability": 98.31,
+        "cancelled": null
+      },
+      {
+        "fy": "2015-2016",
+        "punctuality": 87.85,
+        "reliability": 98.22,
+        "cancelled": null
+      },
+      {
+        "fy": "2016-2017",
+        "punctuality": 86.16,
+        "reliability": 98.5,
+        "cancelled": null
+      },
+      {
+        "fy": "2017-2018",
+        "punctuality": 87.55,
+        "reliability": 98.39,
+        "cancelled": null
+      },
+      {
+        "fy": "2018-2019",
+        "punctuality": 86.05,
+        "reliability": 97.69,
+        "cancelled": null
+      },
+      {
+        "fy": "2019-2020",
+        "punctuality": 88.99,
+        "reliability": 97.86,
+        "cancelled": null
+      },
+      {
+        "fy": "2020-2021",
+        "punctuality": 93.33,
+        "reliability": 98.46,
+        "cancelled": null
+      },
+      {
+        "fy": "2021-2022",
+        "punctuality": 92.58,
+        "reliability": 95.4,
+        "cancelled": 3.88
+      },
+      {
+        "fy": "2022-2023",
+        "punctuality": 92.21,
+        "reliability": 97.27,
+        "cancelled": 2.38
+      },
+      {
+        "fy": "2023-2024",
+        "punctuality": 92.93,
+        "reliability": 98.24,
+        "cancelled": 1.41
+      },
+      {
+        "fy": "2024-2025",
+        "punctuality": 93.93,
+        "reliability": 98.21,
+        "cancelled": 1.44
+      },
+      {
+        "fy": "2025-2026",
+        "punctuality": 95.85,
+        "reliability": 98.58,
+        "cancelled": 1.12
+      }
+    ]
+  },
+  "Sandringham": {
+    "color": "#F178AF",
+    "seifaScore": 1122.3,
+    "group": "Caulfield",
+    "years": [
+      {
+        "fy": "2000-2001",
+        "punctuality": 95.17,
+        "reliability": 98.91,
+        "cancelled": null
+      },
+      {
+        "fy": "2001-2002",
+        "punctuality": 95.55,
+        "reliability": 98.79,
+        "cancelled": null
+      },
+      {
+        "fy": "2002-2003",
+        "punctuality": 96.85,
+        "reliability": 99.27,
+        "cancelled": null
+      },
+      {
+        "fy": "2003-2004",
+        "punctuality": 94.09,
+        "reliability": 97.5,
+        "cancelled": null
+      },
+      {
+        "fy": "2004-2005",
+        "punctuality": 90.63,
+        "reliability": 97.54,
+        "cancelled": null
+      },
+      {
+        "fy": "2005-2006",
+        "punctuality": 90.66,
+        "reliability": 98.48,
+        "cancelled": null
+      },
+      {
+        "fy": "2006-2007",
+        "punctuality": 88.61,
+        "reliability": 98.44,
+        "cancelled": null
+      },
+      {
+        "fy": "2007-2008",
+        "punctuality": 89.95,
+        "reliability": 98.51,
+        "cancelled": null
+      },
+      {
+        "fy": "2008-2009",
+        "punctuality": 90.95,
+        "reliability": 98.13,
+        "cancelled": null
+      },
+      {
+        "fy": "2009-2010",
+        "punctuality": 90.7,
+        "reliability": 99.12,
+        "cancelled": null
+      },
+      {
+        "fy": "2010-2011",
+        "punctuality": 90.6,
+        "reliability": 98.49,
+        "cancelled": null
+      },
+      {
+        "fy": "2011-2012",
+        "punctuality": 95.64,
+        "reliability": 98.71,
+        "cancelled": null
+      },
+      {
+        "fy": "2012-2013",
+        "punctuality": 96.39,
+        "reliability": 98.68,
+        "cancelled": null
+      },
+      {
+        "fy": "2013-2014",
+        "punctuality": 95.77,
+        "reliability": 98.96,
+        "cancelled": null
+      },
+      {
+        "fy": "2014-2015",
+        "punctuality": 95.38,
+        "reliability": 99.03,
+        "cancelled": null
+      },
+      {
+        "fy": "2015-2016",
+        "punctuality": 95.22,
+        "reliability": 98.87,
+        "cancelled": null
+      },
+      {
+        "fy": "2016-2017",
+        "punctuality": 95.44,
+        "reliability": 98.89,
+        "cancelled": null
+      },
+      {
+        "fy": "2017-2018",
+        "punctuality": 95.61,
+        "reliability": 98.86,
+        "cancelled": null
+      },
+      {
+        "fy": "2018-2019",
+        "punctuality": 95.32,
+        "reliability": 98.98,
+        "cancelled": null
+      },
+      {
+        "fy": "2019-2020",
+        "punctuality": 95.04,
+        "reliability": 99.06,
+        "cancelled": null
+      },
+      {
+        "fy": "2020-2021",
+        "punctuality": 97.68,
+        "reliability": 99.29,
+        "cancelled": null
+      },
+      {
+        "fy": "2021-2022",
+        "punctuality": 97.37,
+        "reliability": 98.38,
+        "cancelled": 1.58
+      },
+      {
+        "fy": "2022-2023",
+        "punctuality": 96.17,
+        "reliability": 98.91,
+        "cancelled": 1.02
+      },
+      {
+        "fy": "2023-2024",
+        "punctuality": 96.57,
+        "reliability": 99.12,
+        "cancelled": 0.78
+      },
+      {
+        "fy": "2024-2025",
+        "punctuality": 96.72,
+        "reliability": 98.82,
+        "cancelled": 1.05
+      },
+      {
+        "fy": "2025-2026",
+        "punctuality": 97.39,
+        "reliability": 99.41,
+        "cancelled": 0.54
+      }
+    ]
+  },
+  "Stony Point": {
+    "color": "#028430",
+    "seifaScore": 953.4,
+    "group": "Caulfield",
+    "years": [
+      {
+        "fy": "2000-2001",
+        "punctuality": 96.59,
+        "reliability": 97.68,
+        "cancelled": null
+      },
+      {
+        "fy": "2001-2002",
+        "punctuality": 97.15,
+        "reliability": 99.15,
+        "cancelled": null
+      },
+      {
+        "fy": "2002-2003",
+        "punctuality": 96.29,
+        "reliability": 98.96,
+        "cancelled": null
+      },
+      {
+        "fy": "2003-2004",
+        "punctuality": 96.06,
+        "reliability": 96.74,
+        "cancelled": null
+      },
+      {
+        "fy": "2004-2005",
+        "punctuality": 94.3,
+        "reliability": 95.01,
+        "cancelled": null
+      },
+      {
+        "fy": "2005-2006",
+        "punctuality": 93.65,
+        "reliability": 93.78,
+        "cancelled": null
+      },
+      {
+        "fy": "2006-2007",
+        "punctuality": 94.73,
+        "reliability": 97.54,
+        "cancelled": null
+      },
+      {
+        "fy": "2007-2008",
+        "punctuality": 94.42,
+        "reliability": 96.11,
+        "cancelled": null
+      },
+      {
+        "fy": "2008-2009",
+        "punctuality": 94.97,
+        "reliability": 97.22,
+        "cancelled": null
+      },
+      {
+        "fy": "2009-2010",
+        "punctuality": 95.39,
+        "reliability": 97.2,
+        "cancelled": null
+      },
+      {
+        "fy": "2010-2011",
+        "punctuality": 92.53,
+        "reliability": 97.07,
+        "cancelled": null
+      },
+      {
+        "fy": "2011-2012",
+        "punctuality": 97.06,
+        "reliability": 97.93,
+        "cancelled": null
+      },
+      {
+        "fy": "2012-2013",
+        "punctuality": 97.23,
+        "reliability": 97.5,
+        "cancelled": null
+      },
+      {
+        "fy": "2013-2014",
+        "punctuality": 96.78,
+        "reliability": 97.46,
+        "cancelled": null
+      },
+      {
+        "fy": "2014-2015",
+        "punctuality": 97.15,
+        "reliability": 94.05,
+        "cancelled": null
+      },
+      {
+        "fy": "2015-2016",
+        "punctuality": 95.59,
+        "reliability": 96.77,
+        "cancelled": null
+      },
+      {
+        "fy": "2016-2017",
+        "punctuality": 87.12,
+        "reliability": 97.21,
+        "cancelled": null
+      },
+      {
+        "fy": "2017-2018",
+        "punctuality": 92.19,
+        "reliability": 94.71,
+        "cancelled": null
+      },
+      {
+        "fy": "2018-2019",
+        "punctuality": 91.92,
+        "reliability": 96.91,
+        "cancelled": null
+      },
+      {
+        "fy": "2019-2020",
+        "punctuality": 90.67,
+        "reliability": 94.99,
+        "cancelled": null
+      },
+      {
+        "fy": "2020-2021",
+        "punctuality": 93.17,
+        "reliability": 91.81,
+        "cancelled": null
+      },
+      {
+        "fy": "2021-2022",
+        "punctuality": 85.89,
+        "reliability": 94.56,
+        "cancelled": 5.42
+      },
+      {
+        "fy": "2022-2023",
+        "punctuality": 85.59,
+        "reliability": 94.34,
+        "cancelled": 5.65
+      },
+      {
+        "fy": "2023-2024",
+        "punctuality": 89.2,
+        "reliability": 94.94,
+        "cancelled": 5.04
+      },
+      {
+        "fy": "2024-2025",
+        "punctuality": 89.98,
+        "reliability": 95.13,
+        "cancelled": 4.82
+      },
+      {
+        "fy": "2025-2026",
+        "punctuality": 91.67,
+        "reliability": 94.81,
+        "cancelled": 5.16
+      }
+    ]
+  },
+  "Sunbury": {
+    "color": "#34ACE1",
+    "seifaScore": 1027.2,
+    "group": "Northern",
+    "years": [
+      {
+        "fy": "2000-2001",
+        "punctuality": 96.45,
+        "reliability": 99.6,
+        "cancelled": null
+      },
+      {
+        "fy": "2001-2002",
+        "punctuality": 97.15,
+        "reliability": 99.61,
+        "cancelled": null
+      },
+      {
+        "fy": "2002-2003",
+        "punctuality": 97.28,
+        "reliability": 99.71,
+        "cancelled": null
+      },
+      {
+        "fy": "2003-2004",
+        "punctuality": 95.74,
+        "reliability": 99.24,
+        "cancelled": null
+      },
+      {
+        "fy": "2004-2005",
+        "punctuality": 91.71,
+        "reliability": 99.05,
+        "cancelled": null
+      },
+      {
+        "fy": "2005-2006",
+        "punctuality": 90.3,
+        "reliability": 99.35,
+        "cancelled": null
+      },
+      {
+        "fy": "2006-2007",
+        "punctuality": 87.98,
+        "reliability": 99.24,
+        "cancelled": null
+      },
+      {
+        "fy": "2007-2008",
+        "punctuality": 86.28,
+        "reliability": 99.36,
+        "cancelled": null
+      },
+      {
+        "fy": "2008-2009",
+        "punctuality": 88.33,
+        "reliability": 99.14,
+        "cancelled": null
+      },
+      {
+        "fy": "2009-2010",
+        "punctuality": 85.3,
+        "reliability": 99.47,
+        "cancelled": null
+      },
+      {
+        "fy": "2010-2011",
+        "punctuality": 86.72,
+        "reliability": 99.28,
+        "cancelled": null
+      },
+      {
+        "fy": "2011-2012",
+        "punctuality": 88.04,
+        "reliability": 99.03,
+        "cancelled": null
+      },
+      {
+        "fy": "2012-2013",
+        "punctuality": 88.01,
+        "reliability": 98.55,
+        "cancelled": null
+      },
+      {
+        "fy": "2013-2014",
+        "punctuality": 90.87,
+        "reliability": 98.89,
+        "cancelled": null
+      },
+      {
+        "fy": "2014-2015",
+        "punctuality": 93.21,
+        "reliability": 99.08,
+        "cancelled": null
+      },
+      {
+        "fy": "2015-2016",
+        "punctuality": 92.01,
+        "reliability": 99.0,
+        "cancelled": null
+      },
+      {
+        "fy": "2016-2017",
+        "punctuality": 91.44,
+        "reliability": 99.21,
+        "cancelled": null
+      },
+      {
+        "fy": "2017-2018",
+        "punctuality": 89.58,
+        "reliability": 99.16,
+        "cancelled": null
+      },
+      {
+        "fy": "2018-2019",
+        "punctuality": 90.06,
+        "reliability": 98.79,
+        "cancelled": null
+      },
+      {
+        "fy": "2019-2020",
+        "punctuality": 90.35,
+        "reliability": 98.73,
+        "cancelled": null
+      },
+      {
+        "fy": "2020-2021",
+        "punctuality": 94.25,
+        "reliability": 99.13,
+        "cancelled": null
+      },
+      {
+        "fy": "2021-2022",
+        "punctuality": 91.64,
+        "reliability": 97.74,
+        "cancelled": 2.08
+      },
+      {
+        "fy": "2022-2023",
+        "punctuality": 90.38,
+        "reliability": 98.88,
+        "cancelled": 0.99
+      },
+      {
+        "fy": "2023-2024",
+        "punctuality": 89.28,
+        "reliability": 98.8,
+        "cancelled": 0.97
+      },
+      {
+        "fy": "2024-2025",
+        "punctuality": 89.11,
+        "reliability": 98.82,
+        "cancelled": 0.99
+      },
+      {
+        "fy": "2025-2026",
+        "punctuality": 91.13,
+        "reliability": 98.95,
+        "cancelled": 0.88
+      }
+    ]
+  },
+  "Upfield": {
+    "color": "#FFBE00",
+    "seifaScore": 1064.6,
+    "group": "Northern",
+    "years": [
+      {
+        "fy": "2000-2001",
+        "punctuality": 96.86,
+        "reliability": 99.44,
+        "cancelled": null
+      },
+      {
+        "fy": "2001-2002",
+        "punctuality": 97.26,
+        "reliability": 99.46,
+        "cancelled": null
+      },
+      {
+        "fy": "2002-2003",
+        "punctuality": 97.01,
+        "reliability": 99.62,
+        "cancelled": null
+      },
+      {
+        "fy": "2003-2004",
+        "punctuality": 95.62,
+        "reliability": 99.03,
+        "cancelled": null
+      },
+      {
+        "fy": "2004-2005",
+        "punctuality": 93.78,
+        "reliability": 98.77,
+        "cancelled": null
+      },
+      {
+        "fy": "2005-2006",
+        "punctuality": 90.7,
+        "reliability": 99.21,
+        "cancelled": null
+      },
+      {
+        "fy": "2006-2007",
+        "punctuality": 91.52,
+        "reliability": 99.18,
+        "cancelled": null
+      },
+      {
+        "fy": "2007-2008",
+        "punctuality": 90.33,
+        "reliability": 99.16,
+        "cancelled": null
+      },
+      {
+        "fy": "2008-2009",
+        "punctuality": 90.03,
+        "reliability": 98.63,
+        "cancelled": null
+      },
+      {
+        "fy": "2009-2010",
+        "punctuality": 87.03,
+        "reliability": 99.44,
+        "cancelled": null
+      },
+      {
+        "fy": "2010-2011",
+        "punctuality": 85.26,
+        "reliability": 99.34,
+        "cancelled": null
+      },
+      {
+        "fy": "2011-2012",
+        "punctuality": 87.97,
+        "reliability": 98.91,
+        "cancelled": null
+      },
+      {
+        "fy": "2012-2013",
+        "punctuality": 91.82,
+        "reliability": 98.73,
+        "cancelled": null
+      },
+      {
+        "fy": "2013-2014",
+        "punctuality": 94.17,
+        "reliability": 99.12,
+        "cancelled": null
+      },
+      {
+        "fy": "2014-2015",
+        "punctuality": 94.03,
+        "reliability": 99.23,
+        "cancelled": null
+      },
+      {
+        "fy": "2015-2016",
+        "punctuality": 93.97,
+        "reliability": 99.07,
+        "cancelled": null
+      },
+      {
+        "fy": "2016-2017",
+        "punctuality": 92.91,
+        "reliability": 99.06,
+        "cancelled": null
+      },
+      {
+        "fy": "2017-2018",
+        "punctuality": 91.81,
+        "reliability": 98.95,
+        "cancelled": null
+      },
+      {
+        "fy": "2018-2019",
+        "punctuality": 92.9,
+        "reliability": 98.86,
+        "cancelled": null
+      },
+      {
+        "fy": "2019-2020",
+        "punctuality": 93.37,
+        "reliability": 99.04,
+        "cancelled": null
+      },
+      {
+        "fy": "2020-2021",
+        "punctuality": 95.86,
+        "reliability": 99.33,
+        "cancelled": null
+      },
+      {
+        "fy": "2021-2022",
+        "punctuality": 94.66,
+        "reliability": 98.66,
+        "cancelled": 1.23
+      },
+      {
+        "fy": "2022-2023",
+        "punctuality": 92.86,
+        "reliability": 98.97,
+        "cancelled": 0.84
+      },
+      {
+        "fy": "2023-2024",
+        "punctuality": 92.74,
+        "reliability": 99.07,
+        "cancelled": 0.61
+      },
+      {
+        "fy": "2024-2025",
+        "punctuality": 92.91,
+        "reliability": 99.08,
+        "cancelled": 0.53
+      },
+      {
+        "fy": "2025-2026",
+        "punctuality": 94.42,
+        "reliability": 99.21,
+        "cancelled": 0.43
+      }
+    ]
+  },
+  "Werribee": {
+    "color": "#F178AF",
+    "seifaScore": 1053.4,
+    "group": "Cross City",
+    "years": [
+      {
+        "fy": "2000-2001",
+        "punctuality": 95.23,
+        "reliability": 99.4,
+        "cancelled": null
+      },
+      {
+        "fy": "2001-2002",
+        "punctuality": 96.68,
+        "reliability": 99.48,
+        "cancelled": null
+      },
+      {
+        "fy": "2002-2003",
+        "punctuality": 96.57,
+        "reliability": 99.6,
+        "cancelled": null
+      },
+      {
+        "fy": "2003-2004",
+        "punctuality": 95.81,
+        "reliability": 98.78,
+        "cancelled": null
+      },
+      {
+        "fy": "2004-2005",
+        "punctuality": 93.12,
+        "reliability": 98.47,
+        "cancelled": null
+      },
+      {
+        "fy": "2005-2006",
+        "punctuality": 90.78,
+        "reliability": 99.18,
+        "cancelled": null
+      },
+      {
+        "fy": "2006-2007",
+        "punctuality": 89.62,
+        "reliability": 98.92,
+        "cancelled": null
+      },
+      {
+        "fy": "2007-2008",
+        "punctuality": 87.2,
+        "reliability": 98.87,
+        "cancelled": null
+      },
+      {
+        "fy": "2008-2009",
+        "punctuality": 85.94,
+        "reliability": 98.58,
+        "cancelled": null
+      },
+      {
+        "fy": "2009-2010",
+        "punctuality": 78.78,
+        "reliability": 98.22,
+        "cancelled": null
+      },
+      {
+        "fy": "2010-2011",
+        "punctuality": 82.4,
+        "reliability": 98.17,
+        "cancelled": null
+      },
+      {
+        "fy": "2011-2012",
+        "punctuality": 89.38,
+        "reliability": 98.33,
+        "cancelled": null
+      },
+      {
+        "fy": "2012-2013",
+        "punctuality": 90.12,
+        "reliability": 97.97,
+        "cancelled": null
+      },
+      {
+        "fy": "2013-2014",
+        "punctuality": 90.09,
+        "reliability": 98.51,
+        "cancelled": null
+      },
+      {
+        "fy": "2014-2015",
+        "punctuality": 90.16,
+        "reliability": 98.54,
+        "cancelled": null
+      },
+      {
+        "fy": "2015-2016",
+        "punctuality": 92.96,
+        "reliability": 98.62,
+        "cancelled": null
+      },
+      {
+        "fy": "2016-2017",
+        "punctuality": 92.29,
+        "reliability": 98.83,
+        "cancelled": null
+      },
+      {
+        "fy": "2017-2018",
+        "punctuality": 91.48,
+        "reliability": 99.02,
+        "cancelled": null
+      },
+      {
+        "fy": "2018-2019",
+        "punctuality": 90.03,
+        "reliability": 97.88,
+        "cancelled": null
+      },
+      {
+        "fy": "2019-2020",
+        "punctuality": 89.95,
+        "reliability": 98.33,
+        "cancelled": null
+      },
+      {
+        "fy": "2020-2021",
+        "punctuality": 93.78,
+        "reliability": 98.15,
+        "cancelled": null
+      },
+      {
+        "fy": "2021-2022",
+        "punctuality": 92.47,
+        "reliability": 97.49,
+        "cancelled": 2.2
+      },
+      {
+        "fy": "2022-2023",
+        "punctuality": 89.27,
+        "reliability": 98.35,
+        "cancelled": 1.32
+      },
+      {
+        "fy": "2023-2024",
+        "punctuality": 90.62,
+        "reliability": 98.29,
+        "cancelled": 1.29
+      },
+      {
+        "fy": "2024-2025",
+        "punctuality": 92.79,
+        "reliability": 99.01,
+        "cancelled": 0.7
+      },
+      {
+        "fy": "2025-2026",
+        "punctuality": 91.87,
+        "reliability": 99.0,
+        "cancelled": 0.68
+      }
+    ]
+  },
+  "Williamstown": {
+    "color": "#F178AF",
+    "seifaScore": 1107.3,
+    "group": "Cross City",
+    "years": [
+      {
+        "fy": "2000-2001",
+        "punctuality": 97.99,
+        "reliability": 99.36,
+        "cancelled": null
+      },
+      {
+        "fy": "2001-2002",
+        "punctuality": 98.43,
+        "reliability": 99.62,
+        "cancelled": null
+      },
+      {
+        "fy": "2002-2003",
+        "punctuality": 98.57,
+        "reliability": 99.73,
+        "cancelled": null
+      },
+      {
+        "fy": "2003-2004",
+        "punctuality": 97.72,
+        "reliability": 98.31,
+        "cancelled": null
+      },
+      {
+        "fy": "2004-2005",
+        "punctuality": 96.0,
+        "reliability": 98.55,
+        "cancelled": null
+      },
+      {
+        "fy": "2005-2006",
+        "punctuality": 95.73,
+        "reliability": 99.34,
+        "cancelled": null
+      },
+      {
+        "fy": "2006-2007",
+        "punctuality": 95.08,
+        "reliability": 99.11,
+        "cancelled": null
+      },
+      {
+        "fy": "2007-2008",
+        "punctuality": 93.83,
+        "reliability": 99.04,
+        "cancelled": null
+      },
+      {
+        "fy": "2008-2009",
+        "punctuality": 92.72,
+        "reliability": 98.72,
+        "cancelled": null
+      },
+      {
+        "fy": "2009-2010",
+        "punctuality": 90.72,
+        "reliability": 98.57,
+        "cancelled": null
+      },
+      {
+        "fy": "2010-2011",
+        "punctuality": 91.86,
+        "reliability": 98.55,
+        "cancelled": null
+      },
+      {
+        "fy": "2011-2012",
+        "punctuality": 92.05,
+        "reliability": 98.82,
+        "cancelled": null
+      },
+      {
+        "fy": "2012-2013",
+        "punctuality": 93.06,
+        "reliability": 98.66,
+        "cancelled": null
+      },
+      {
+        "fy": "2013-2014",
+        "punctuality": 93.67,
+        "reliability": 99.19,
+        "cancelled": null
+      },
+      {
+        "fy": "2014-2015",
+        "punctuality": 94.21,
+        "reliability": 99.07,
+        "cancelled": null
+      },
+      {
+        "fy": "2015-2016",
+        "punctuality": 95.06,
+        "reliability": 99.15,
+        "cancelled": null
+      },
+      {
+        "fy": "2016-2017",
+        "punctuality": 94.56,
+        "reliability": 99.01,
+        "cancelled": null
+      },
+      {
+        "fy": "2017-2018",
+        "punctuality": 95.39,
+        "reliability": 99.41,
+        "cancelled": null
+      },
+      {
+        "fy": "2018-2019",
+        "punctuality": 94.67,
+        "reliability": 99.02,
+        "cancelled": null
+      },
+      {
+        "fy": "2019-2020",
+        "punctuality": 93.98,
+        "reliability": 98.81,
+        "cancelled": null
+      },
+      {
+        "fy": "2020-2021",
+        "punctuality": 96.07,
+        "reliability": 99.21,
+        "cancelled": null
+      },
+      {
+        "fy": "2021-2022",
+        "punctuality": 95.31,
+        "reliability": 98.04,
+        "cancelled": 1.9
+      },
+      {
+        "fy": "2022-2023",
+        "punctuality": 93.33,
+        "reliability": 98.63,
+        "cancelled": 1.26
+      },
+      {
+        "fy": "2023-2024",
+        "punctuality": 94.33,
+        "reliability": 98.87,
+        "cancelled": 1.05
+      },
+      {
+        "fy": "2024-2025",
+        "punctuality": 94.99,
+        "reliability": 99.22,
+        "cancelled": 0.7
+      },
+      {
+        "fy": "2025-2026",
+        "punctuality": 94.3,
+        "reliability": 99.3,
+        "cancelled": 0.59
+      }
+    ]
+  }
+}

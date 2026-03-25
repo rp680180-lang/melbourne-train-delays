@@ -89,7 +89,7 @@ export default function MethodologyPage() {
                   color: "var(--text-muted)",
                 }}
               >
-                Note: {methodology.dataQualityNotes}
+                Data extracted programmatically from Victorian Government Power BI dashboards via the embedded report API. {methodology.totalDataPoints} data points across {methodology.period}.
               </p>
             </div>
 
@@ -112,7 +112,7 @@ export default function MethodologyPage() {
                 style={{ color: "var(--text-secondary)" }}
               >
                 <a
-                  href={methodology.seifaSource.url}
+                  href="https://www.abs.gov.au/statistics/people/people-and-communities/socio-economic-indexes-areas-seifa-australia/latest-release"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline"
@@ -153,16 +153,15 @@ export default function MethodologyPage() {
                 style={{ color: "var(--text-secondary)" }}
               >
                 <a
-                  href={methodology.stationData.url}
+                  href="http://data.ptv.vic.gov.au/downloads/gtfs.zip"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline"
                   style={{ color: "var(--accent-gold)" }}
                 >
-                  {methodology.stationData.source}
+                  PTV GTFS Static Feed
                 </a>{" "}
-                &mdash; {methodology.stationData.stationCount} stations across{" "}
-                {methodology.stationData.lineCount} metropolitan train lines.
+                &mdash; 225 stations across 16 metropolitan train lines.
               </p>
             </div>
           </div>

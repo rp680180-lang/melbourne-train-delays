@@ -1,29 +1,32 @@
 {
+  "latestPeriod": "FY 2024-2025",
+  "dataRange": "FY 2000-2001 to FY 2025-2026",
+  "totalYears": 26,
+  "lineCount": 16,
+  "overallSpearmanR": 0.5459,
+  "overallSpearmanP": 0.0,
+  "significantYears": 8,
+  "totalAnalyzedYears": 11,
   "correlationDirection": "positive",
   "correlationStrength": "moderate",
-  "spearmanR": 0.356,
-  "spearmanP": 0.1766,
-  "isSignificant": false,
   "bestLine": {
     "name": "Glen Waverley",
-    "punctualityPct": 96.8
+    "punctualityPct": 97.03
   },
   "worstLine": {
     "name": "Craigieburn",
-    "punctualityPct": 89.4
+    "punctualityPct": 87.95
   },
   "wealthiestLine": {
-    "name": "Sandringham",
-    "irsadScore": 1128.7
+    "name": "Alamein",
+    "irsadScore": 1128.1
   },
   "leastWealthyLine": {
-    "name": "Werribee",
-    "irsadScore": 951.0
+    "name": "Cranbourne",
+    "irsadScore": 992.9
   },
-  "networkAvgPunctuality": 93.1,
-  "networkAvgSeifa": 1046.9,
-  "punctualityGap": 7.4,
-  "seifaGap": 177.7,
-  "period": "FY 2022-23",
-  "lineCount": 16
+  "networkAvgPunctuality": 93.5,
+  "networkAvgSeifa": 1072.9,
+  "punctualityGap": 9.1,
+  "seifaGap": 135.2
 }
