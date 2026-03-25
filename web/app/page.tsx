@@ -248,8 +248,73 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Callout */}
+      {/* IRSAD Explainer */}
       <section style={{ background: "var(--bg-secondary)" }}>
+        <div className="max-w-6xl mx-auto px-6 py-16">
+          <div
+            className="p-8 rounded-sm"
+            style={{ border: "1px solid var(--border)", background: "var(--bg-card)" }}
+          >
+            <p
+              className="text-xs uppercase tracking-wider mb-4"
+              style={{ color: "var(--accent-gold)", letterSpacing: "0.15em" }}
+            >
+              How we measure wealth
+            </p>
+            <h3
+              className="text-2xl mb-4"
+              style={{ fontFamily: "var(--font-display)" }}
+            >
+              What is IRSAD?
+            </h3>
+            <p
+              className="text-base leading-relaxed mb-4"
+              style={{ color: "var(--text-secondary)" }}
+            >
+              IRSAD stands for the{" "}
+              <strong style={{ color: "var(--text-primary)" }}>
+                Index of Relative Socio-economic Advantage and Disadvantage
+              </strong>
+              . It&rsquo;s produced by the Australian Bureau of Statistics as part of{" "}
+              <a
+                href="https://www.abs.gov.au/websitedbs/censushome.nsf/home/seifa"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline"
+                style={{ color: "var(--accent-gold)" }}
+              >
+                SEIFA (Socio-Economic Indexes for Areas)
+              </a>
+              , using data from the Census.
+            </p>
+            <p
+              className="text-base leading-relaxed mb-4"
+              style={{ color: "var(--text-secondary)" }}
+            >
+              In plain terms: IRSAD is a single number that summarises how
+              well-off or disadvantaged a suburb is. It combines factors like
+              household income, education levels, employment, occupation types,
+              housing costs, and access to resources. A{" "}
+              <strong style={{ color: "var(--accent-gold)" }}>
+                higher score means a wealthier, more advantaged area
+              </strong>
+              ; a lower score means a more disadvantaged one.
+            </p>
+            <p
+              className="text-base leading-relaxed"
+              style={{ color: "var(--text-secondary)" }}
+            >
+              For each train line, we calculated the median IRSAD score across
+              all suburbs its stations serve (excluding shared CBD stations).
+              This gives a single wealth score per line that we can compare
+              against punctuality.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Callout */}
+      <section style={{ background: "var(--bg-primary)" }}>
         <div className="max-w-6xl mx-auto px-6 py-16">
           <div
             className="p-8 rounded-sm"
