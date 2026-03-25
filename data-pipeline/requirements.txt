@@ -1,0 +1,7 @@
+playwright
+pandas
+geopandas
+scipy
+openpyxl
+requests
+shapely

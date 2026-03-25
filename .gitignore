@@ -1,0 +1,29 @@
+# Python
+data-pipeline/.venv/
+data-pipeline/raw/
+__pycache__/
+*.pyc
+*.pyo
+
+# Node
+web/node_modules/
+web/.next/
+web/out/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Vercel
+.vercel
