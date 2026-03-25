@@ -1,65 +1,280 @@
-import Image from "next/image";
+import Link from "next/link";
+import summary from "@/data/summary.json";
+import lineComparison from "@/data/lineComparison.json";
+
+function StatCard({
+  label,
+  value,
+  detail,
+  delay,
+}: {
+  label: string;
+  value: string;
+  detail: string;
+  delay: number;
+}) {
+  return (
+    <div
+      className="stat-reveal p-6 rounded-sm"
+      style={{
+        background: "var(--bg-card)",
+        border: "1px solid var(--border)",
+        animationDelay: `${delay}ms`,
+      }}
+    >
+      <p
+        className="text-xs uppercase tracking-wider mb-3"
+        style={{ color: "var(--text-muted)", letterSpacing: "0.15em" }}
+      >
+        {label}
+      </p>
+      <p
+        className="text-4xl font-light mb-2"
+        style={{ fontFamily: "var(--font-display)", color: "var(--accent-gold)" }}
+      >
+        {value}
+      </p>
+      <p className="text-sm" style={{ color: "var(--text-secondary)" }}>
+        {detail}
+      </p>
+    </div>
+  );
+}
+
+function MiniBar({
+  line,
+  maxPct,
+}: {
+  line: (typeof lineComparison)[0];
+  maxPct: number;
+}) {
+  const width = ((line.punctualityPct - 85) / (maxPct - 85)) * 100;
+  return (
+    <div className="flex items-center gap-3 py-1.5">
+      <span
+        className="text-xs w-28 text-right shrink-0"
+        style={{ color: "var(--text-secondary)", fontFamily: "var(--font-body)" }}
+      >
+        {line.lineName}
+      </span>
+      <div className="flex-1 h-5 rounded-sm overflow-hidden" style={{ background: "var(--bg-secondary)" }}>
+        <div
+          className="h-full rounded-sm bar-animate"
+          style={{
+            width: `${width}%`,
+            background: `linear-gradient(90deg, ${line.color}88, ${line.color})`,
+          }}
+        />
+      </div>
+      <span
+        className="text-xs w-12 tabular-nums"
+        style={{ color: "var(--text-primary)", fontFamily: "var(--font-body)" }}
+      >
+        {line.punctualityPct}%
+      </span>
+    </div>
+  );
+}
 
 export default function Home() {
+  const maxPct = Math.max(...lineComparison.map((l) => l.punctualityPct));
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
+    <>
+      {/* Hero */}
+      <section className="relative overflow-hidden" style={{ background: "var(--bg-primary)" }}>
+        {/* Geometric background accent */}
+        <div
+          className="absolute top-0 right-0 w-1/2 h-full opacity-5"
+          style={{
+            background:
+              "repeating-linear-gradient(45deg, var(--accent-gold) 0px, var(--accent-gold) 1px, transparent 1px, transparent 40px)",
+          }}
         />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+        <div className="max-w-6xl mx-auto px-6 pt-32 pb-20 relative">
+          <div className="max-w-3xl">
+            <p
+              className="text-xs uppercase tracking-wider mb-6"
+              style={{ color: "var(--accent-gold)", letterSpacing: "0.2em" }}
             >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+              Data Investigation
+            </p>
+            <h1
+              className="text-5xl md:text-7xl leading-[1.05] mb-8"
+              style={{ fontFamily: "var(--font-display)", color: "var(--text-primary)" }}
             >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+              Do wealthier suburbs get{" "}
+              <em style={{ color: "var(--accent-gold)" }}>better trains?</em>
+            </h1>
+            <p
+              className="text-lg leading-relaxed max-w-xl mb-10"
+              style={{ color: "var(--text-secondary)" }}
+            >
+              Melbourne&rsquo;s 16 metro train lines serve suburbs ranging from
+              Australia&rsquo;s most affluent to its most disadvantaged. We
+              analysed punctuality data alongside socioeconomic indicators to see
+              if the service gap is real.
+            </p>
+            <hr className="rule-gold mb-10 max-w-xs" />
+            <p className="text-sm" style={{ color: "var(--text-muted)" }}>
+              Analysis period: {summary.period} &middot; {summary.lineCount}{" "}
+              metro lines &middot; 227 stations
+            </p>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
+      </section>
+
+      {/* Key Stats */}
+      <section style={{ background: "var(--bg-secondary)" }}>
+        <div className="max-w-6xl mx-auto px-6 py-16">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <StatCard
+              label="Punctuality Gap"
+              value={`${summary.punctualityGap}pp`}
+              detail={`${summary.bestLine.name} (${summary.bestLine.punctualityPct}%) vs ${summary.worstLine.name} (${summary.worstLine.punctualityPct}%)`}
+              delay={100}
             />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+            <StatCard
+              label="Wealth Gap (IRSAD)"
+              value={summary.seifaGap.toFixed(0)}
+              detail={`${summary.wealthiestLine.name} (${summary.wealthiestLine.irsadScore}) vs ${summary.leastWealthyLine.name} (${summary.leastWealthyLine.irsadScore})`}
+              delay={250}
+            />
+            <StatCard
+              label="Correlation"
+              value={`\u03C1 = ${summary.spearmanR.toFixed(2)}`}
+              detail={`${summary.correlationStrength} ${summary.correlationDirection} (p = ${summary.spearmanP})`}
+              delay={400}
+            />
+          </div>
         </div>
-      </main>
-    </div>
+      </section>
+
+      {/* Mini chart preview */}
+      <section style={{ background: "var(--bg-primary)" }}>
+        <div className="max-w-6xl mx-auto px-6 py-20">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+            <div>
+              <p
+                className="text-xs uppercase tracking-wider mb-2"
+                style={{ color: "var(--accent-gold)", letterSpacing: "0.15em" }}
+              >
+                Punctuality by Line
+              </p>
+              <h2
+                className="text-3xl mb-8"
+                style={{ fontFamily: "var(--font-display)" }}
+              >
+                Not all lines are created equal
+              </h2>
+              <div className="space-y-0.5">
+                {lineComparison.map((line) => (
+                  <MiniBar key={line.lineName} line={line} maxPct={maxPct} />
+                ))}
+              </div>
+              <p
+                className="text-xs mt-4"
+                style={{ color: "var(--text-muted)" }}
+              >
+                On-time = within 4 min 59 sec of schedule. Target: 92%.
+              </p>
+            </div>
+
+            <div className="flex flex-col justify-center">
+              <h2
+                className="text-3xl mb-6"
+                style={{ fontFamily: "var(--font-display)" }}
+              >
+                The picture is suggestive
+              </h2>
+              <p
+                className="text-base leading-relaxed mb-6"
+                style={{ color: "var(--text-secondary)" }}
+              >
+                Our analysis found a{" "}
+                <strong style={{ color: "var(--text-primary)" }}>
+                  {summary.correlationStrength} {summary.correlationDirection}{" "}
+                  correlation
+                </strong>{" "}
+                between suburb wealth and train punctuality. Lines serving
+                wealthier suburbs tend to run more on time &mdash; but with only
+                16 data points, the result doesn&rsquo;t reach statistical
+                significance.
+              </p>
+              <p
+                className="text-base leading-relaxed mb-8"
+                style={{ color: "var(--text-secondary)" }}
+              >
+                The gap between the best and worst performing lines is{" "}
+                <strong style={{ color: "var(--accent-gold)" }}>
+                  {summary.punctualityGap} percentage points
+                </strong>
+                . That means if you catch the {summary.worstLine.name} line,
+                roughly 1 in 10 of your trains will be significantly late.
+              </p>
+              <div className="flex gap-4">
+                <Link
+                  href="/correlation"
+                  className="inline-flex items-center px-5 py-2.5 text-sm font-medium rounded-sm transition-all duration-200 hover:translate-y-[-1px]"
+                  style={{
+                    background: "var(--accent-gold)",
+                    color: "var(--bg-primary)",
+                  }}
+                >
+                  Explore the correlation
+                  <span className="ml-2">&rarr;</span>
+                </Link>
+                <Link
+                  href="/lines"
+                  className="inline-flex items-center px-5 py-2.5 text-sm rounded-sm transition-all duration-200 hover:translate-y-[-1px]"
+                  style={{
+                    border: "1px solid var(--border)",
+                    color: "var(--text-secondary)",
+                  }}
+                >
+                  View all lines
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Callout */}
+      <section style={{ background: "var(--bg-secondary)" }}>
+        <div className="max-w-6xl mx-auto px-6 py-16">
+          <div
+            className="p-8 rounded-sm"
+            style={{ border: "1px solid var(--border)", background: "var(--bg-card)" }}
+          >
+            <p
+              className="text-xs uppercase tracking-wider mb-4"
+              style={{ color: "var(--accent-copper)", letterSpacing: "0.15em" }}
+            >
+              Important context
+            </p>
+            <p
+              className="text-base leading-relaxed"
+              style={{ color: "var(--text-secondary)" }}
+            >
+              Correlation does not imply causation. Many factors affect train
+              punctuality: line length, infrastructure age, number of level
+              crossings, patronage, and distance from the CBD. Wealthier suburbs
+              also tend to be inner-city with shorter lines. This analysis
+              explores the pattern but doesn&rsquo;t prove that wealth{" "}
+              <em>causes</em> better service.{" "}
+              <Link
+                href="/methodology"
+                className="underline transition-colors"
+                style={{ color: "var(--accent-gold)" }}
+              >
+                Read the methodology
+              </Link>
+              .
+            </p>
+          </div>
+        </div>
+      </section>
+    </>
   );
 }

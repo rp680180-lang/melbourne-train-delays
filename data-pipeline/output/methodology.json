@@ -1,0 +1,51 @@
+{
+  "dataSources": [
+    {
+      "name": "Timeout Melbourne",
+      "url": "https://www.timeout.com/melbourne/news/uh-oh-the-melbourne-train-lines-with-the-most-delays-and-cancellations-have-been-revealed-110323",
+      "date": "2023-11-03",
+      "data_provided": "Line-specific delay percentages for top/bottom performers"
+    },
+    {
+      "name": "PTV Monthly Performance",
+      "url": "https://www.vic.gov.au/public-transport-monthly-performance",
+      "data_provided": "Network-wide monthly punctuality figures"
+    },
+    {
+      "name": "Metro Trains Melbourne",
+      "url": "https://www.metrotrains.com.au/metro-performance/",
+      "data_provided": "Monthly aggregate punctuality since Oct 2018"
+    }
+  ],
+  "period": "FY 2022-23",
+  "punctualityDefinition": "Percentage of trains arriving within 4 min 59 sec of scheduled time",
+  "seifaSource": {
+    "name": "ABS SEIFA 2021",
+    "url": "https://www.abs.gov.au/statistics/people/people-and-communities/socio-economic-indexes-areas-seifa-australia/latest-release",
+    "index": "IRSAD (Index of Relative Socio-economic Advantage and Disadvantage)",
+    "geography": "Suburbs and Localities (SAL)",
+    "year": 2021
+  },
+  "stationData": {
+    "source": "PTV GTFS Static Feed",
+    "url": "http://data.ptv.vic.gov.au/downloads/gtfs.zip",
+    "stationCount": 225,
+    "lineCount": 16
+  },
+  "methodology": {
+    "wealthMetric": "Population-weighted median IRSAD score per line",
+    "stationMapping": "Station coordinates matched to ABS Suburb boundaries",
+    "cbdExclusion": "CBD stations (Flinders St, Southern Cross, etc.) excluded from per-line SEIFA as they are shared",
+    "statisticalTest": "Spearman rank correlation (robust with small n)",
+    "sampleSize": 16
+  },
+  "limitations": [
+    "Small sample size (n=16 train lines) limits statistical power",
+    "Some line performance data is estimated from network averages",
+    "SEIFA scores are from 2021 Census while performance data is from FY 2022-23",
+    "Ecological fallacy: suburb-level wealth applied to line-level analysis",
+    "Confounders not controlled: line length, distance from CBD, infrastructure age",
+    "Single time period analyzed - trends over time not captured"
+  ],
+  "dataQualityNotes": "Lines marked 'estimated_from_network_avg' have values estimated based on network average and relative positioning described in PTV reports. Lines with 'timeout_2023' source have values derived from specific percentages cited in the Timeout article."
+}

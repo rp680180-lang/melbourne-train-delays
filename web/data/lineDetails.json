@@ -1,0 +1,2234 @@
+{
+  "Glen Waverley": [
+    {
+      "stationName": "Heyington",
+      "suburb": "Toorak",
+      "irsadScore": 1149.8,
+      "irsadDecile": 10,
+      "lat": -37.834655,
+      "lng": 145.022647
+    },
+    {
+      "stationName": "Kooyong",
+      "suburb": "Toorak",
+      "irsadScore": 1149.8,
+      "irsadDecile": 10,
+      "lat": -37.839929,
+      "lng": 145.033552
+    },
+    {
+      "stationName": "Gardiner",
+      "suburb": "Glen Iris",
+      "irsadScore": 1144.1,
+      "irsadDecile": 10,
+      "lat": -37.853279,
+      "lng": 145.051655
+    },
+    {
+      "stationName": "Glen Iris",
+      "suburb": "Glen Iris",
+      "irsadScore": 1144.1,
+      "irsadDecile": 10,
+      "lat": -37.859308,
+      "lng": 145.058225
+    },
+    {
+      "stationName": "Burnley",
+      "suburb": "Burnley",
+      "irsadScore": 1139.7,
+      "irsadDecile": 10,
+      "lat": -37.82756,
+      "lng": 145.007555
+    },
+    {
+      "stationName": "Darling",
+      "suburb": "Malvern East",
+      "irsadScore": 1127.9,
+      "irsadDecile": 10,
+      "lat": -37.868957,
+      "lng": 145.062951
+    },
+    {
+      "stationName": "East Malvern",
+      "suburb": "Malvern East",
+      "irsadScore": 1127.9,
+      "irsadDecile": 10,
+      "lat": -37.876921,
+      "lng": 145.069393
+    },
+    {
+      "stationName": "Tooronga",
+      "suburb": "Malvern East",
+      "irsadScore": 1127.9,
+      "irsadDecile": 10,
+      "lat": -37.849366,
+      "lng": 145.041734
+    },
+    {
+      "stationName": "East Richmond",
+      "suburb": "Richmond",
+      "irsadScore": 1103.6,
+      "irsadDecile": 10,
+      "lat": -37.8264,
+      "lng": 144.997066
+    },
+    {
+      "stationName": "Mount Waverley",
+      "suburb": "Mount Waverley",
+      "irsadScore": 1091.5,
+      "irsadDecile": 10,
+      "lat": -37.875264,
+      "lng": 145.128044
+    },
+    {
+      "stationName": "Glen Waverley",
+      "suburb": "Glen Waverley",
+      "irsadScore": 1078.9,
+      "irsadDecile": 10,
+      "lat": -37.879504,
+      "lng": 145.162058
+    },
+    {
+      "stationName": "Syndal",
+      "suburb": "Glen Waverley",
+      "irsadScore": 1078.9,
+      "irsadDecile": 10,
+      "lat": -37.876221,
+      "lng": 145.149781
+    },
+    {
+      "stationName": "Jordanville",
+      "suburb": "Ashwood",
+      "irsadScore": 1061.6,
+      "irsadDecile": 9,
+      "lat": -37.873603,
+      "lng": 145.11209
+    },
+    {
+      "stationName": "Holmesglen",
+      "suburb": "Chadstone",
+      "irsadScore": 1059.1,
+      "irsadDecile": 9,
+      "lat": -37.874402,
+      "lng": 145.090662
+    }
+  ],
+  "Stony Point": [
+    {
+      "stationName": "Tyabb",
+      "suburb": "Tyabb",
+      "irsadScore": 1001.3,
+      "irsadDecile": 6,
+      "lat": -38.259815,
+      "lng": 145.186401
+    },
+    {
+      "stationName": "Somerville",
+      "suburb": "Somerville",
+      "irsadScore": 1000.2,
+      "irsadDecile": 6,
+      "lat": -38.225342,
+      "lng": 145.176245
+    },
+    {
+      "stationName": "Bittern",
+      "suburb": "Bittern",
+      "irsadScore": 992.0,
+      "irsadDecile": 6,
+      "lat": -38.33739,
+      "lng": 145.178027
+    },
+    {
+      "stationName": "Baxter",
+      "suburb": "Baxter",
+      "irsadScore": 957.9,
+      "irsadDecile": 4,
+      "lat": -38.194043,
+      "lng": 145.160526
+    },
+    {
+      "stationName": "Leawarra",
+      "suburb": "Frankston",
+      "irsadScore": 953.4,
+      "irsadDecile": 4,
+      "lat": -38.152034,
+      "lng": 145.139534
+    },
+    {
+      "stationName": "Frankston",
+      "suburb": "Frankston",
+      "irsadScore": 953.4,
+      "irsadDecile": 4,
+      "lat": -38.14299,
+      "lng": 145.126162
+    },
+    {
+      "stationName": "Morradoo",
+      "suburb": "Frankston",
+      "irsadScore": 953.4,
+      "irsadDecile": 4,
+      "lat": -38.354033,
+      "lng": 145.189602
+    },
+    {
+      "stationName": "Crib Point",
+      "suburb": "Crib Point",
+      "irsadScore": 940.3,
+      "irsadDecile": 3,
+      "lat": -38.366123,
+      "lng": 145.204043
+    },
+    {
+      "stationName": "Stony Point",
+      "suburb": "Crib Point",
+      "irsadScore": 940.3,
+      "irsadDecile": 3,
+      "lat": -38.374235,
+      "lng": 145.221837
+    },
+    {
+      "stationName": "Hastings",
+      "suburb": "Hastings",
+      "irsadScore": 907.3,
+      "irsadDecile": 2,
+      "lat": -38.305659,
+      "lng": 145.18598
+    }
+  ],
+  "Sandringham": [
+    {
+      "stationName": "North Brighton",
+      "suburb": "Brighton",
+      "irsadScore": 1145.3,
+      "irsadDecile": 10,
+      "lat": -37.904788,
+      "lng": 145.002619
+    },
+    {
+      "stationName": "Middle Brighton",
+      "suburb": "Brighton",
+      "irsadScore": 1145.3,
+      "irsadDecile": 10,
+      "lat": -37.915134,
+      "lng": 144.996299
+    },
+    {
+      "stationName": "Brighton Beach",
+      "suburb": "Brighton",
+      "irsadScore": 1145.3,
+      "irsadDecile": 10,
+      "lat": -37.926484,
+      "lng": 144.989154
+    },
+    {
+      "stationName": "Hampton",
+      "suburb": "Hampton",
+      "irsadScore": 1131.7,
+      "irsadDecile": 10,
+      "lat": -37.937986,
+      "lng": 145.001504
+    },
+    {
+      "stationName": "Prahran",
+      "suburb": "Prahran",
+      "irsadScore": 1128.7,
+      "irsadDecile": 10,
+      "lat": -37.849518,
+      "lng": 144.98986
+    },
+    {
+      "stationName": "Sandringham",
+      "suburb": "Sandringham",
+      "irsadScore": 1122.3,
+      "irsadDecile": 10,
+      "lat": -37.95033,
+      "lng": 145.004561
+    },
+    {
+      "stationName": "Elsternwick",
+      "suburb": "Elsternwick",
+      "irsadScore": 1120.5,
+      "irsadDecile": 10,
+      "lat": -37.884753,
+      "lng": 145.000898
+    },
+    {
+      "stationName": "Ripponlea",
+      "suburb": "Elsternwick",
+      "irsadScore": 1120.5,
+      "irsadDecile": 10,
+      "lat": -37.875961,
+      "lng": 144.995258
+    },
+    {
+      "stationName": "Windsor",
+      "suburb": "Windsor",
+      "irsadScore": 1111.0,
+      "irsadDecile": 10,
+      "lat": -37.856053,
+      "lng": 144.992035
+    },
+    {
+      "stationName": "Balaclava",
+      "suburb": "St Kilda East",
+      "irsadScore": 1103.1,
+      "irsadDecile": 10,
+      "lat": -37.869488,
+      "lng": 144.993512
+    },
+    {
+      "stationName": "Gardenvale",
+      "suburb": "Gardenvale",
+      "irsadScore": 1093.7,
+      "irsadDecile": 10,
+      "lat": -37.896695,
+      "lng": 145.004168
+    }
+  ],
+  "Cranbourne": [
+    {
+      "stationName": "Malvern",
+      "suburb": "Malvern",
+      "irsadScore": 1145.4,
+      "irsadDecile": 10,
+      "lat": -37.866253,
+      "lng": 145.029294
+    },
+    {
+      "stationName": "Caulfield",
+      "suburb": "Caulfield",
+      "irsadScore": 1106.2,
+      "irsadDecile": 10,
+      "lat": -37.877459,
+      "lng": 145.042525
+    },
+    {
+      "stationName": "Murrumbeena",
+      "suburb": "Murrumbeena",
+      "irsadScore": 1096.3,
+      "irsadDecile": 10,
+      "lat": -37.890198,
+      "lng": 145.067375
+    },
+    {
+      "stationName": "Carnegie",
+      "suburb": "Carnegie",
+      "irsadScore": 1087.7,
+      "irsadDecile": 10,
+      "lat": -37.886241,
+      "lng": 145.058575
+    },
+    {
+      "stationName": "Town Hall",
+      "suburb": "Melbourne",
+      "irsadScore": 1075.8,
+      "irsadDecile": 10,
+      "lat": -37.816992,
+      "lng": 144.967091
+    },
+    {
+      "stationName": "Hughesdale",
+      "suburb": "Hughesdale",
+      "irsadScore": 1073.0,
+      "irsadDecile": 10,
+      "lat": -37.894191,
+      "lng": 145.076186
+    },
+    {
+      "stationName": "Huntingdale",
+      "suburb": "Huntingdale",
+      "irsadScore": 1062.1,
+      "irsadDecile": 9,
+      "lat": -37.911017,
+      "lng": 145.102364
+    },
+    {
+      "stationName": "Oakleigh",
+      "suburb": "Oakleigh",
+      "irsadScore": 1060.6,
+      "irsadDecile": 9,
+      "lat": -37.900372,
+      "lng": 145.088308
+    },
+    {
+      "stationName": "Clayton",
+      "suburb": "Clayton",
+      "irsadScore": 1013.2,
+      "irsadDecile": 7,
+      "lat": -37.924683,
+      "lng": 145.120534
+    },
+    {
+      "stationName": "Lynbrook",
+      "suburb": "Lynbrook",
+      "irsadScore": 992.9,
+      "irsadDecile": 6,
+      "lat": -38.05735,
+      "lng": 145.249252
+    },
+    {
+      "stationName": "Anzac",
+      "suburb": "Seaford",
+      "irsadScore": 979.0,
+      "irsadDecile": 5,
+      "lat": -37.833311,
+      "lng": 144.97279
+    },
+    {
+      "stationName": "Westall",
+      "suburb": "Clayton South",
+      "irsadScore": 978.5,
+      "irsadDecile": 5,
+      "lat": -37.938473,
+      "lng": 145.13881
+    },
+    {
+      "stationName": "Merinda Park",
+      "suburb": "Cranbourne North",
+      "irsadScore": 972.9,
+      "irsadDecile": 5,
+      "lat": -38.079,
+      "lng": 145.263511
+    },
+    {
+      "stationName": "Cranbourne",
+      "suburb": "Cranbourne",
+      "irsadScore": 906.3,
+      "irsadDecile": 2,
+      "lat": -38.099537,
+      "lng": 145.280599
+    },
+    {
+      "stationName": "Yarraman",
+      "suburb": "Noble Park",
+      "irsadScore": 901.2,
+      "irsadDecile": 2,
+      "lat": -37.978255,
+      "lng": 145.1916
+    },
+    {
+      "stationName": "Noble Park",
+      "suburb": "Noble Park",
+      "irsadScore": 901.2,
+      "irsadDecile": 2,
+      "lat": -37.966619,
+      "lng": 145.176325
+    },
+    {
+      "stationName": "Springvale",
+      "suburb": "Springvale",
+      "irsadScore": 900.0,
+      "irsadDecile": 2,
+      "lat": -37.949509,
+      "lng": 145.153452
+    },
+    {
+      "stationName": "Sandown Park",
+      "suburb": "Springvale",
+      "irsadScore": 900.0,
+      "irsadDecile": 2,
+      "lat": -37.956487,
+      "lng": 145.162826
+    },
+    {
+      "stationName": "Dandenong",
+      "suburb": "Dandenong",
+      "irsadScore": 870.4,
+      "irsadDecile": 1,
+      "lat": -37.989968,
+      "lng": 145.209725
+    }
+  ],
+  "Alamein": [
+    {
+      "stationName": "Burnley",
+      "suburb": "Burnley",
+      "irsadScore": 1139.7,
+      "irsadDecile": 10,
+      "lat": -37.82756,
+      "lng": 145.007555
+    },
+    {
+      "stationName": "Camberwell",
+      "suburb": "Camberwell",
+      "irsadScore": 1137.0,
+      "irsadDecile": 10,
+      "lat": -37.826567,
+      "lng": 145.058697
+    },
+    {
+      "stationName": "Hartwell",
+      "suburb": "Camberwell",
+      "irsadScore": 1137.0,
+      "irsadDecile": 10,
+      "lat": -37.843985,
+      "lng": 145.07556
+    },
+    {
+      "stationName": "Auburn",
+      "suburb": "Hawthorn East",
+      "irsadScore": 1132.0,
+      "irsadDecile": 10,
+      "lat": -37.822398,
+      "lng": 145.045844
+    },
+    {
+      "stationName": "Riversdale",
+      "suburb": "Hawthorn East",
+      "irsadScore": 1132.0,
+      "irsadDecile": 10,
+      "lat": -37.831505,
+      "lng": 145.069646
+    },
+    {
+      "stationName": "Hawthorn",
+      "suburb": "Hawthorn",
+      "irsadScore": 1128.1,
+      "irsadDecile": 10,
+      "lat": -37.821826,
+      "lng": 145.022899
+    },
+    {
+      "stationName": "Willison",
+      "suburb": "Hawthorn",
+      "irsadScore": 1128.1,
+      "irsadDecile": 10,
+      "lat": -37.835716,
+      "lng": 145.070298
+    },
+    {
+      "stationName": "Glenferrie",
+      "suburb": "Hawthorn",
+      "irsadScore": 1128.1,
+      "irsadDecile": 10,
+      "lat": -37.821467,
+      "lng": 145.036439
+    },
+    {
+      "stationName": "Ashburton",
+      "suburb": "Ashburton",
+      "irsadScore": 1125.9,
+      "irsadDecile": 10,
+      "lat": -37.861968,
+      "lng": 145.081344
+    },
+    {
+      "stationName": "Alamein",
+      "suburb": "Ashburton",
+      "irsadScore": 1125.9,
+      "irsadDecile": 10,
+      "lat": -37.86832,
+      "lng": 145.079656
+    },
+    {
+      "stationName": "East Richmond",
+      "suburb": "Richmond",
+      "irsadScore": 1103.6,
+      "irsadDecile": 10,
+      "lat": -37.8264,
+      "lng": 144.997066
+    },
+    {
+      "stationName": "Burwood",
+      "suburb": "Burwood",
+      "irsadScore": 1060.1,
+      "irsadDecile": 9,
+      "lat": -37.851563,
+      "lng": 145.080511
+    }
+  ],
+  "Mernda": [
+    {
+      "stationName": "Jolimont-MCG",
+      "suburb": "East Melbourne",
+      "irsadScore": 1156.2,
+      "irsadDecile": 10,
+      "lat": -37.816527,
+      "lng": 144.984098
+    },
+    {
+      "stationName": "Clifton Hill",
+      "suburb": "Clifton Hill",
+      "irsadScore": 1147.4,
+      "irsadDecile": 10,
+      "lat": -37.788657,
+      "lng": 144.995417
+    },
+    {
+      "stationName": "Victoria Park",
+      "suburb": "Abbotsford",
+      "irsadScore": 1127.1,
+      "irsadDecile": 10,
+      "lat": -37.799158,
+      "lng": 144.994451
+    },
+    {
+      "stationName": "Rushall",
+      "suburb": "Fitzroy North",
+      "irsadScore": 1125.2,
+      "irsadDecile": 10,
+      "lat": -37.783217,
+      "lng": 144.992407
+    },
+    {
+      "stationName": "Northcote",
+      "suburb": "Northcote",
+      "irsadScore": 1117.2,
+      "irsadDecile": 10,
+      "lat": -37.769865,
+      "lng": 144.995277
+    },
+    {
+      "stationName": "Merri",
+      "suburb": "Northcote",
+      "irsadScore": 1117.2,
+      "irsadDecile": 10,
+      "lat": -37.777847,
+      "lng": 144.992972
+    },
+    {
+      "stationName": "Croxton",
+      "suburb": "Northcote",
+      "irsadScore": 1117.2,
+      "irsadDecile": 10,
+      "lat": -37.764101,
+      "lng": 144.997056
+    },
+    {
+      "stationName": "North Richmond",
+      "suburb": "Richmond",
+      "irsadScore": 1103.6,
+      "irsadDecile": 10,
+      "lat": -37.810398,
+      "lng": 144.9925
+    },
+    {
+      "stationName": "West Richmond",
+      "suburb": "Richmond",
+      "irsadScore": 1103.6,
+      "irsadDecile": 10,
+      "lat": -37.814949,
+      "lng": 144.991423
+    },
+    {
+      "stationName": "Thornbury",
+      "suburb": "Thornbury",
+      "irsadScore": 1082.8,
+      "irsadDecile": 10,
+      "lat": -37.755052,
+      "lng": 144.998572
+    },
+    {
+      "stationName": "Collingwood",
+      "suburb": "Collingwood",
+      "irsadScore": 1045.1,
+      "irsadDecile": 9,
+      "lat": -37.804526,
+      "lng": 144.99375
+    },
+    {
+      "stationName": "Bell",
+      "suburb": "Preston",
+      "irsadScore": 1039.8,
+      "irsadDecile": 8,
+      "lat": -37.745562,
+      "lng": 145.000155
+    },
+    {
+      "stationName": "Preston",
+      "suburb": "Preston",
+      "irsadScore": 1039.8,
+      "irsadDecile": 8,
+      "lat": -37.738674,
+      "lng": 145.000522
+    },
+    {
+      "stationName": "South Morang",
+      "suburb": "South Morang",
+      "irsadScore": 1014.6,
+      "irsadDecile": 7,
+      "lat": -37.64905,
+      "lng": 145.067013
+    },
+    {
+      "stationName": "Middle Gorge",
+      "suburb": "South Morang",
+      "irsadScore": 1014.6,
+      "irsadDecile": 7,
+      "lat": -37.644034,
+      "lng": 145.092122
+    },
+    {
+      "stationName": "Hawkstowe",
+      "suburb": "South Morang",
+      "irsadScore": 1014.6,
+      "irsadDecile": 7,
+      "lat": -37.622975,
+      "lng": 145.097295
+    },
+    {
+      "stationName": "Mernda",
+      "suburb": "Mernda",
+      "irsadScore": 1009.2,
+      "irsadDecile": 7,
+      "lat": -37.602549,
+      "lng": 145.100953
+    },
+    {
+      "stationName": "Ruthven",
+      "suburb": "Reservoir",
+      "irsadScore": 987.9,
+      "irsadDecile": 6,
+      "lat": -37.707898,
+      "lng": 145.009517
+    },
+    {
+      "stationName": "Regent",
+      "suburb": "Reservoir",
+      "irsadScore": 987.9,
+      "irsadDecile": 6,
+      "lat": -37.728403,
+      "lng": 145.002773
+    },
+    {
+      "stationName": "Reservoir",
+      "suburb": "Reservoir",
+      "irsadScore": 987.9,
+      "irsadDecile": 6,
+      "lat": -37.716885,
+      "lng": 145.006996
+    },
+    {
+      "stationName": "Epping",
+      "suburb": "Epping",
+      "irsadScore": 955.1,
+      "irsadDecile": 4,
+      "lat": -37.652178,
+      "lng": 145.031079
+    },
+    {
+      "stationName": "Lalor",
+      "suburb": "Lalor",
+      "irsadScore": 918.4,
+      "irsadDecile": 2,
+      "lat": -37.665851,
+      "lng": 145.017193
+    },
+    {
+      "stationName": "Keon Park",
+      "suburb": "Thomastown",
+      "irsadScore": 900.1,
+      "irsadDecile": 2,
+      "lat": -37.69487,
+      "lng": 145.011884
+    },
+    {
+      "stationName": "Thomastown",
+      "suburb": "Thomastown",
+      "irsadScore": 900.1,
+      "irsadDecile": 2,
+      "lat": -37.680338,
+      "lng": 145.014279
+    }
+  ],
+  "Williamstown": [
+    {
+      "stationName": "Seddon",
+      "suburb": "Seddon",
+      "irsadScore": 1109.2,
+      "irsadDecile": 10,
+      "lat": -37.809005,
+      "lng": 144.895672
+    },
+    {
+      "stationName": "Yarraville",
+      "suburb": "Yarraville",
+      "irsadScore": 1109.0,
+      "irsadDecile": 10,
+      "lat": -37.81585,
+      "lng": 144.889934
+    },
+    {
+      "stationName": "Newport",
+      "suburb": "Newport",
+      "irsadScore": 1107.5,
+      "irsadDecile": 10,
+      "lat": -37.842726,
+      "lng": 144.883588
+    },
+    {
+      "stationName": "Williamstown",
+      "suburb": "Williamstown",
+      "irsadScore": 1107.3,
+      "irsadDecile": 10,
+      "lat": -37.867753,
+      "lng": 144.905323
+    },
+    {
+      "stationName": "North Williamstown",
+      "suburb": "Williamstown",
+      "irsadScore": 1107.3,
+      "irsadDecile": 10,
+      "lat": -37.857333,
+      "lng": 144.889069
+    },
+    {
+      "stationName": "Williamstown Beach",
+      "suburb": "Williamstown",
+      "irsadScore": 1107.3,
+      "irsadDecile": 10,
+      "lat": -37.863982,
+      "lng": 144.894484
+    },
+    {
+      "stationName": "South Kensington",
+      "suburb": "Kensington",
+      "irsadScore": 1097.0,
+      "irsadDecile": 10,
+      "lat": -37.799531,
+      "lng": 144.925469
+    },
+    {
+      "stationName": "Spotswood",
+      "suburb": "Spotswood",
+      "irsadScore": 1095.0,
+      "irsadDecile": 10,
+      "lat": -37.830639,
+      "lng": 144.885933
+    },
+    {
+      "stationName": "Footscray",
+      "suburb": "Footscray",
+      "irsadScore": 1029.9,
+      "irsadDecile": 8,
+      "lat": -37.801413,
+      "lng": 144.90202
+    }
+  ],
+  "Hurstbridge": [
+    {
+      "stationName": "Jolimont-MCG",
+      "suburb": "East Melbourne",
+      "irsadScore": 1156.2,
+      "irsadDecile": 10,
+      "lat": -37.816527,
+      "lng": 144.984098
+    },
+    {
+      "stationName": "Clifton Hill",
+      "suburb": "Clifton Hill",
+      "irsadScore": 1147.4,
+      "irsadDecile": 10,
+      "lat": -37.788657,
+      "lng": 144.995417
+    },
+    {
+      "stationName": "Eaglemont",
+      "suburb": "Eaglemont",
+      "irsadScore": 1143.5,
+      "irsadDecile": 10,
+      "lat": -37.763586,
+      "lng": 145.053943
+    },
+    {
+      "stationName": "Darebin",
+      "suburb": "Alphington",
+      "irsadScore": 1128.1,
+      "irsadDecile": 10,
+      "lat": -37.774963,
+      "lng": 145.038476
+    },
+    {
+      "stationName": "Alphington",
+      "suburb": "Alphington",
+      "irsadScore": 1128.1,
+      "irsadDecile": 10,
+      "lat": -37.778394,
+      "lng": 145.031255
+    },
+    {
+      "stationName": "Victoria Park",
+      "suburb": "Abbotsford",
+      "irsadScore": 1127.1,
+      "irsadDecile": 10,
+      "lat": -37.799158,
+      "lng": 144.994451
+    },
+    {
+      "stationName": "Westgarth",
+      "suburb": "Northcote",
+      "irsadScore": 1117.2,
+      "irsadDecile": 10,
+      "lat": -37.780621,
+      "lng": 144.999233
+    },
+    {
+      "stationName": "Dennis",
+      "suburb": "Northcote",
+      "irsadScore": 1117.2,
+      "irsadDecile": 10,
+      "lat": -37.779187,
+      "lng": 145.008242
+    },
+    {
+      "stationName": "Ivanhoe",
+      "suburb": "Ivanhoe",
+      "irsadScore": 1113.5,
+      "irsadDecile": 10,
+      "lat": -37.768897,
+      "lng": 145.045425
+    },
+    {
+      "stationName": "West Richmond",
+      "suburb": "Richmond",
+      "irsadScore": 1103.6,
+      "irsadDecile": 10,
+      "lat": -37.814949,
+      "lng": 144.991423
+    },
+    {
+      "stationName": "North Richmond",
+      "suburb": "Richmond",
+      "irsadScore": 1103.6,
+      "irsadDecile": 10,
+      "lat": -37.810398,
+      "lng": 144.9925
+    },
+    {
+      "stationName": "Fairfield",
+      "suburb": "Fairfield",
+      "irsadScore": 1101.9,
+      "irsadDecile": 10,
+      "lat": -37.779171,
+      "lng": 145.016905
+    },
+    {
+      "stationName": "Eltham",
+      "suburb": "Eltham",
+      "irsadScore": 1095.7,
+      "irsadDecile": 10,
+      "lat": -37.71355,
+      "lng": 145.147822
+    },
+    {
+      "stationName": "Rosanna",
+      "suburb": "Rosanna",
+      "irsadScore": 1092.8,
+      "irsadDecile": 10,
+      "lat": -37.742879,
+      "lng": 145.06614
+    },
+    {
+      "stationName": "Heidelberg",
+      "suburb": "Heidelberg",
+      "irsadScore": 1084.8,
+      "irsadDecile": 10,
+      "lat": -37.757073,
+      "lng": 145.060686
+    },
+    {
+      "stationName": "Macleod",
+      "suburb": "Macleod",
+      "irsadScore": 1074.0,
+      "irsadDecile": 10,
+      "lat": -37.726012,
+      "lng": 145.069143
+    },
+    {
+      "stationName": "Montmorency",
+      "suburb": "Montmorency",
+      "irsadScore": 1072.2,
+      "irsadDecile": 10,
+      "lat": -37.715296,
+      "lng": 145.121516
+    },
+    {
+      "stationName": "Diamond Creek",
+      "suburb": "Diamond Creek",
+      "irsadScore": 1072.0,
+      "irsadDecile": 10,
+      "lat": -37.673379,
+      "lng": 145.158538
+    },
+    {
+      "stationName": "Greensborough",
+      "suburb": "Greensborough",
+      "irsadScore": 1060.1,
+      "irsadDecile": 9,
+      "lat": -37.703715,
+      "lng": 145.107936
+    },
+    {
+      "stationName": "Wattle Glen",
+      "suburb": "Wattle Glen",
+      "irsadScore": 1051.9,
+      "irsadDecile": 9,
+      "lat": -37.663968,
+      "lng": 145.181615
+    },
+    {
+      "stationName": "Hurstbridge",
+      "suburb": "Hurstbridge",
+      "irsadScore": 1048.5,
+      "irsadDecile": 9,
+      "lat": -37.639398,
+      "lng": 145.192017
+    },
+    {
+      "stationName": "Collingwood",
+      "suburb": "Collingwood",
+      "irsadScore": 1045.1,
+      "irsadDecile": 9,
+      "lat": -37.804526,
+      "lng": 144.99375
+    },
+    {
+      "stationName": "Watsonia",
+      "suburb": "Watsonia",
+      "irsadScore": 1026.6,
+      "irsadDecile": 8,
+      "lat": -37.710958,
+      "lng": 145.083793
+    }
+  ],
+  "Lilydale": [
+    {
+      "stationName": "Canterbury",
+      "suburb": "Canterbury",
+      "irsadScore": 1146.2,
+      "irsadDecile": 10,
+      "lat": -37.824485,
+      "lng": 145.081224
+    },
+    {
+      "stationName": "Burnley",
+      "suburb": "Burnley",
+      "irsadScore": 1139.7,
+      "irsadDecile": 10,
+      "lat": -37.82756,
+      "lng": 145.007555
+    },
+    {
+      "stationName": "Chatham",
+      "suburb": "Surrey Hills",
+      "irsadScore": 1137.8,
+      "irsadDecile": 10,
+      "lat": -37.8243,
+      "lng": 145.088648
+    },
+    {
+      "stationName": "East Camberwell",
+      "suburb": "Camberwell",
+      "irsadScore": 1137.0,
+      "irsadDecile": 10,
+      "lat": -37.825894,
+      "lng": 145.06819
+    },
+    {
+      "stationName": "Camberwell",
+      "suburb": "Camberwell",
+      "irsadScore": 1137.0,
+      "irsadDecile": 10,
+      "lat": -37.826567,
+      "lng": 145.058697
+    },
+    {
+      "stationName": "Auburn",
+      "suburb": "Hawthorn East",
+      "irsadScore": 1132.0,
+      "irsadDecile": 10,
+      "lat": -37.822398,
+      "lng": 145.045844
+    },
+    {
+      "stationName": "Hawthorn",
+      "suburb": "Hawthorn",
+      "irsadScore": 1128.1,
+      "irsadDecile": 10,
+      "lat": -37.821826,
+      "lng": 145.022899
+    },
+    {
+      "stationName": "Glenferrie",
+      "suburb": "Hawthorn",
+      "irsadScore": 1128.1,
+      "irsadDecile": 10,
+      "lat": -37.821467,
+      "lng": 145.036439
+    },
+    {
+      "stationName": "East Richmond",
+      "suburb": "Richmond",
+      "irsadScore": 1103.6,
+      "irsadDecile": 10,
+      "lat": -37.8264,
+      "lng": 144.997066
+    },
+    {
+      "stationName": "Blackburn",
+      "suburb": "Blackburn",
+      "irsadScore": 1095.4,
+      "irsadDecile": 10,
+      "lat": -37.820071,
+      "lng": 145.150014
+    },
+    {
+      "stationName": "Laburnum",
+      "suburb": "Blackburn",
+      "irsadScore": 1095.4,
+      "irsadDecile": 10,
+      "lat": -37.82078,
+      "lng": 145.140703
+    },
+    {
+      "stationName": "Mitcham",
+      "suburb": "Mitcham",
+      "irsadScore": 1074.6,
+      "irsadDecile": 10,
+      "lat": -37.818167,
+      "lng": 145.192208
+    },
+    {
+      "stationName": "Heatherdale",
+      "suburb": "Mitcham",
+      "irsadScore": 1074.6,
+      "irsadDecile": 10,
+      "lat": -37.818823,
+      "lng": 145.21397
+    },
+    {
+      "stationName": "Nunawading",
+      "suburb": "Nunawading",
+      "irsadScore": 1058.6,
+      "irsadDecile": 9,
+      "lat": -37.820612,
+      "lng": 145.174892
+    },
+    {
+      "stationName": "Ringwood East",
+      "suburb": "Ringwood East",
+      "irsadScore": 1033.4,
+      "irsadDecile": 8,
+      "lat": -37.811968,
+      "lng": 145.250191
+    },
+    {
+      "stationName": "Ringwood",
+      "suburb": "Ringwood",
+      "irsadScore": 1021.7,
+      "irsadDecile": 7,
+      "lat": -37.815886,
+      "lng": 145.228968
+    },
+    {
+      "stationName": "Union",
+      "suburb": "Ringwood",
+      "irsadScore": 1021.7,
+      "irsadDecile": 7,
+      "lat": -37.823155,
+      "lng": 145.100345
+    },
+    {
+      "stationName": "Box Hill",
+      "suburb": "Box Hill",
+      "irsadScore": 1018.9,
+      "irsadDecile": 7,
+      "lat": -37.819222,
+      "lng": 145.121429
+    },
+    {
+      "stationName": "Mooroolbark",
+      "suburb": "Mooroolbark",
+      "irsadScore": 1009.4,
+      "irsadDecile": 7,
+      "lat": -37.784749,
+      "lng": 145.312402
+    },
+    {
+      "stationName": "Croydon",
+      "suburb": "Croydon",
+      "irsadScore": 1008.0,
+      "irsadDecile": 7,
+      "lat": -37.7953,
+      "lng": 145.280487
+    },
+    {
+      "stationName": "Lilydale",
+      "suburb": "Lilydale",
+      "irsadScore": 1006.2,
+      "irsadDecile": 7,
+      "lat": -37.757213,
+      "lng": 145.345822
+    }
+  ],
+  "Upfield": [
+    {
+      "stationName": "Anstey",
+      "suburb": "Brunswick",
+      "irsadScore": 1105.7,
+      "irsadDecile": 10,
+      "lat": -37.761242,
+      "lng": 144.960684
+    },
+    {
+      "stationName": "Brunswick",
+      "suburb": "Brunswick",
+      "irsadScore": 1105.7,
+      "irsadDecile": 10,
+      "lat": -37.767721,
+      "lng": 144.959587
+    },
+    {
+      "stationName": "Jewell",
+      "suburb": "Brunswick",
+      "irsadScore": 1105.7,
+      "irsadDecile": 10,
+      "lat": -37.774987,
+      "lng": 144.958717
+    },
+    {
+      "stationName": "Royal Park",
+      "suburb": "Parkville",
+      "irsadScore": 1101.7,
+      "irsadDecile": 10,
+      "lat": -37.781193,
+      "lng": 144.952301
+    },
+    {
+      "stationName": "Moreland",
+      "suburb": "Coburg",
+      "irsadScore": 1064.6,
+      "irsadDecile": 9,
+      "lat": -37.754485,
+      "lng": 144.961823
+    },
+    {
+      "stationName": "Merlynston",
+      "suburb": "Coburg",
+      "irsadScore": 1064.6,
+      "irsadDecile": 9,
+      "lat": -37.720934,
+      "lng": 144.961314
+    },
+    {
+      "stationName": "Coburg",
+      "suburb": "Coburg",
+      "irsadScore": 1064.6,
+      "irsadDecile": 9,
+      "lat": -37.742345,
+      "lng": 144.963336
+    },
+    {
+      "stationName": "Macaulay",
+      "suburb": "North Melbourne",
+      "irsadScore": 1053.6,
+      "irsadDecile": 9,
+      "lat": -37.794267,
+      "lng": 144.936166
+    },
+    {
+      "stationName": "Batman",
+      "suburb": "Coburg North",
+      "irsadScore": 1041.5,
+      "irsadDecile": 8,
+      "lat": -37.733523,
+      "lng": 144.962841
+    },
+    {
+      "stationName": "Flemington Bridge",
+      "suburb": "Flemington",
+      "irsadScore": 976.4,
+      "irsadDecile": 5,
+      "lat": -37.78814,
+      "lng": 144.939323
+    },
+    {
+      "stationName": "Fawkner",
+      "suburb": "Fawkner",
+      "irsadScore": 950.3,
+      "irsadDecile": 3,
+      "lat": -37.714621,
+      "lng": 144.960545
+    },
+    {
+      "stationName": "Gowrie",
+      "suburb": "Fawkner",
+      "irsadScore": 950.3,
+      "irsadDecile": 3,
+      "lat": -37.700678,
+      "lng": 144.958874
+    },
+    {
+      "stationName": "Upfield",
+      "suburb": "Campbellfield",
+      "irsadScore": 845.4,
+      "irsadDecile": 1,
+      "lat": -37.666078,
+      "lng": 144.94674
+    }
+  ],
+  "Pakenham": [
+    {
+      "stationName": "Malvern",
+      "suburb": "Malvern",
+      "irsadScore": 1145.4,
+      "irsadDecile": 10,
+      "lat": -37.866253,
+      "lng": 145.029294
+    },
+    {
+      "stationName": "Caulfield",
+      "suburb": "Caulfield",
+      "irsadScore": 1106.2,
+      "irsadDecile": 10,
+      "lat": -37.877459,
+      "lng": 145.042525
+    },
+    {
+      "stationName": "Murrumbeena",
+      "suburb": "Murrumbeena",
+      "irsadScore": 1096.3,
+      "irsadDecile": 10,
+      "lat": -37.890198,
+      "lng": 145.067375
+    },
+    {
+      "stationName": "Carnegie",
+      "suburb": "Carnegie",
+      "irsadScore": 1087.7,
+      "irsadDecile": 10,
+      "lat": -37.886241,
+      "lng": 145.058575
+    },
+    {
+      "stationName": "Town Hall",
+      "suburb": "Melbourne",
+      "irsadScore": 1075.8,
+      "irsadDecile": 10,
+      "lat": -37.816992,
+      "lng": 144.967091
+    },
+    {
+      "stationName": "Hughesdale",
+      "suburb": "Hughesdale",
+      "irsadScore": 1073.0,
+      "irsadDecile": 10,
+      "lat": -37.894191,
+      "lng": 145.076186
+    },
+    {
+      "stationName": "Huntingdale",
+      "suburb": "Huntingdale",
+      "irsadScore": 1062.1,
+      "irsadDecile": 9,
+      "lat": -37.911017,
+      "lng": 145.102364
+    },
+    {
+      "stationName": "Oakleigh",
+      "suburb": "Oakleigh",
+      "irsadScore": 1060.6,
+      "irsadDecile": 9,
+      "lat": -37.900372,
+      "lng": 145.088308
+    },
+    {
+      "stationName": "Beaconsfield",
+      "suburb": "Beaconsfield",
+      "irsadScore": 1044.2,
+      "irsadDecile": 9,
+      "lat": -38.050831,
+      "lng": 145.366074
+    },
+    {
+      "stationName": "Berwick",
+      "suburb": "Berwick",
+      "irsadScore": 1042.8,
+      "irsadDecile": 9,
+      "lat": -38.03998,
+      "lng": 145.345417
+    },
+    {
+      "stationName": "Cardinia Road",
+      "suburb": "Officer",
+      "irsadScore": 1034.5,
+      "irsadDecile": 8,
+      "lat": -38.07129,
+      "lng": 145.437791
+    },
+    {
+      "stationName": "Officer",
+      "suburb": "Officer",
+      "irsadScore": 1034.5,
+      "irsadDecile": 8,
+      "lat": -38.066146,
+      "lng": 145.410987
+    },
+    {
+      "stationName": "Clayton",
+      "suburb": "Clayton",
+      "irsadScore": 1013.2,
+      "irsadDecile": 7,
+      "lat": -37.924683,
+      "lng": 145.120534
+    },
+    {
+      "stationName": "Anzac",
+      "suburb": "Seaford",
+      "irsadScore": 979.0,
+      "irsadDecile": 5,
+      "lat": -37.833311,
+      "lng": 144.97279
+    },
+    {
+      "stationName": "Westall",
+      "suburb": "Clayton South",
+      "irsadScore": 978.5,
+      "irsadDecile": 5,
+      "lat": -37.938473,
+      "lng": 145.13881
+    },
+    {
+      "stationName": "Narre Warren",
+      "suburb": "Narre Warren",
+      "irsadScore": 962.4,
+      "irsadDecile": 4,
+      "lat": -38.027774,
+      "lng": 145.303993
+    },
+    {
+      "stationName": "Pakenham",
+      "suburb": "Pakenham",
+      "irsadScore": 958.1,
+      "irsadDecile": 4,
+      "lat": -38.080614,
+      "lng": 145.486379
+    },
+    {
+      "stationName": "East Pakenham",
+      "suburb": "Pakenham",
+      "irsadScore": 958.1,
+      "irsadDecile": 4,
+      "lat": -38.084411,
+      "lng": 145.506357
+    },
+    {
+      "stationName": "Hallam",
+      "suburb": "Hallam",
+      "irsadScore": 925.2,
+      "irsadDecile": 2,
+      "lat": -38.01774,
+      "lng": 145.269777
+    },
+    {
+      "stationName": "Yarraman",
+      "suburb": "Noble Park",
+      "irsadScore": 901.2,
+      "irsadDecile": 2,
+      "lat": -37.978255,
+      "lng": 145.1916
+    },
+    {
+      "stationName": "Noble Park",
+      "suburb": "Noble Park",
+      "irsadScore": 901.2,
+      "irsadDecile": 2,
+      "lat": -37.966619,
+      "lng": 145.176325
+    },
+    {
+      "stationName": "Sandown Park",
+      "suburb": "Springvale",
+      "irsadScore": 900.0,
+      "irsadDecile": 2,
+      "lat": -37.956487,
+      "lng": 145.162826
+    },
+    {
+      "stationName": "Springvale",
+      "suburb": "Springvale",
+      "irsadScore": 900.0,
+      "irsadDecile": 2,
+      "lat": -37.949509,
+      "lng": 145.153452
+    },
+    {
+      "stationName": "Dandenong",
+      "suburb": "Dandenong",
+      "irsadScore": 870.4,
+      "irsadDecile": 1,
+      "lat": -37.989968,
+      "lng": 145.209725
+    }
+  ],
+  "Belgrave": [
+    {
+      "stationName": "Canterbury",
+      "suburb": "Canterbury",
+      "irsadScore": 1146.2,
+      "irsadDecile": 10,
+      "lat": -37.824485,
+      "lng": 145.081224
+    },
+    {
+      "stationName": "Burnley",
+      "suburb": "Burnley",
+      "irsadScore": 1139.7,
+      "irsadDecile": 10,
+      "lat": -37.82756,
+      "lng": 145.007555
+    },
+    {
+      "stationName": "Chatham",
+      "suburb": "Surrey Hills",
+      "irsadScore": 1137.8,
+      "irsadDecile": 10,
+      "lat": -37.8243,
+      "lng": 145.088648
+    },
+    {
+      "stationName": "East Camberwell",
+      "suburb": "Camberwell",
+      "irsadScore": 1137.0,
+      "irsadDecile": 10,
+      "lat": -37.825894,
+      "lng": 145.06819
+    },
+    {
+      "stationName": "Camberwell",
+      "suburb": "Camberwell",
+      "irsadScore": 1137.0,
+      "irsadDecile": 10,
+      "lat": -37.826567,
+      "lng": 145.058697
+    },
+    {
+      "stationName": "Auburn",
+      "suburb": "Hawthorn East",
+      "irsadScore": 1132.0,
+      "irsadDecile": 10,
+      "lat": -37.822398,
+      "lng": 145.045844
+    },
+    {
+      "stationName": "Hawthorn",
+      "suburb": "Hawthorn",
+      "irsadScore": 1128.1,
+      "irsadDecile": 10,
+      "lat": -37.821826,
+      "lng": 145.022899
+    },
+    {
+      "stationName": "Glenferrie",
+      "suburb": "Hawthorn",
+      "irsadScore": 1128.1,
+      "irsadDecile": 10,
+      "lat": -37.821467,
+      "lng": 145.036439
+    },
+    {
+      "stationName": "East Richmond",
+      "suburb": "Richmond",
+      "irsadScore": 1103.6,
+      "irsadDecile": 10,
+      "lat": -37.8264,
+      "lng": 144.997066
+    },
+    {
+      "stationName": "Blackburn",
+      "suburb": "Blackburn",
+      "irsadScore": 1095.4,
+      "irsadDecile": 10,
+      "lat": -37.820071,
+      "lng": 145.150014
+    },
+    {
+      "stationName": "Laburnum",
+      "suburb": "Blackburn",
+      "irsadScore": 1095.4,
+      "irsadDecile": 10,
+      "lat": -37.82078,
+      "lng": 145.140703
+    },
+    {
+      "stationName": "Heatherdale",
+      "suburb": "Mitcham",
+      "irsadScore": 1074.6,
+      "irsadDecile": 10,
+      "lat": -37.818823,
+      "lng": 145.21397
+    },
+    {
+      "stationName": "Mitcham",
+      "suburb": "Mitcham",
+      "irsadScore": 1074.6,
+      "irsadDecile": 10,
+      "lat": -37.818167,
+      "lng": 145.192208
+    },
+    {
+      "stationName": "Heathmont",
+      "suburb": "Heathmont",
+      "irsadScore": 1067.8,
+      "irsadDecile": 9,
+      "lat": -37.828322,
+      "lng": 145.244555
+    },
+    {
+      "stationName": "Nunawading",
+      "suburb": "Nunawading",
+      "irsadScore": 1058.6,
+      "irsadDecile": 9,
+      "lat": -37.820612,
+      "lng": 145.174892
+    },
+    {
+      "stationName": "Belgrave",
+      "suburb": "Belgrave",
+      "irsadScore": 1053.5,
+      "irsadDecile": 9,
+      "lat": -37.909102,
+      "lng": 145.355291
+    },
+    {
+      "stationName": "Upwey",
+      "suburb": "Upwey",
+      "irsadScore": 1051.8,
+      "irsadDecile": 9,
+      "lat": -37.903691,
+      "lng": 145.331333
+    },
+    {
+      "stationName": "Tecoma",
+      "suburb": "Tecoma",
+      "irsadScore": 1041.5,
+      "irsadDecile": 8,
+      "lat": -37.908118,
+      "lng": 145.342995
+    },
+    {
+      "stationName": "Upper Ferntree Gully",
+      "suburb": "Upper Ferntree Gully",
+      "irsadScore": 1027.0,
+      "irsadDecile": 8,
+      "lat": -37.892672,
+      "lng": 145.30753
+    },
+    {
+      "stationName": "Ringwood",
+      "suburb": "Ringwood",
+      "irsadScore": 1021.7,
+      "irsadDecile": 7,
+      "lat": -37.815886,
+      "lng": 145.228968
+    },
+    {
+      "stationName": "Union",
+      "suburb": "Ringwood",
+      "irsadScore": 1021.7,
+      "irsadDecile": 7,
+      "lat": -37.823155,
+      "lng": 145.100345
+    },
+    {
+      "stationName": "Box Hill",
+      "suburb": "Box Hill",
+      "irsadScore": 1018.9,
+      "irsadDecile": 7,
+      "lat": -37.819222,
+      "lng": 145.121429
+    },
+    {
+      "stationName": "Ferntree Gully",
+      "suburb": "Ferntree Gully",
+      "irsadScore": 1005.1,
+      "irsadDecile": 7,
+      "lat": -37.881698,
+      "lng": 145.295251
+    },
+    {
+      "stationName": "Boronia",
+      "suburb": "Boronia",
+      "irsadScore": 991.7,
+      "irsadDecile": 6,
+      "lat": -37.860402,
+      "lng": 145.284705
+    },
+    {
+      "stationName": "Bayswater",
+      "suburb": "Bayswater",
+      "irsadScore": 986.4,
+      "irsadDecile": 5,
+      "lat": -37.84173,
+      "lng": 145.268136
+    }
+  ],
+  "Frankston": [
+    {
+      "stationName": "Toorak",
+      "suburb": "Toorak",
+      "irsadScore": 1149.8,
+      "irsadDecile": 10,
+      "lat": -37.850774,
+      "lng": 145.013909
+    },
+    {
+      "stationName": "Malvern",
+      "suburb": "Malvern",
+      "irsadScore": 1145.4,
+      "irsadDecile": 10,
+      "lat": -37.866253,
+      "lng": 145.029294
+    },
+    {
+      "stationName": "Armadale",
+      "suburb": "Armadale",
+      "irsadScore": 1130.0,
+      "irsadDecile": 10,
+      "lat": -37.856452,
+      "lng": 145.019326
+    },
+    {
+      "stationName": "Hawksburn",
+      "suburb": "South Yarra",
+      "irsadScore": 1124.4,
+      "irsadDecile": 10,
+      "lat": -37.844587,
+      "lng": 145.001904
+    },
+    {
+      "stationName": "McKinnon",
+      "suburb": "McKinnon",
+      "irsadScore": 1111.7,
+      "irsadDecile": 10,
+      "lat": -37.910309,
+      "lng": 145.038299
+    },
+    {
+      "stationName": "Caulfield",
+      "suburb": "Caulfield",
+      "irsadScore": 1106.2,
+      "irsadDecile": 10,
+      "lat": -37.877459,
+      "lng": 145.042525
+    },
+    {
+      "stationName": "Bentleigh",
+      "suburb": "Bentleigh",
+      "irsadScore": 1102.8,
+      "irsadDecile": 10,
+      "lat": -37.917425,
+      "lng": 145.036995
+    },
+    {
+      "stationName": "Patterson",
+      "suburb": "Bentleigh",
+      "irsadScore": 1102.8,
+      "irsadDecile": 10,
+      "lat": -37.925149,
+      "lng": 145.03547
+    },
+    {
+      "stationName": "Ormond",
+      "suburb": "Ormond",
+      "irsadScore": 1094.6,
+      "irsadDecile": 10,
+      "lat": -37.903212,
+      "lng": 145.039613
+    },
+    {
+      "stationName": "Parkdale",
+      "suburb": "Parkdale",
+      "irsadScore": 1089.8,
+      "irsadDecile": 10,
+      "lat": -37.993079,
+      "lng": 145.076327
+    },
+    {
+      "stationName": "Aspendale",
+      "suburb": "Aspendale",
+      "irsadScore": 1087.2,
+      "irsadDecile": 10,
+      "lat": -38.02722,
+      "lng": 145.10215
+    },
+    {
+      "stationName": "Highett",
+      "suburb": "Highett",
+      "irsadScore": 1083.6,
+      "irsadDecile": 10,
+      "lat": -37.948425,
+      "lng": 145.041872
+    },
+    {
+      "stationName": "Glen Huntly",
+      "suburb": "Glen Huntly",
+      "irsadScore": 1082.7,
+      "irsadDecile": 10,
+      "lat": -37.889719,
+      "lng": 145.042223
+    },
+    {
+      "stationName": "Mentone",
+      "suburb": "Mentone",
+      "irsadScore": 1072.3,
+      "irsadDecile": 10,
+      "lat": -37.982777,
+      "lng": 145.065802
+    },
+    {
+      "stationName": "Mordialloc",
+      "suburb": "Mordialloc",
+      "irsadScore": 1071.5,
+      "irsadDecile": 10,
+      "lat": -38.006583,
+      "lng": 145.087659
+    },
+    {
+      "stationName": "Moorabbin",
+      "suburb": "Moorabbin",
+      "irsadScore": 1067.7,
+      "irsadDecile": 9,
+      "lat": -37.934471,
+      "lng": 145.036769
+    },
+    {
+      "stationName": "Edithvale",
+      "suburb": "Edithvale",
+      "irsadScore": 1064.7,
+      "irsadDecile": 9,
+      "lat": -38.036536,
+      "lng": 145.107583
+    },
+    {
+      "stationName": "Southland",
+      "suburb": "Cheltenham",
+      "irsadScore": 1062.7,
+      "irsadDecile": 9,
+      "lat": -37.958135,
+      "lng": 145.048648
+    },
+    {
+      "stationName": "Cheltenham",
+      "suburb": "Cheltenham",
+      "irsadScore": 1062.7,
+      "irsadDecile": 9,
+      "lat": -37.96665,
+      "lng": 145.054558
+    },
+    {
+      "stationName": "Bonbeach",
+      "suburb": "Bonbeach",
+      "irsadScore": 1041.4,
+      "irsadDecile": 8,
+      "lat": -38.065475,
+      "lng": 145.120106
+    },
+    {
+      "stationName": "Chelsea",
+      "suburb": "Chelsea",
+      "irsadScore": 1033.8,
+      "irsadDecile": 8,
+      "lat": -38.05329,
+      "lng": 145.11668
+    },
+    {
+      "stationName": "Carrum",
+      "suburb": "Carrum",
+      "irsadScore": 1015.4,
+      "irsadDecile": 7,
+      "lat": -38.07653,
+      "lng": 145.12281
+    },
+    {
+      "stationName": "Kananook",
+      "suburb": "Seaford",
+      "irsadScore": 979.0,
+      "irsadDecile": 5,
+      "lat": -38.121752,
+      "lng": 145.135375
+    },
+    {
+      "stationName": "Seaford",
+      "suburb": "Seaford",
+      "irsadScore": 979.0,
+      "irsadDecile": 5,
+      "lat": -38.104021,
+      "lng": 145.12823
+    },
+    {
+      "stationName": "Frankston",
+      "suburb": "Frankston",
+      "irsadScore": 953.4,
+      "irsadDecile": 4,
+      "lat": -38.14299,
+      "lng": 145.126162
+    }
+  ],
+  "Sunbury": [
+    {
+      "stationName": "Parkville",
+      "suburb": "Parkville",
+      "irsadScore": 1101.7,
+      "irsadDecile": 10,
+      "lat": -37.799874,
+      "lng": 144.959542
+    },
+    {
+      "stationName": "State Library",
+      "suburb": "Melbourne",
+      "irsadScore": 1075.8,
+      "irsadDecile": 10,
+      "lat": -37.809437,
+      "lng": 144.963278
+    },
+    {
+      "stationName": "Town Hall",
+      "suburb": "Melbourne",
+      "irsadScore": 1075.8,
+      "irsadDecile": 10,
+      "lat": -37.816992,
+      "lng": 144.967091
+    },
+    {
+      "stationName": "Arden",
+      "suburb": "North Melbourne",
+      "irsadScore": 1053.6,
+      "irsadDecile": 9,
+      "lat": -37.801222,
+      "lng": 144.941209
+    },
+    {
+      "stationName": "Tottenham",
+      "suburb": "West Footscray",
+      "irsadScore": 1045.9,
+      "irsadDecile": 9,
+      "lat": -37.799251,
+      "lng": 144.862945
+    },
+    {
+      "stationName": "West Footscray",
+      "suburb": "West Footscray",
+      "irsadScore": 1045.9,
+      "irsadDecile": 9,
+      "lat": -37.801803,
+      "lng": 144.883985
+    },
+    {
+      "stationName": "Footscray",
+      "suburb": "Footscray",
+      "irsadScore": 1029.9,
+      "irsadDecile": 8,
+      "lat": -37.801413,
+      "lng": 144.90202
+    },
+    {
+      "stationName": "Middle Footscray",
+      "suburb": "Footscray",
+      "irsadScore": 1029.9,
+      "irsadDecile": 8,
+      "lat": -37.802505,
+      "lng": 144.891472
+    },
+    {
+      "stationName": "Watergardens",
+      "suburb": "Taylors Lakes",
+      "irsadScore": 1024.4,
+      "irsadDecile": 8,
+      "lat": -37.701111,
+      "lng": 144.774181
+    },
+    {
+      "stationName": "Diggers Rest",
+      "suburb": "Diggers Rest",
+      "irsadScore": 1000.6,
+      "irsadDecile": 6,
+      "lat": -37.626961,
+      "lng": 144.719822
+    },
+    {
+      "stationName": "Sunbury",
+      "suburb": "Sunbury",
+      "irsadScore": 999.9,
+      "irsadDecile": 6,
+      "lat": -37.579284,
+      "lng": 144.727981
+    },
+    {
+      "stationName": "Sunshine",
+      "suburb": "Sunshine",
+      "irsadScore": 956.8,
+      "irsadDecile": 4,
+      "lat": -37.788536,
+      "lng": 144.832878
+    },
+    {
+      "stationName": "Albion",
+      "suburb": "Sunshine North",
+      "irsadScore": 903.5,
+      "irsadDecile": 2,
+      "lat": -37.777653,
+      "lng": 144.824704
+    },
+    {
+      "stationName": "Ginifer",
+      "suburb": "St Albans",
+      "irsadScore": 865.5,
+      "irsadDecile": 1,
+      "lat": -37.760085,
+      "lng": 144.811359
+    },
+    {
+      "stationName": "St Albans (St Albans)",
+      "suburb": "St Albans",
+      "irsadScore": 865.5,
+      "irsadDecile": 1,
+      "lat": -37.744861,
+      "lng": 144.80005
+    },
+    {
+      "stationName": "Keilor Plains",
+      "suburb": "St Albans",
+      "irsadScore": 865.5,
+      "irsadDecile": 1,
+      "lat": -37.729279,
+      "lng": 144.793738
+    }
+  ],
+  "Werribee": [
+    {
+      "stationName": "Seddon",
+      "suburb": "Seddon",
+      "irsadScore": 1109.2,
+      "irsadDecile": 10,
+      "lat": -37.809005,
+      "lng": 144.895672
+    },
+    {
+      "stationName": "Yarraville",
+      "suburb": "Yarraville",
+      "irsadScore": 1109.0,
+      "irsadDecile": 10,
+      "lat": -37.81585,
+      "lng": 144.889934
+    },
+    {
+      "stationName": "Newport",
+      "suburb": "Newport",
+      "irsadScore": 1107.5,
+      "irsadDecile": 10,
+      "lat": -37.842726,
+      "lng": 144.883588
+    },
+    {
+      "stationName": "South Kensington",
+      "suburb": "Kensington",
+      "irsadScore": 1097.0,
+      "irsadDecile": 10,
+      "lat": -37.799531,
+      "lng": 144.925469
+    },
+    {
+      "stationName": "Spotswood",
+      "suburb": "Spotswood",
+      "irsadScore": 1095.0,
+      "irsadDecile": 10,
+      "lat": -37.830639,
+      "lng": 144.885933
+    },
+    {
+      "stationName": "Williams Landing",
+      "suburb": "Williams Landing",
+      "irsadScore": 1080.4,
+      "irsadDecile": 10,
+      "lat": -37.869865,
+      "lng": 144.747445
+    },
+    {
+      "stationName": "Seaholme",
+      "suburb": "Seaholme",
+      "irsadScore": 1060.9,
+      "irsadDecile": 9,
+      "lat": -37.867842,
+      "lng": 144.840958
+    },
+    {
+      "stationName": "Westona",
+      "suburb": "Altona",
+      "irsadScore": 1045.9,
+      "irsadDecile": 9,
+      "lat": -37.865163,
+      "lng": 144.813494
+    },
+    {
+      "stationName": "Altona",
+      "suburb": "Altona",
+      "irsadScore": 1045.9,
+      "irsadDecile": 9,
+      "lat": -37.867148,
+      "lng": 144.829645
+    },
+    {
+      "stationName": "Footscray",
+      "suburb": "Footscray",
+      "irsadScore": 1029.9,
+      "irsadDecile": 8,
+      "lat": -37.801413,
+      "lng": 144.90202
+    },
+    {
+      "stationName": "Werribee",
+      "suburb": "Werribee",
+      "irsadScore": 951.0,
+      "irsadDecile": 3,
+      "lat": -37.899378,
+      "lng": 144.661118
+    },
+    {
+      "stationName": "Hoppers Crossing",
+      "suburb": "Hoppers Crossing",
+      "irsadScore": 945.1,
+      "irsadDecile": 3,
+      "lat": -37.88338,
+      "lng": 144.700747
+    },
+    {
+      "stationName": "Aircraft",
+      "suburb": "Laverton",
+      "irsadScore": 920.9,
+      "irsadDecile": 2,
+      "lat": -37.866606,
+      "lng": 144.760809
+    },
+    {
+      "stationName": "Laverton",
+      "suburb": "Laverton",
+      "irsadScore": 920.9,
+      "irsadDecile": 2,
+      "lat": -37.863694,
+      "lng": 144.772617
+    }
+  ],
+  "Craigieburn": [
+    {
+      "stationName": "Glenbervie",
+      "suburb": "Toorak",
+      "irsadScore": 1149.8,
+      "irsadDecile": 10,
+      "lat": -37.74721,
+      "lng": 144.920939
+    },
+    {
+      "stationName": "Strathmore",
+      "suburb": "Strathmore",
+      "irsadScore": 1106.3,
+      "irsadDecile": 10,
+      "lat": -37.743591,
+      "lng": 144.927316
+    },
+    {
+      "stationName": "Kensington",
+      "suburb": "Kensington",
+      "irsadScore": 1097.0,
+      "irsadDecile": 10,
+      "lat": -37.79378,
+      "lng": 144.930524
+    },
+    {
+      "stationName": "Moonee Ponds",
+      "suburb": "Moonee Ponds",
+      "irsadScore": 1096.9,
+      "irsadDecile": 10,
+      "lat": -37.765707,
+      "lng": 144.919161
+    },
+    {
+      "stationName": "Essendon",
+      "suburb": "Essendon",
+      "irsadScore": 1092.2,
+      "irsadDecile": 10,
+      "lat": -37.756012,
+      "lng": 144.916198
+    },
+    {
+      "stationName": "Oak Park",
+      "suburb": "Oak Park",
+      "irsadScore": 1068.4,
+      "irsadDecile": 9,
+      "lat": -37.71795,
+      "lng": 144.921519
+    },
+    {
+      "stationName": "Ascot Vale",
+      "suburb": "Ascot Vale",
+      "irsadScore": 1062.0,
+      "irsadDecile": 9,
+      "lat": -37.775306,
+      "lng": 144.921821
+    },
+    {
+      "stationName": "Pascoe Vale",
+      "suburb": "Pascoe Vale",
+      "irsadScore": 1050.8,
+      "irsadDecile": 9,
+      "lat": -37.730756,
+      "lng": 144.928196
+    },
+    {
+      "stationName": "Glenroy",
+      "suburb": "Glenroy",
+      "irsadScore": 977.4,
+      "irsadDecile": 5,
+      "lat": -37.704536,
+      "lng": 144.91722
+    },
+    {
+      "stationName": "Newmarket",
+      "suburb": "Flemington",
+      "irsadScore": 976.4,
+      "irsadDecile": 5,
+      "lat": -37.787328,
+      "lng": 144.928978
+    },
+    {
+      "stationName": "Craigieburn",
+      "suburb": "Craigieburn",
+      "irsadScore": 956.0,
+      "irsadDecile": 4,
+      "lat": -37.601925,
+      "lng": 144.943306
+    },
+    {
+      "stationName": "Roxburgh Park",
+      "suburb": "Roxburgh Park",
+      "irsadScore": 907.0,
+      "irsadDecile": 2,
+      "lat": -37.638231,
+      "lng": 144.935404
+    },
+    {
+      "stationName": "Jacana",
+      "suburb": "Jacana",
+      "irsadScore": 897.0,
+      "irsadDecile": 2,
+      "lat": -37.695131,
+      "lng": 144.915851
+    },
+    {
+      "stationName": "Broadmeadows",
+      "suburb": "Broadmeadows",
+      "irsadScore": 832.6,
+      "irsadDecile": 1,
+      "lat": -37.683049,
+      "lng": 144.919613
+    },
+    {
+      "stationName": "Coolaroo",
+      "suburb": "Coolaroo",
+      "irsadScore": 821.6,
+      "irsadDecile": 1,
+      "lat": -37.66111,
+      "lng": 144.926041
+    }
+  ]
+}

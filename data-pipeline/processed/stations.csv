@@ -1,0 +1,450 @@
+station_id,station_name,line_name,route_id,lat,lng
+vic:rail:AUB,Auburn,Alamein - City,aus:vic:vic-02-ALM:,-37.82239831,145.04584366
+vic:rail:ERM,East Richmond,Alamein - City,aus:vic:vic-02-ALM:,-37.82639995,144.99706569
+vic:rail:ASH,Ashburton,Alamein - City,aus:vic:vic-02-ALM:,-37.86196753,145.08134376
+vic:rail:CAM,Camberwell,Alamein - City,aus:vic:vic-02-ALM:,-37.82656714,145.05869718
+vic:rail:ALM,Alamein,Alamein - City,aus:vic:vic-02-ALM:,-37.86832039,145.07965567
+vic:rail:RIV,Riversdale,Alamein - City,aus:vic:vic-02-ALM:,-37.83150543,145.06964598
+vic:rail:SSS,Southern Cross,Alamein - City,aus:vic:vic-02-ALM:,-37.8186631,144.95277706
+vic:rail:BWD,Burwood,Alamein - City,aus:vic:vic-02-ALM:,-37.85156328,145.08051107
+vic:rail:FGS,Flagstaff,Alamein - City,aus:vic:vic-02-ALM:,-37.8119815,144.95566511
+vic:rail:FSS,Flinders Street,Alamein - City,aus:vic:vic-02-ALM:,-37.81830513,144.96696435
+vic:rail:HAW,Hawthorn,Alamein - City,aus:vic:vic-02-ALM:,-37.82182601,145.02289866
+vic:rail:RMD,Richmond,Alamein - City,aus:vic:vic-02-ALM:,-37.82407446,144.99016426
+vic:rail:PAR,Parliament,Alamein - City,aus:vic:vic-02-ALM:,-37.811337,144.973119
+vic:rail:BLY,Burnley,Alamein - City,aus:vic:vic-02-ALM:,-37.82756022,145.00755515
+vic:rail:MCE,Melbourne Central,Alamein - City,aus:vic:vic-02-ALM:,-37.80993896,144.96260489
+vic:rail:HWL,Hartwell,Alamein - City,aus:vic:vic-02-ALM:,-37.84398457,145.07555959
+vic:rail:WSN,Willison,Alamein - City,aus:vic:vic-02-ALM:,-37.83571565,145.07029756
+vic:rail:GFE,Glenferrie,Alamein - City,aus:vic:vic-02-ALM:,-37.82146682,145.03643883
+vic:rail:AUB,Auburn,Belgrave - City,aus:vic:vic-02-BEG:,-37.82239831,145.04584366
+vic:rail:CAM,Camberwell,Belgrave - City,aus:vic:vic-02-BEG:,-37.82656714,145.05869718
+vic:rail:TCM,Tecoma,Belgrave - City,aus:vic:vic-02-BEG:,-37.90811849,145.34299458
+vic:rail:CBY,Canterbury,Belgrave - City,aus:vic:vic-02-BEG:,-37.82448518,145.08122424
+vic:rail:BBN,Blackburn,Belgrave - City,aus:vic:vic-02-BEG:,-37.82007075,145.15001354
+vic:rail:HAW,Hawthorn,Belgrave - City,aus:vic:vic-02-BEG:,-37.82182601,145.02289866
+vic:rail:UNN,Union,Belgrave - City,aus:vic:vic-02-BEG:,-37.82315506,145.10034527
+vic:rail:CHM,Chatham,Belgrave - City,aus:vic:vic-02-BEG:,-37.82429952,145.08864793
+vic:rail:MCE,Melbourne Central,Belgrave - City,aus:vic:vic-02-BEG:,-37.80993896,144.96260489
+vic:rail:UPW,Upwey,Belgrave - City,aus:vic:vic-02-BEG:,-37.90369097,145.33133336
+vic:rail:ECM,East Camberwell,Belgrave - City,aus:vic:vic-02-BEG:,-37.82589419,145.06819025
+vic:rail:UFG,Upper Ferntree Gully,Belgrave - City,aus:vic:vic-02-BEG:,-37.8926717,145.30753019
+vic:rail:BOX,Box Hill,Belgrave - City,aus:vic:vic-02-BEG:,-37.81922165,145.12142893
+vic:rail:NWG,Nunawading,Belgrave - City,aus:vic:vic-02-BEG:,-37.82061218,145.1748915
+vic:rail:HTD,Heatherdale,Belgrave - City,aus:vic:vic-02-BEG:,-37.8188232,145.21397044
+vic:rail:RWD,Ringwood,Belgrave - City,aus:vic:vic-02-BEG:,-37.81588648,145.22896846
+vic:rail:BAY,Bayswater,Belgrave - City,aus:vic:vic-02-BEG:,-37.84173004,145.26813639
+vic:rail:MCH,Mitcham,Belgrave - City,aus:vic:vic-02-BEG:,-37.81816668,145.19220824
+vic:rail:LAB,Laburnum,Belgrave - City,aus:vic:vic-02-BEG:,-37.82078023,145.14070271
+vic:rail:FTG,Ferntree Gully,Belgrave - City,aus:vic:vic-02-BEG:,-37.88169799,145.29525126
+vic:rail:BEG,Belgrave,Belgrave - City,aus:vic:vic-02-BEG:,-37.9091021,145.35529128
+vic:rail:FGS,Flagstaff,Belgrave - City,aus:vic:vic-02-BEG:,-37.8119815,144.95566511
+vic:rail:BLY,Burnley,Belgrave - City,aus:vic:vic-02-BEG:,-37.82756022,145.00755515
+vic:rail:PAR,Parliament,Belgrave - City,aus:vic:vic-02-BEG:,-37.811337,144.973119
+vic:rail:GFE,Glenferrie,Belgrave - City,aus:vic:vic-02-BEG:,-37.82146682,145.03643883
+vic:rail:ERM,East Richmond,Belgrave - City,aus:vic:vic-02-BEG:,-37.82639995,144.99706569
+vic:rail:BOR,Boronia,Belgrave - City,aus:vic:vic-02-BEG:,-37.86040238,145.28470457
+vic:rail:SSS,Southern Cross,Belgrave - City,aus:vic:vic-02-BEG:,-37.8186631,144.95277706
+vic:rail:FSS,Flinders Street,Belgrave - City,aus:vic:vic-02-BEG:,-37.81830513,144.96696435
+vic:rail:HMT,Heathmont,Belgrave - City,aus:vic:vic-02-BEG:,-37.82832227,145.24455538
+vic:rail:RMD,Richmond,Belgrave - City,aus:vic:vic-02-BEG:,-37.82407446,144.99016426
+vic:rail:MRB,Murrumbeena,Cranbourne - City,aus:vic:vic-02-CBE:,-37.89019832,145.06737487
+vic:rail:NPK,Noble Park,Cranbourne - City,aus:vic:vic-02-CBE:,-37.96661867,145.17632482
+vic:rail:LBK,Lynbrook,Cranbourne - City,aus:vic:vic-02-CBE:,-38.05734985,145.24925211
+vic:rail:HUN,Huntingdale,Cranbourne - City,aus:vic:vic-02-CBE:,-37.91101734,145.10236432
+vic:rail:YMN,Yarraman,Cranbourne - City,aus:vic:vic-02-CBE:,-37.97825454,145.19160028
+vic:rail:OAK,Oakleigh,Cranbourne - City,aus:vic:vic-02-CBE:,-37.90037214,145.08830787
+vic:rail:CFD,Caulfield,Cranbourne - City,aus:vic:vic-02-CBE:,-37.87745946,145.04252478
+vic:rail:MPK,Merinda Park,Cranbourne - City,aus:vic:vic-02-CBE:,-38.07900048,145.26351137
+vic:rail:CBE,Cranbourne,Cranbourne - City,aus:vic:vic-02-CBE:,-38.09953731,145.28059898
+vic:rail:SNP,Sandown Park,Cranbourne - City,aus:vic:vic-02-CBE:,-37.95648655,145.16282634
+vic:rail:SPG,Springvale,Cranbourne - City,aus:vic:vic-02-CBE:,-37.94950878,145.15345183
+vic:rail:CNE,Carnegie,Cranbourne - City,aus:vic:vic-02-CBE:,-37.88624148,145.05857506
+vic:rail:AZC,Anzac,Cranbourne - City,aus:vic:vic-02-CBE:,-37.83331103,144.97279042
+vic:rail:CLA,Clayton,Cranbourne - City,aus:vic:vic-02-CBE:,-37.92468255,145.12053436
+vic:rail:WTL,Westall,Cranbourne - City,aus:vic:vic-02-CBE:,-37.93847284,145.13881033
+vic:rail:DNG,Dandenong,Cranbourne - City,aus:vic:vic-02-CBE:,-37.98996792,145.20972537
+vic:rail:THL,Town Hall,Cranbourne - City,aus:vic:vic-02-CBE:,-37.81699161,144.96709126
+vic:rail:HUG,Hughesdale,Cranbourne - City,aus:vic:vic-02-CBE:,-37.89419074,145.07618607
+vic:rail:MAL,Malvern,Cranbourne - City,aus:vic:vic-02-CBE:,-37.8662533,145.02929394
+vic:rail:LBK,Lynbrook,Cranbourne - City,aus:vic:vic-02-CBE-R:,-38.05734985,145.24925211
+vic:rail:WTL,Westall,Cranbourne - City,aus:vic:vic-02-CBE-R:,-37.93847284,145.13881033
+vic:rail:DNG,Dandenong,Cranbourne - City,aus:vic:vic-02-CBE-R:,-37.98996792,145.20972537
+vic:rail:MPK,Merinda Park,Cranbourne - City,aus:vic:vic-02-CBE-R:,-38.07900048,145.26351137
+vic:rail:CBE,Cranbourne,Cranbourne - City,aus:vic:vic-02-CBE-R:,-38.09953731,145.28059898
+vic:rail:SSS,Southern Cross,,aus:vic:vic-02-CCL:,-37.8186631,144.95277706
+vic:rail:FGS,Flagstaff,,aus:vic:vic-02-CCL:,-37.8119815,144.95566511
+vic:rail:FSS,Flinders Street,,aus:vic:vic-02-CCL:,-37.81830513,144.96696435
+vic:rail:MCE,Melbourne Central,,aus:vic:vic-02-CCL:,-37.80993896,144.96260489
+vic:rail:PAR,Parliament,,aus:vic:vic-02-CCL:,-37.811337,144.973119
+vic:rail:SSS,Southern Cross,,aus:vic:vic-02-CCL-R:,-37.8186631,144.95277706
+vic:rail:FGS,Flagstaff,,aus:vic:vic-02-CCL-R:,-37.8119815,144.95566511
+vic:rail:FSS,Flinders Street,,aus:vic:vic-02-CCL-R:,-37.81830513,144.96696435
+vic:rail:MCE,Melbourne Central,,aus:vic:vic-02-CCL-R:,-37.80993896,144.96260489
+vic:rail:PAR,Parliament,,aus:vic:vic-02-CCL-R:,-37.811337,144.973119
+vic:rail:ASV,Ascot Vale,Craigieburn - City,aus:vic:vic-02-CGB:,-37.77530609,144.92182074
+vic:rail:NME,North Melbourne,Craigieburn - City,aus:vic:vic-02-CGB:,-37.80755071,144.94238439
+vic:rail:CLO,Coolaroo,Craigieburn - City,aus:vic:vic-02-CGB:,-37.66111042,144.92604123
+vic:rail:SME,Strathmore,Craigieburn - City,aus:vic:vic-02-CGB:,-37.74359132,144.92731571
+vic:rail:OKP,Oak Park,Craigieburn - City,aus:vic:vic-02-CGB:,-37.71794973,144.92151877
+vic:rail:MCE,Melbourne Central,Craigieburn - City,aus:vic:vic-02-CGB:,-37.80993896,144.96260489
+vic:rail:JAC,Jacana,Craigieburn - City,aus:vic:vic-02-CGB:,-37.69513079,144.91585052
+vic:rail:NKT,Newmarket,Craigieburn - City,aus:vic:vic-02-CGB:,-37.78732767,144.92897847
+vic:rail:GBV,Glenbervie,Craigieburn - City,aus:vic:vic-02-CGB:,-37.74720985,144.92093868
+vic:rail:MPD,Moonee Ponds,Craigieburn - City,aus:vic:vic-02-CGB:,-37.76570666,144.9191607
+vic:rail:ESD,Essendon,Craigieburn - City,aus:vic:vic-02-CGB:,-37.7560117,144.9161975
+vic:rail:PVL,Pascoe Vale,Craigieburn - City,aus:vic:vic-02-CGB:,-37.73075596,144.92819562
+vic:rail:BMS,Broadmeadows,Craigieburn - City,aus:vic:vic-02-CGB:,-37.68304926,144.91961322
+vic:rail:FGS,Flagstaff,Craigieburn - City,aus:vic:vic-02-CGB:,-37.8119815,144.95566511
+vic:rail:CGB,Craigieburn,Craigieburn - City,aus:vic:vic-02-CGB:,-37.6019248,144.94330601
+vic:rail:KEN,Kensington,Craigieburn - City,aus:vic:vic-02-CGB:,-37.79378022,144.93052444
+vic:rail:PAR,Parliament,Craigieburn - City,aus:vic:vic-02-CGB:,-37.811337,144.973119
+vic:rail:SSS,Southern Cross,Craigieburn - City,aus:vic:vic-02-CGB:,-37.8186631,144.95277706
+vic:rail:RXP,Roxburgh Park,Craigieburn - City,aus:vic:vic-02-CGB:,-37.63823121,144.93540368
+vic:rail:FSS,Flinders Street,Craigieburn - City,aus:vic:vic-02-CGB:,-37.81830513,144.96696435
+vic:rail:GRY,Glenroy,Craigieburn - City,aus:vic:vic-02-CGB:,-37.70453633,144.9172204
+vic:rail:HIG,Highett,Frankston - City,aus:vic:vic-02-FKN:,-37.948425,145.0418718
+vic:rail:CAR,Carrum,Frankston - City,aus:vic:vic-02-FKN:,-38.07653027,145.1228096
+vic:rail:FKN,Frankston,Frankston - City,aus:vic:vic-02-FKN:,-38.14299007,145.12616228
+vic:rail:MEN,Mentone,Frankston - City,aus:vic:vic-02-FKN:,-37.98277704,145.06580232
+vic:rail:KAN,Kananook,Frankston - City,aus:vic:vic-02-FKN:,-38.12175231,145.13537493
+vic:rail:SOU,Southland,Frankston - City,aus:vic:vic-02-FKN:,-37.95813507,145.04864786
+vic:rail:MCE,Melbourne Central,Frankston - City,aus:vic:vic-02-FKN:,-37.80993896,144.96260489
+vic:rail:BEN,Bentleigh,Frankston - City,aus:vic:vic-02-FKN:,-37.91742457,145.03699513
+vic:rail:CSA,Chelsea,Frankston - City,aus:vic:vic-02-FKN:,-38.05329032,145.1166795
+vic:rail:PAT,Patterson,Frankston - City,aus:vic:vic-02-FKN:,-37.92514919,145.03547003
+vic:rail:TOR,Toorak,Frankston - City,aus:vic:vic-02-FKN:,-37.85077381,145.01390858
+vic:rail:CFD,Caulfield,Frankston - City,aus:vic:vic-02-FKN:,-37.87745946,145.04252478
+vic:rail:SYR,South Yarra,Frankston - City,aus:vic:vic-02-FKN:,-37.83844935,144.99234221
+vic:rail:BON,Bonbeach,Frankston - City,aus:vic:vic-02-FKN:,-38.06547485,145.1201058
+vic:rail:ASP,Aspendale,Frankston - City,aus:vic:vic-02-FKN:,-38.02722019,145.10214962
+vic:rail:PKD,Parkdale,Frankston - City,aus:vic:vic-02-FKN:,-37.99307882,145.07632682
+vic:rail:OMD,Ormond,Frankston - City,aus:vic:vic-02-FKN:,-37.90321167,145.03961342
+vic:rail:GHY,Glen Huntly,Frankston - City,aus:vic:vic-02-FKN:,-37.88971946,145.04222285
+vic:rail:MRN,Moorabbin,Frankston - City,aus:vic:vic-02-FKN:,-37.93447096,145.03676929
+vic:rail:MCK,McKinnon,Frankston - City,aus:vic:vic-02-FKN:,-37.91030903,145.03829897
+vic:rail:FGS,Flagstaff,Frankston - City,aus:vic:vic-02-FKN:,-37.8119815,144.95566511
+vic:rail:ARM,Armadale,Frankston - City,aus:vic:vic-02-FKN:,-37.85645238,145.01932554
+vic:rail:PAR,Parliament,Frankston - City,aus:vic:vic-02-FKN:,-37.811337,144.973119
+vic:rail:EDI,Edithvale,Frankston - City,aus:vic:vic-02-FKN:,-38.03653574,145.10758338
+vic:rail:CTM,Cheltenham,Frankston - City,aus:vic:vic-02-FKN:,-37.96664989,145.05455793
+vic:rail:SSS,Southern Cross,Frankston - City,aus:vic:vic-02-FKN:,-37.8186631,144.95277706
+vic:rail:HKN,Hawksburn,Frankston - City,aus:vic:vic-02-FKN:,-37.84458683,145.00190352
+vic:rail:FSS,Flinders Street,Frankston - City,aus:vic:vic-02-FKN:,-37.81830513,144.96696435
+vic:rail:RMD,Richmond,Frankston - City,aus:vic:vic-02-FKN:,-37.82407446,144.99016426
+vic:rail:SEA,Seaford,Frankston - City,aus:vic:vic-02-FKN:,-38.10402104,145.1282304
+vic:rail:MOR,Mordialloc,Frankston - City,aus:vic:vic-02-FKN:,-38.00658295,145.08765936
+vic:rail:MAL,Malvern,Frankston - City,aus:vic:vic-02-FKN:,-37.8662533,145.02929394
+vic:rail:JOR,Jordanville,Glen Waverley - City,aus:vic:vic-02-GWY:,-37.87360339,145.11209016
+vic:rail:GAR,Gardiner,Glen Waverley - City,aus:vic:vic-02-GWY:,-37.85327908,145.05165466
+vic:rail:MCE,Melbourne Central,Glen Waverley - City,aus:vic:vic-02-GWY:,-37.80993896,144.96260489
+vic:rail:GWY,Glen Waverley,Glen Waverley - City,aus:vic:vic-02-GWY:,-37.87950407,145.16205755
+vic:rail:SYN,Syndal,Glen Waverley - City,aus:vic:vic-02-GWY:,-37.87622062,145.14978071
+vic:rail:HEY,Heyington,Glen Waverley - City,aus:vic:vic-02-GWY:,-37.83465462,145.02264711
+vic:rail:DLG,Darling,Glen Waverley - City,aus:vic:vic-02-GWY:,-37.86895684,145.06295083
+vic:rail:EMV,East Malvern,Glen Waverley - City,aus:vic:vic-02-GWY:,-37.87692101,145.06939324
+vic:rail:HOL,Holmesglen,Glen Waverley - City,aus:vic:vic-02-GWY:,-37.87440222,145.09066203
+vic:rail:FGS,Flagstaff,Glen Waverley - City,aus:vic:vic-02-GWY:,-37.8119815,144.95566511
+vic:rail:BLY,Burnley,Glen Waverley - City,aus:vic:vic-02-GWY:,-37.82756022,145.00755515
+vic:rail:PAR,Parliament,Glen Waverley - City,aus:vic:vic-02-GWY:,-37.811337,144.973119
+vic:rail:ERM,East Richmond,Glen Waverley - City,aus:vic:vic-02-GWY:,-37.82639995,144.99706569
+vic:rail:MWY,Mount Waverley,Glen Waverley - City,aus:vic:vic-02-GWY:,-37.87526408,145.1280441
+vic:rail:TGA,Tooronga,Glen Waverley - City,aus:vic:vic-02-GWY:,-37.84936553,145.04173374
+vic:rail:SSS,Southern Cross,Glen Waverley - City,aus:vic:vic-02-GWY:,-37.8186631,144.95277706
+vic:rail:GIR,Glen Iris,Glen Waverley - City,aus:vic:vic-02-GWY:,-37.85930842,145.0582249
+vic:rail:FSS,Flinders Street,Glen Waverley - City,aus:vic:vic-02-GWY:,-37.81830513,144.96696435
+vic:rail:KYG,Kooyong,Glen Waverley - City,aus:vic:vic-02-GWY:,-37.83992894,145.03355161
+vic:rail:RMD,Richmond,Glen Waverley - City,aus:vic:vic-02-GWY:,-37.82407446,144.99016426
+vic:rail:JLI,Jolimont-MCG,Hurstbridge - City,aus:vic:vic-02-HBE:,-37.81652702,144.98409834
+vic:rail:HDB,Heidelberg,Hurstbridge - City,aus:vic:vic-02-HBE:,-37.75707293,145.06068552
+vic:rail:MMY,Montmorency,Hurstbridge - City,aus:vic:vic-02-HBE:,-37.71529624,145.12151574
+vic:rail:DCK,Diamond Creek,Hurstbridge - City,aus:vic:vic-02-HBE:,-37.67337905,145.15853819
+vic:rail:EAG,Eaglemont,Hurstbridge - City,aus:vic:vic-02-HBE:,-37.76358553,145.05394269
+vic:rail:MCE,Melbourne Central,Hurstbridge - City,aus:vic:vic-02-HBE:,-37.80993896,144.96260489
+vic:rail:IVA,Ivanhoe,Hurstbridge - City,aus:vic:vic-02-HBE:,-37.76889674,145.04542519
+vic:rail:ROS,Rosanna,Hurstbridge - City,aus:vic:vic-02-HBE:,-37.7428786,145.06614029
+vic:rail:CWD,Collingwood,Hurstbridge - City,aus:vic:vic-02-HBE:,-37.80452593,144.99374967
+vic:rail:DEN,Dennis,Hurstbridge - City,aus:vic:vic-02-HBE:,-37.77918729,145.00824163
+vic:rail:DBN,Darebin,Hurstbridge - City,aus:vic:vic-02-HBE:,-37.77496341,145.03847598
+vic:rail:WTT,Wattle Glen,Hurstbridge - City,aus:vic:vic-02-HBE:,-37.66396792,145.18161453
+vic:rail:ALP,Alphington,Hurstbridge - City,aus:vic:vic-02-HBE:,-37.77839363,145.03125493
+vic:rail:WTG,Westgarth,Hurstbridge - City,aus:vic:vic-02-HBE:,-37.7806207,144.99923319
+vic:rail:FGS,Flagstaff,Hurstbridge - City,aus:vic:vic-02-HBE:,-37.8119815,144.95566511
+vic:rail:WRM,West Richmond,Hurstbridge - City,aus:vic:vic-02-HBE:,-37.81494896,144.99142278
+vic:rail:NRM,North Richmond,Hurstbridge - City,aus:vic:vic-02-HBE:,-37.81039836,144.99250026
+vic:rail:PAR,Parliament,Hurstbridge - City,aus:vic:vic-02-HBE:,-37.811337,144.973119
+vic:rail:CHL,Clifton Hill,Hurstbridge - City,aus:vic:vic-02-HBE:,-37.78865745,144.9954167
+vic:rail:WAT,Watsonia,Hurstbridge - City,aus:vic:vic-02-HBE:,-37.71095798,145.08379338
+vic:rail:SSS,Southern Cross,Hurstbridge - City,aus:vic:vic-02-HBE:,-37.8186631,144.95277706
+vic:rail:VPK,Victoria Park,Hurstbridge - City,aus:vic:vic-02-HBE:,-37.79915782,144.99445143
+vic:rail:GRN,Greensborough,Hurstbridge - City,aus:vic:vic-02-HBE:,-37.70371477,145.10793589
+vic:rail:FFD,Fairfield,Hurstbridge - City,aus:vic:vic-02-HBE:,-37.77917126,145.0169053
+vic:rail:FSS,Flinders Street,Hurstbridge - City,aus:vic:vic-02-HBE:,-37.81830513,144.96696435
+vic:rail:HBE,Hurstbridge,Hurstbridge - City,aus:vic:vic-02-HBE:,-37.63939817,145.19201689
+vic:rail:ELT,Eltham,Hurstbridge - City,aus:vic:vic-02-HBE:,-37.71354967,145.14782202
+vic:rail:MCD,Macleod,Hurstbridge - City,aus:vic:vic-02-HBE:,-37.7260123,145.06914332
+vic:rail:JLI,Jolimont-MCG,Hurstbridge - City,aus:vic:vic-02-HBE-R:,-37.81652702,144.98409834
+vic:rail:HDB,Heidelberg,Hurstbridge - City,aus:vic:vic-02-HBE-R:,-37.75707293,145.06068552
+vic:rail:MMY,Montmorency,Hurstbridge - City,aus:vic:vic-02-HBE-R:,-37.71529624,145.12151574
+vic:rail:DCK,Diamond Creek,Hurstbridge - City,aus:vic:vic-02-HBE-R:,-37.67337905,145.15853819
+vic:rail:EAG,Eaglemont,Hurstbridge - City,aus:vic:vic-02-HBE-R:,-37.76358553,145.05394269
+vic:rail:IVA,Ivanhoe,Hurstbridge - City,aus:vic:vic-02-HBE-R:,-37.76889674,145.04542519
+vic:rail:ROS,Rosanna,Hurstbridge - City,aus:vic:vic-02-HBE-R:,-37.7428786,145.06614029
+vic:rail:CWD,Collingwood,Hurstbridge - City,aus:vic:vic-02-HBE-R:,-37.80452593,144.99374967
+vic:rail:DEN,Dennis,Hurstbridge - City,aus:vic:vic-02-HBE-R:,-37.77918729,145.00824163
+vic:rail:DBN,Darebin,Hurstbridge - City,aus:vic:vic-02-HBE-R:,-37.77496341,145.03847598
+vic:rail:WTT,Wattle Glen,Hurstbridge - City,aus:vic:vic-02-HBE-R:,-37.66396792,145.18161453
+vic:rail:ALP,Alphington,Hurstbridge - City,aus:vic:vic-02-HBE-R:,-37.77839363,145.03125493
+vic:rail:WTG,Westgarth,Hurstbridge - City,aus:vic:vic-02-HBE-R:,-37.7806207,144.99923319
+vic:rail:WRM,West Richmond,Hurstbridge - City,aus:vic:vic-02-HBE-R:,-37.81494896,144.99142278
+vic:rail:NRM,North Richmond,Hurstbridge - City,aus:vic:vic-02-HBE-R:,-37.81039836,144.99250026
+vic:rail:PAR,Parliament,Hurstbridge - City,aus:vic:vic-02-HBE-R:,-37.811337,144.973119
+vic:rail:CHL,Clifton Hill,Hurstbridge - City,aus:vic:vic-02-HBE-R:,-37.78865745,144.9954167
+vic:rail:WAT,Watsonia,Hurstbridge - City,aus:vic:vic-02-HBE-R:,-37.71095798,145.08379338
+vic:rail:VPK,Victoria Park,Hurstbridge - City,aus:vic:vic-02-HBE-R:,-37.79915782,144.99445143
+vic:rail:FFD,Fairfield,Hurstbridge - City,aus:vic:vic-02-HBE-R:,-37.77917126,145.0169053
+vic:rail:GRN,Greensborough,Hurstbridge - City,aus:vic:vic-02-HBE-R:,-37.70371477,145.10793589
+vic:rail:HBE,Hurstbridge,Hurstbridge - City,aus:vic:vic-02-HBE-R:,-37.63939817,145.19201689
+vic:rail:ELT,Eltham,Hurstbridge - City,aus:vic:vic-02-HBE-R:,-37.71354967,145.14782202
+vic:rail:MCD,Macleod,Hurstbridge - City,aus:vic:vic-02-HBE-R:,-37.7260123,145.06914332
+vic:rail:AUB,Auburn,Lilydale - City,aus:vic:vic-02-LIL:,-37.82239831,145.04584366
+vic:rail:CAM,Camberwell,Lilydale - City,aus:vic:vic-02-LIL:,-37.82656714,145.05869718
+vic:rail:CBY,Canterbury,Lilydale - City,aus:vic:vic-02-LIL:,-37.82448518,145.08122424
+vic:rail:BBN,Blackburn,Lilydale - City,aus:vic:vic-02-LIL:,-37.82007075,145.15001354
+vic:rail:HAW,Hawthorn,Lilydale - City,aus:vic:vic-02-LIL:,-37.82182601,145.02289866
+vic:rail:UNN,Union,Lilydale - City,aus:vic:vic-02-LIL:,-37.82315506,145.10034527
+vic:rail:CHM,Chatham,Lilydale - City,aus:vic:vic-02-LIL:,-37.82429952,145.08864793
+vic:rail:MCE,Melbourne Central,Lilydale - City,aus:vic:vic-02-LIL:,-37.80993896,144.96260489
+vic:rail:ECM,East Camberwell,Lilydale - City,aus:vic:vic-02-LIL:,-37.82589419,145.06819025
+vic:rail:BOX,Box Hill,Lilydale - City,aus:vic:vic-02-LIL:,-37.81922165,145.12142893
+vic:rail:NWG,Nunawading,Lilydale - City,aus:vic:vic-02-LIL:,-37.82061218,145.1748915
+vic:rail:HTD,Heatherdale,Lilydale - City,aus:vic:vic-02-LIL:,-37.8188232,145.21397044
+vic:rail:RWD,Ringwood,Lilydale - City,aus:vic:vic-02-LIL:,-37.81588648,145.22896846
+vic:rail:MCH,Mitcham,Lilydale - City,aus:vic:vic-02-LIL:,-37.81816668,145.19220824
+vic:rail:LIL,Lilydale,Lilydale - City,aus:vic:vic-02-LIL:,-37.75721264,145.34582227
+vic:rail:LAB,Laburnum,Lilydale - City,aus:vic:vic-02-LIL:,-37.82078023,145.14070271
+vic:rail:FGS,Flagstaff,Lilydale - City,aus:vic:vic-02-LIL:,-37.8119815,144.95566511
+vic:rail:BLY,Burnley,Lilydale - City,aus:vic:vic-02-LIL:,-37.82756022,145.00755515
+vic:rail:PAR,Parliament,Lilydale - City,aus:vic:vic-02-LIL:,-37.811337,144.973119
+vic:rail:GFE,Glenferrie,Lilydale - City,aus:vic:vic-02-LIL:,-37.82146682,145.03643883
+vic:rail:ERM,East Richmond,Lilydale - City,aus:vic:vic-02-LIL:,-37.82639995,144.99706569
+vic:rail:CDN,Croydon,Lilydale - City,aus:vic:vic-02-LIL:,-37.79530018,145.28048737
+vic:rail:SSS,Southern Cross,Lilydale - City,aus:vic:vic-02-LIL:,-37.8186631,144.95277706
+vic:rail:FSS,Flinders Street,Lilydale - City,aus:vic:vic-02-LIL:,-37.81830513,144.96696435
+vic:rail:MLK,Mooroolbark,Lilydale - City,aus:vic:vic-02-LIL:,-37.78474883,145.3124024
+vic:rail:RMD,Richmond,Lilydale - City,aus:vic:vic-02-LIL:,-37.82407446,144.99016426
+vic:rail:RWE,Ringwood East,Lilydale - City,aus:vic:vic-02-LIL:,-37.81196804,145.25019091
+vic:rail:MCH,Mitcham,Lilydale - City,aus:vic:vic-02-LIL-R:,-37.81816668,145.19220824
+vic:rail:LAB,Laburnum,Lilydale - City,aus:vic:vic-02-LIL-R:,-37.82078023,145.14070271
+vic:rail:RWD,Ringwood,Lilydale - City,aus:vic:vic-02-LIL-R:,-37.81588648,145.22896846
+vic:rail:CAM,Camberwell,Lilydale - City,aus:vic:vic-02-LIL-R:,-37.82656714,145.05869718
+vic:rail:ECM,East Camberwell,Lilydale - City,aus:vic:vic-02-LIL-R:,-37.82589419,145.06819025
+vic:rail:CBY,Canterbury,Lilydale - City,aus:vic:vic-02-LIL-R:,-37.82448518,145.08122424
+vic:rail:BOX,Box Hill,Lilydale - City,aus:vic:vic-02-LIL-R:,-37.81922165,145.12142893
+vic:rail:BBN,Blackburn,Lilydale - City,aus:vic:vic-02-LIL-R:,-37.82007075,145.15001354
+vic:rail:UNN,Union,Lilydale - City,aus:vic:vic-02-LIL-R:,-37.82315506,145.10034527
+vic:rail:NWG,Nunawading,Lilydale - City,aus:vic:vic-02-LIL-R:,-37.82061218,145.1748915
+vic:rail:HTD,Heatherdale,Lilydale - City,aus:vic:vic-02-LIL-R:,-37.8188232,145.21397044
+vic:rail:CHM,Chatham,Lilydale - City,aus:vic:vic-02-LIL-R:,-37.82429952,145.08864793
+vic:rail:NCE,Northcote,Mernda - City,aus:vic:vic-02-MDD:,-37.76986537,144.99527721
+vic:rail:JLI,Jolimont-MCG,Mernda - City,aus:vic:vic-02-MDD:,-37.81652702,144.98409834
+vic:rail:SMG,South Morang,Mernda - City,aus:vic:vic-02-MDD:,-37.64905033,145.06701257
+vic:rail:LAL,Lalor,Mernda - City,aus:vic:vic-02-MDD:,-37.66585075,145.01719317
+vic:rail:TSN,Thomastown,Mernda - City,aus:vic:vic-02-MDD:,-37.68033809,145.01427887
+vic:rail:MDD,Mernda,Mernda - City,aus:vic:vic-02-MDD:,-37.60254907,145.10095293
+vic:rail:MCE,Melbourne Central,Mernda - City,aus:vic:vic-02-MDD:,-37.80993896,144.96260489
+vic:rail:CWD,Collingwood,Mernda - City,aus:vic:vic-02-MDD:,-37.80452593,144.99374967
+vic:rail:BEL,Bell,Mernda - City,aus:vic:vic-02-MDD:,-37.74556212,145.00015503
+vic:rail:FGS,Flagstaff,Mernda - City,aus:vic:vic-02-MDD:,-37.8119815,144.95566511
+vic:rail:KPK,Keon Park,Mernda - City,aus:vic:vic-02-MDD:,-37.69487012,145.01188382
+vic:rail:MER,Merri,Mernda - City,aus:vic:vic-02-MDD:,-37.77784668,144.99297248
+vic:rail:EPP,Epping,Mernda - City,aus:vic:vic-02-MDD:,-37.65217784,145.03107934
+vic:rail:RUT,Ruthven,Mernda - City,aus:vic:vic-02-MDD:,-37.70789754,145.00951662
+vic:rail:WRM,West Richmond,Mernda - City,aus:vic:vic-02-MDD:,-37.81494896,144.99142278
+vic:rail:PRE,Preston,Mernda - City,aus:vic:vic-02-MDD:,-37.73867424,145.00052198
+vic:rail:NRM,North Richmond,Mernda - City,aus:vic:vic-02-MDD:,-37.81039836,144.99250026
+vic:rail:PAR,Parliament,Mernda - City,aus:vic:vic-02-MDD:,-37.811337,144.973119
+vic:rail:CHL,Clifton Hill,Mernda - City,aus:vic:vic-02-MDD:,-37.78865745,144.9954167
+vic:rail:RUS,Rushall,Mernda - City,aus:vic:vic-02-MDD:,-37.78321711,144.99240708
+vic:rail:SSS,Southern Cross,Mernda - City,aus:vic:vic-02-MDD:,-37.8186631,144.95277706
+vic:rail:CXT,Croxton,Mernda - City,aus:vic:vic-02-MDD:,-37.764101,144.99705619
+vic:rail:VPK,Victoria Park,Mernda - City,aus:vic:vic-02-MDD:,-37.79915782,144.99445143
+vic:rail:REG,Regent,Mernda - City,aus:vic:vic-02-MDD:,-37.72840277,145.00277256
+vic:rail:FSS,Flinders Street,Mernda - City,aus:vic:vic-02-MDD:,-37.81830513,144.96696435
+vic:rail:TBY,Thornbury,Mernda - City,aus:vic:vic-02-MDD:,-37.75505179,144.99857152
+vic:rail:MMR,Middle Gorge,Mernda - City,aus:vic:vic-02-MDD:,-37.64403391,145.09212201
+vic:rail:RES,Reservoir,Mernda - City,aus:vic:vic-02-MDD:,-37.71688492,145.00699582
+vic:rail:HWS,Hawkstowe,Mernda - City,aus:vic:vic-02-MDD:,-37.62297489,145.09729471
+vic:rail:NCE,Northcote,Mernda - City,aus:vic:vic-02-MDD-R:,-37.76986537,144.99527721
+vic:rail:CHL,Clifton Hill,Mernda - City,aus:vic:vic-02-MDD-R:,-37.78865745,144.9954167
+vic:rail:JLI,Jolimont-MCG,Mernda - City,aus:vic:vic-02-MDD-R:,-37.81652702,144.98409834
+vic:rail:CWD,Collingwood,Mernda - City,aus:vic:vic-02-MDD-R:,-37.80452593,144.99374967
+vic:rail:RUS,Rushall,Mernda - City,aus:vic:vic-02-MDD-R:,-37.78321711,144.99240708
+vic:rail:CXT,Croxton,Mernda - City,aus:vic:vic-02-MDD-R:,-37.764101,144.99705619
+vic:rail:BEL,Bell,Mernda - City,aus:vic:vic-02-MDD-R:,-37.74556212,145.00015503
+vic:rail:VPK,Victoria Park,Mernda - City,aus:vic:vic-02-MDD-R:,-37.79915782,144.99445143
+vic:rail:REG,Regent,Mernda - City,aus:vic:vic-02-MDD-R:,-37.72840277,145.00277256
+vic:rail:MER,Merri,Mernda - City,aus:vic:vic-02-MDD-R:,-37.77784668,144.99297248
+vic:rail:TBY,Thornbury,Mernda - City,aus:vic:vic-02-MDD-R:,-37.75505179,144.99857152
+vic:rail:WRM,West Richmond,Mernda - City,aus:vic:vic-02-MDD-R:,-37.81494896,144.99142278
+vic:rail:RES,Reservoir,Mernda - City,aus:vic:vic-02-MDD-R:,-37.71688492,145.00699582
+vic:rail:PRE,Preston,Mernda - City,aus:vic:vic-02-MDD-R:,-37.73867424,145.00052198
+vic:rail:PAR,Parliament,Mernda - City,aus:vic:vic-02-MDD-R:,-37.811337,144.973119
+vic:rail:NRM,North Richmond,Mernda - City,aus:vic:vic-02-MDD-R:,-37.81039836,144.99250026
+vic:rail:MRB,Murrumbeena,Pakenham - City,aus:vic:vic-02-PKM:,-37.89019832,145.06737487
+vic:rail:NPK,Noble Park,Pakenham - City,aus:vic:vic-02-PKM:,-37.96661867,145.17632482
+vic:rail:HUN,Huntingdale,Pakenham - City,aus:vic:vic-02-PKM:,-37.91101734,145.10236432
+vic:rail:YMN,Yarraman,Pakenham - City,aus:vic:vic-02-PKM:,-37.97825454,145.19160028
+vic:rail:PKM,Pakenham,Pakenham - City,aus:vic:vic-02-PKM:,-38.08061397,145.48637907
+vic:rail:OAK,Oakleigh,Pakenham - City,aus:vic:vic-02-PKM:,-37.90037214,145.08830787
+vic:rail:HLM,Hallam,Pakenham - City,aus:vic:vic-02-PKM:,-38.01774038,145.2697768
+vic:rail:CFD,Caulfield,Pakenham - City,aus:vic:vic-02-PKM:,-37.87745946,145.04252478
+vic:rail:NWA,Narre Warren,Pakenham - City,aus:vic:vic-02-PKM:,-38.02777361,145.303993
+vic:rail:SYR,South Yarra,Pakenham - City,aus:vic:vic-02-PKM:,-37.83844935,144.99234221
+vic:rail:OFC,Officer,Pakenham - City,aus:vic:vic-02-PKM:,-38.06614572,145.41098723
+vic:rail:BFD,Beaconsfield,Pakenham - City,aus:vic:vic-02-PKM:,-38.05083135,145.36607374
+vic:rail:SNP,Sandown Park,Pakenham - City,aus:vic:vic-02-PKM:,-37.95648655,145.16282634
+vic:rail:SPG,Springvale,Pakenham - City,aus:vic:vic-02-PKM:,-37.94950878,145.15345183
+vic:rail:CDA,Cardinia Road,Pakenham - City,aus:vic:vic-02-PKM:,-38.07129047,145.43779101
+vic:rail:CNE,Carnegie,Pakenham - City,aus:vic:vic-02-PKM:,-37.88624148,145.05857506
+vic:rail:EPH,East Pakenham,Pakenham - City,aus:vic:vic-02-PKM:,-38.08441136,145.50635689
+vic:rail:AZC,Anzac,Pakenham - City,aus:vic:vic-02-PKM:,-37.83331103,144.97279042
+vic:rail:CLA,Clayton,Pakenham - City,aus:vic:vic-02-PKM:,-37.92468255,145.12053436
+vic:rail:WTL,Westall,Pakenham - City,aus:vic:vic-02-PKM:,-37.93847284,145.13881033
+vic:rail:RMD,Richmond,Pakenham - City,aus:vic:vic-02-PKM:,-37.82407446,144.99016426
+vic:rail:DNG,Dandenong,Pakenham - City,aus:vic:vic-02-PKM:,-37.98996792,145.20972537
+vic:rail:THL,Town Hall,Pakenham - City,aus:vic:vic-02-PKM:,-37.81699161,144.96709126
+vic:rail:HUG,Hughesdale,Pakenham - City,aus:vic:vic-02-PKM:,-37.89419074,145.07618607
+vic:rail:BEW,Berwick,Pakenham - City,aus:vic:vic-02-PKM:,-38.03998037,145.34541666
+vic:rail:MAL,Malvern,Pakenham - City,aus:vic:vic-02-PKM:,-37.8662533,145.02929394
+vic:rail:PKM,Pakenham,Pakenham - City,aus:vic:vic-02-PKM-R:,-38.08061397,145.48637907
+vic:rail:NPK,Noble Park,Pakenham - City,aus:vic:vic-02-PKM-R:,-37.96661867,145.17632482
+vic:rail:EPH,East Pakenham,Pakenham - City,aus:vic:vic-02-PKM-R:,-38.08441136,145.50635689
+vic:rail:HLM,Hallam,Pakenham - City,aus:vic:vic-02-PKM-R:,-38.01774038,145.2697768
+vic:rail:NWA,Narre Warren,Pakenham - City,aus:vic:vic-02-PKM-R:,-38.02777361,145.303993
+vic:rail:WTL,Westall,Pakenham - City,aus:vic:vic-02-PKM-R:,-37.93847284,145.13881033
+vic:rail:CDA,Cardinia Road,Pakenham - City,aus:vic:vic-02-PKM-R:,-38.07129047,145.43779101
+vic:rail:OFC,Officer,Pakenham - City,aus:vic:vic-02-PKM-R:,-38.06614572,145.41098723
+vic:rail:DNG,Dandenong,Pakenham - City,aus:vic:vic-02-PKM-R:,-37.98996792,145.20972537
+vic:rail:BFD,Beaconsfield,Pakenham - City,aus:vic:vic-02-PKM-R:,-38.05083135,145.36607374
+vic:rail:YMN,Yarraman,Pakenham - City,aus:vic:vic-02-PKM-R:,-37.97825454,145.19160028
+vic:rail:BEW,Berwick,Pakenham - City,aus:vic:vic-02-PKM-R:,-38.03998037,145.34541666
+vic:rail:SNP,Sandown Park,Pakenham - City,aus:vic:vic-02-PKM-R:,-37.95648655,145.16282634
+vic:rail:SPG,Springvale,Pakenham - City,aus:vic:vic-02-PKM-R:,-37.94950878,145.15345183
+vic:rail:SSS,Southern Cross,Flemington Racecourse - City,aus:vic:vic-02-RCE:,-37.8186631,144.95277706
+vic:rail:RCE,Flemington Racecourse,Flemington Racecourse - City,aus:vic:vic-02-RCE:,-37.78721073,144.90757709
+vic:rail:FSS,Flinders Street,Flemington Racecourse - City,aus:vic:vic-02-RCE:,-37.81830513,144.96696435
+vic:rail:NME,North Melbourne,Flemington Racecourse - City,aus:vic:vic-02-RCE:,-37.80755071,144.94238439
+vic:rail:ELS,Elsternwick,Sandringham - City,aus:vic:vic-02-SHM:,-37.88475311,145.00089787
+vic:rail:WIN,Windsor,Sandringham - City,aus:vic:vic-02-SHM:,-37.85605308,144.99203517
+vic:rail:NBN,North Brighton,Sandringham - City,aus:vic:vic-02-SHM:,-37.90478832,145.00261908
+vic:rail:GVE,Gardenvale,Sandringham - City,aus:vic:vic-02-SHM:,-37.89669508,145.00416843
+vic:rail:RIP,Ripponlea,Sandringham - City,aus:vic:vic-02-SHM:,-37.87596086,144.99525782
+vic:rail:FSS,Flinders Street,Sandringham - City,aus:vic:vic-02-SHM:,-37.81830513,144.96696435
+vic:rail:SHM,Sandringham,Sandringham - City,aus:vic:vic-02-SHM:,-37.95033018,145.00456136
+vic:rail:SYR,South Yarra,Sandringham - City,aus:vic:vic-02-SHM:,-37.83844935,144.99234221
+vic:rail:RMD,Richmond,Sandringham - City,aus:vic:vic-02-SHM:,-37.82407446,144.99016426
+vic:rail:BCV,Balaclava,Sandringham - City,aus:vic:vic-02-SHM:,-37.86948773,144.9935121
+vic:rail:PRA,Prahran,Sandringham - City,aus:vic:vic-02-SHM:,-37.84951848,144.98985992
+vic:rail:HAM,Hampton,Sandringham - City,aus:vic:vic-02-SHM:,-37.9379864,145.00150445
+vic:rail:MBN,Middle Brighton,Sandringham - City,aus:vic:vic-02-SHM:,-37.91513441,144.99629909
+vic:rail:BBH,Brighton Beach,Sandringham - City,aus:vic:vic-02-SHM:,-37.92648432,144.98915355
+vic:rail:LWA,Leawarra,Stony Point - Frankston,aus:vic:vic-02-STY:,-38.152034,145.13953396
+vic:rail:TAB,Tyabb,Stony Point - Frankston,aus:vic:vic-02-STY:,-38.259815,145.18640071
+vic:rail:SVE,Somerville,Stony Point - Frankston,aus:vic:vic-02-STY:,-38.22534196,145.17624492
+vic:rail:FKN,Frankston,Stony Point - Frankston,aus:vic:vic-02-STY:,-38.14299007,145.12616228
+vic:rail:BXR,Baxter,Stony Point - Frankston,aus:vic:vic-02-STY:,-38.19404306,145.16052609
+vic:rail:CPT,Crib Point,Stony Point - Frankston,aus:vic:vic-02-STY:,-38.36612338,145.20404332
+vic:rail:MRO,Morradoo,Stony Point - Frankston,aus:vic:vic-02-STY:,-38.35403334,145.18960249
+vic:rail:HST,Hastings,Stony Point - Frankston,aus:vic:vic-02-STY:,-38.30565853,145.18597988
+vic:rail:STY,Stony Point,Stony Point - Frankston,aus:vic:vic-02-STY:,-38.37423454,145.22183746
+vic:rail:BIT,Bittern,Stony Point - Frankston,aus:vic:vic-02-STY:,-38.33739032,145.17802653
+vic:rail:SUN,Sunshine,Sunbury - City,aus:vic:vic-02-SUY:,-37.78853633,144.8328782
+vic:rail:DRT,Diggers Rest,Sunbury - City,aus:vic:vic-02-SUY:,-37.62696051,144.71982218
+vic:rail:FSY,Footscray,Sunbury - City,aus:vic:vic-02-SUY:,-37.80141343,144.90202006
+vic:rail:PKV,Parkville,Sunbury - City,aus:vic:vic-02-SUY:,-37.79987386,144.95954246
+vic:rail:TOT,Tottenham,Sunbury - City,aus:vic:vic-02-SUY:,-37.7992509,144.86294494
+vic:rail:GIN,Ginifer,Sunbury - City,aus:vic:vic-02-SUY:,-37.76008529,144.81135895
+vic:rail:WGS,Watergardens,Sunbury - City,aus:vic:vic-02-SUY:,-37.70111071,144.77418099
+vic:rail:SUY,Sunbury,Sunbury - City,aus:vic:vic-02-SUY:,-37.57928396,144.72798098
+vic:rail:STL,State Library,Sunbury - City,aus:vic:vic-02-SUY:,-37.80943693,144.9632775
+vic:rail:SAB,St Albans (St Albans),Sunbury - City,aus:vic:vic-02-SUY:,-37.74486131,144.80005045
+vic:rail:KPL,Keilor Plains,Sunbury - City,aus:vic:vic-02-SUY:,-37.72927934,144.79373807
+vic:rail:THL,Town Hall,Sunbury - City,aus:vic:vic-02-SUY:,-37.81699161,144.96709126
+vic:rail:MFY,Middle Footscray,Sunbury - City,aus:vic:vic-02-SUY:,-37.8025047,144.89147208
+vic:rail:ALB,Albion,Sunbury - City,aus:vic:vic-02-SUY:,-37.77765281,144.82470361
+vic:rail:ARN,Arden,Sunbury - City,aus:vic:vic-02-SUY:,-37.80122194,144.94120851
+vic:rail:WFY,West Footscray,Sunbury - City,aus:vic:vic-02-SUY:,-37.80180266,144.88398479
+vic:rail:NME,North Melbourne,Upfield - City,aus:vic:vic-02-UFD:,-37.80755071,144.94238439
+vic:rail:MLD,Moreland,Upfield - City,aus:vic:vic-02-UFD:,-37.75448484,144.96182303
+vic:rail:MCE,Melbourne Central,Upfield - City,aus:vic:vic-02-UFD:,-37.80993896,144.96260489
+vic:rail:MAC,Macaulay,Upfield - City,aus:vic:vic-02-UFD:,-37.79426673,144.93616633
+vic:rail:FBD,Flemington Bridge,Upfield - City,aus:vic:vic-02-UFD:,-37.78813995,144.93932328
+vic:rail:ASY,Anstey,Upfield - City,aus:vic:vic-02-UFD:,-37.76124203,144.96068404
+vic:rail:MYN,Merlynston,Upfield - City,aus:vic:vic-02-UFD:,-37.72093389,144.96131355
+vic:rail:BWK,Brunswick,Upfield - City,aus:vic:vic-02-UFD:,-37.76772055,144.95958654
+vic:rail:FAK,Fawkner,Upfield - City,aus:vic:vic-02-UFD:,-37.71462129,144.96054503
+vic:rail:RPK,Royal Park,Upfield - City,aus:vic:vic-02-UFD:,-37.78119293,144.95230127
+vic:rail:FGS,Flagstaff,Upfield - City,aus:vic:vic-02-UFD:,-37.8119815,144.95566511
+vic:rail:BAT,Batman,Upfield - City,aus:vic:vic-02-UFD:,-37.73352285,144.96284055
+vic:rail:PAR,Parliament,Upfield - City,aus:vic:vic-02-UFD:,-37.811337,144.973119
+vic:rail:JWL,Jewell,Upfield - City,aus:vic:vic-02-UFD:,-37.77498702,144.95871691
+vic:rail:UFD,Upfield,Upfield - City,aus:vic:vic-02-UFD:,-37.66607779,144.94673994
+vic:rail:SSS,Southern Cross,Upfield - City,aus:vic:vic-02-UFD:,-37.8186631,144.95277706
+vic:rail:COB,Coburg,Upfield - City,aus:vic:vic-02-UFD:,-37.74234502,144.96333634
+vic:rail:FSS,Flinders Street,Upfield - City,aus:vic:vic-02-UFD:,-37.81830513,144.96696435
+vic:rail:GOW,Gowrie,Upfield - City,aus:vic:vic-02-UFD:,-37.700678,144.95887432
+vic:rail:WLD,Williams Landing,Werribee - City,aus:vic:vic-02-WER:,-37.86986533,144.74744472
+vic:rail:FSY,Footscray,Werribee - City,aus:vic:vic-02-WER:,-37.80141343,144.90202006
+vic:rail:HCG,Hoppers Crossing,Werribee - City,aus:vic:vic-02-WER:,-37.88338025,144.70074704
+vic:rail:SEN,Seddon,Werribee - City,aus:vic:vic-02-WER:,-37.80900514,144.89567157
+vic:rail:SPT,Spotswood,Werribee - City,aus:vic:vic-02-WER:,-37.83063888,144.88593345
+vic:rail:ACF,Aircraft,Werribee - City,aus:vic:vic-02-WER:,-37.86660595,144.76080944
+vic:rail:WTO,Westona,Werribee - City,aus:vic:vic-02-WER:,-37.86516348,144.81349356
+vic:rail:NME,North Melbourne,Werribee - City,aus:vic:vic-02-WER:,-37.80755071,144.94238439
+vic:rail:SSS,Southern Cross,Werribee - City,aus:vic:vic-02-WER:,-37.8186631,144.95277706
+vic:rail:YVE,Yarraville,Werribee - City,aus:vic:vic-02-WER:,-37.81585044,144.88993371
+vic:rail:FSS,Flinders Street,Werribee - City,aus:vic:vic-02-WER:,-37.81830513,144.96696435
+vic:rail:ALT,Altona,Werribee - City,aus:vic:vic-02-WER:,-37.8671476,144.82964474
+vic:rail:LAV,Laverton,Werribee - City,aus:vic:vic-02-WER:,-37.86369404,144.77261667
+vic:rail:SHE,Seaholme,Werribee - City,aus:vic:vic-02-WER:,-37.86784231,144.84095773
+vic:rail:SKN,South Kensington,Werribee - City,aus:vic:vic-02-WER:,-37.79953087,144.92546901
+vic:rail:NPT,Newport,Werribee - City,aus:vic:vic-02-WER:,-37.84272637,144.8835883
+vic:rail:WER,Werribee,Werribee - City,aus:vic:vic-02-WER:,-37.89937805,144.66111801
+vic:rail:WLD,Williams Landing,Werribee - City,aus:vic:vic-02-WER-R:,-37.86986533,144.74744472
+vic:rail:FSY,Footscray,Werribee - City,aus:vic:vic-02-WER-R:,-37.80141343,144.90202006
+vic:rail:HCG,Hoppers Crossing,Werribee - City,aus:vic:vic-02-WER-R:,-37.88338025,144.70074704
+vic:rail:SEN,Seddon,Werribee - City,aus:vic:vic-02-WER-R:,-37.80900514,144.89567157
+vic:rail:SPT,Spotswood,Werribee - City,aus:vic:vic-02-WER-R:,-37.83063888,144.88593345
+vic:rail:ACF,Aircraft,Werribee - City,aus:vic:vic-02-WER-R:,-37.86660595,144.76080944
+vic:rail:WTO,Westona,Werribee - City,aus:vic:vic-02-WER-R:,-37.86516348,144.81349356
+vic:rail:NME,North Melbourne,Werribee - City,aus:vic:vic-02-WER-R:,-37.80755071,144.94238439
+vic:rail:YVE,Yarraville,Werribee - City,aus:vic:vic-02-WER-R:,-37.81585044,144.88993371
+vic:rail:ALT,Altona,Werribee - City,aus:vic:vic-02-WER-R:,-37.8671476,144.82964474
+vic:rail:LAV,Laverton,Werribee - City,aus:vic:vic-02-WER-R:,-37.86369404,144.77261667
+vic:rail:SHE,Seaholme,Werribee - City,aus:vic:vic-02-WER-R:,-37.86784231,144.84095773
+vic:rail:SKN,South Kensington,Werribee - City,aus:vic:vic-02-WER-R:,-37.79953087,144.92546901
+vic:rail:NPT,Newport,Werribee - City,aus:vic:vic-02-WER-R:,-37.84272637,144.8835883
+vic:rail:WER,Werribee,Werribee - City,aus:vic:vic-02-WER-R:,-37.89937805,144.66111801
+vic:rail:WIL,Williamstown,Williamstown - City,aus:vic:vic-02-WIL:,-37.86775292,144.90532331
+vic:rail:FSY,Footscray,Williamstown - City,aus:vic:vic-02-WIL:,-37.80141343,144.90202006
+vic:rail:SEN,Seddon,Williamstown - City,aus:vic:vic-02-WIL:,-37.80900514,144.89567157
+vic:rail:SPT,Spotswood,Williamstown - City,aus:vic:vic-02-WIL:,-37.83063888,144.88593345
+vic:rail:NPT,Newport,Williamstown - City,aus:vic:vic-02-WIL:,-37.84272637,144.8835883
+vic:rail:NME,North Melbourne,Williamstown - City,aus:vic:vic-02-WIL:,-37.80755071,144.94238439
+vic:rail:SSS,Southern Cross,Williamstown - City,aus:vic:vic-02-WIL:,-37.8186631,144.95277706
+vic:rail:NWN,North Williamstown,Williamstown - City,aus:vic:vic-02-WIL:,-37.85733348,144.88906947
+vic:rail:FSS,Flinders Street,Williamstown - City,aus:vic:vic-02-WIL:,-37.81830513,144.96696435
+vic:rail:YVE,Yarraville,Williamstown - City,aus:vic:vic-02-WIL:,-37.81585044,144.88993371
+vic:rail:SKN,South Kensington,Williamstown - City,aus:vic:vic-02-WIL:,-37.79953087,144.92546901
+vic:rail:WBH,Williamstown Beach,Williamstown - City,aus:vic:vic-02-WIL:,-37.86398189,144.89448368
+vic:rail:WIL,Williamstown,Williamstown - City,aus:vic:vic-02-WIL-R:,-37.86775292,144.90532331
+vic:rail:FSY,Footscray,Williamstown - City,aus:vic:vic-02-WIL-R:,-37.80141343,144.90202006
+vic:rail:SEN,Seddon,Williamstown - City,aus:vic:vic-02-WIL-R:,-37.80900514,144.89567157
+vic:rail:SPT,Spotswood,Williamstown - City,aus:vic:vic-02-WIL-R:,-37.83063888,144.88593345
+vic:rail:NPT,Newport,Williamstown - City,aus:vic:vic-02-WIL-R:,-37.84272637,144.8835883
+vic:rail:NME,North Melbourne,Williamstown - City,aus:vic:vic-02-WIL-R:,-37.80755071,144.94238439
+vic:rail:NWN,North Williamstown,Williamstown - City,aus:vic:vic-02-WIL-R:,-37.85733348,144.88906947
+vic:rail:YVE,Yarraville,Williamstown - City,aus:vic:vic-02-WIL-R:,-37.81585044,144.88993371
+vic:rail:SKN,South Kensington,Williamstown - City,aus:vic:vic-02-WIL-R:,-37.79953087,144.92546901
+vic:rail:WBH,Williamstown Beach,Williamstown - City,aus:vic:vic-02-WIL-R:,-37.86398189,144.89448368

@@ -1,0 +1,29 @@
+{
+  "correlationDirection": "positive",
+  "correlationStrength": "moderate",
+  "spearmanR": 0.356,
+  "spearmanP": 0.1766,
+  "isSignificant": false,
+  "bestLine": {
+    "name": "Glen Waverley",
+    "punctualityPct": 96.8
+  },
+  "worstLine": {
+    "name": "Craigieburn",
+    "punctualityPct": 89.4
+  },
+  "wealthiestLine": {
+    "name": "Sandringham",
+    "irsadScore": 1128.7
+  },
+  "leastWealthyLine": {
+    "name": "Werribee",
+    "irsadScore": 951.0
+  },
+  "networkAvgPunctuality": 93.1,
+  "networkAvgSeifa": 1046.9,
+  "punctualityGap": 7.4,
+  "seifaGap": 177.7,
+  "period": "FY 2022-23",
+  "lineCount": 16
+}

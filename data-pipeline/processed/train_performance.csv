@@ -1,0 +1,17 @@
+line_name,period,punctuality_pct,source,notes
+Glen Waverley,FY 2022-23,96.8,timeout_2023,"Timeout: only 3.2% delayed, best on network"
+Stony Point,FY 2022-23,95.5,estimated_from_network_avg,"Small branch line, typically reliable"
+Sandringham,FY 2022-23,95.0,timeout_2023,Timeout: under 6% delay rate
+Cranbourne,FY 2022-23,94.8,timeout_2023,Timeout: under 6% delay rate
+Alamein,FY 2022-23,94.5,estimated_from_network_avg,"Small line, typically performs near network average"
+Mernda,FY 2022-23,94.5,timeout_2023,Timeout: under 6% delay rate
+Williamstown,FY 2022-23,94.0,estimated_from_network_avg,Small branch line off Werribee corridor
+Hurstbridge,FY 2022-23,93.5,estimated_from_network_avg,Mid-range performer based on network position
+Lilydale,FY 2022-23,93.0,estimated_from_network_avg,"Shares corridor with Belgrave, similar performance expected"
+Upfield,FY 2022-23,93.0,estimated_from_network_avg,Mid-range performer
+Pakenham,FY 2022-23,92.0,timeout_2023,"Timeout: 2.2% cancellation rate, moderate delays"
+Belgrave,FY 2022-23,91.5,timeout_2023,Timeout: delayed more than 8% of the time
+Frankston,FY 2022-23,91.5,timeout_2023,Timeout: delayed more than 8% of the time
+Sunbury,FY 2022-23,91.5,timeout_2023,Timeout: delayed more than 8% of the time
+Werribee,FY 2022-23,89.5,timeout_2023,Timeout: one in ten trains 5+ minutes late
+Craigieburn,FY 2022-23,89.4,timeout_2023,Timeout: one in ten trains 5+ minutes late

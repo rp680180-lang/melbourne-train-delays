@@ -1,0 +1,218 @@
+[
+  {
+    "route_id": "aus:vic:vic-02-ALM:",
+    "line_name": "Alamein - City",
+    "color": "152C6B",
+    "station_count": 18
+  },
+  {
+    "route_id": "aus:vic:vic-02-ALM-R:",
+    "line_name": "Alamein - City",
+    "color": "FE5000",
+    "station_count": 0
+  },
+  {
+    "route_id": "aus:vic:vic-02-BEG:",
+    "line_name": "Belgrave - City",
+    "color": "152C6B",
+    "station_count": 31
+  },
+  {
+    "route_id": "aus:vic:vic-02-BEG-R:",
+    "line_name": "Belgrave - City",
+    "color": "FE5000",
+    "station_count": 0
+  },
+  {
+    "route_id": "aus:vic:vic-02-CBE:",
+    "line_name": "Cranbourne - City",
+    "color": "34ACE1",
+    "station_count": 19
+  },
+  {
+    "route_id": "aus:vic:vic-02-CBE-R:",
+    "line_name": "Cranbourne - City",
+    "color": "FE5000",
+    "station_count": 5
+  },
+  {
+    "route_id": "aus:vic:vic-02-CCL:",
+    "line_name": "",
+    "color": "0072CE",
+    "station_count": 5
+  },
+  {
+    "route_id": "aus:vic:vic-02-CCL-R:",
+    "line_name": "",
+    "color": "0072CE",
+    "station_count": 5
+  },
+  {
+    "route_id": "aus:vic:vic-02-CGB:",
+    "line_name": "Craigieburn - City",
+    "color": "FFBE00",
+    "station_count": 21
+  },
+  {
+    "route_id": "aus:vic:vic-02-CGB-R:",
+    "line_name": "Craigieburn - City",
+    "color": "FE5000",
+    "station_count": 0
+  },
+  {
+    "route_id": "aus:vic:vic-02-FKN:",
+    "line_name": "Frankston - City",
+    "color": "028430",
+    "station_count": 32
+  },
+  {
+    "route_id": "aus:vic:vic-02-FKN-R:",
+    "line_name": "Frankston - City",
+    "color": "FE5000",
+    "station_count": 0
+  },
+  {
+    "route_id": "aus:vic:vic-02-GWY:",
+    "line_name": "Glen Waverley - City",
+    "color": "152C6B",
+    "station_count": 20
+  },
+  {
+    "route_id": "aus:vic:vic-02-GWY-R:",
+    "line_name": "Glen Waverley - City",
+    "color": "FE5000",
+    "station_count": 0
+  },
+  {
+    "route_id": "aus:vic:vic-02-HBE:",
+    "line_name": "Hurstbridge - City",
+    "color": "BE1014",
+    "station_count": 28
+  },
+  {
+    "route_id": "aus:vic:vic-02-HBE-R:",
+    "line_name": "Hurstbridge - City",
+    "color": "FE5000",
+    "station_count": 24
+  },
+  {
+    "route_id": "aus:vic:vic-02-LIL:",
+    "line_name": "Lilydale - City",
+    "color": "152C6B",
+    "station_count": 27
+  },
+  {
+    "route_id": "aus:vic:vic-02-LIL-R:",
+    "line_name": "Lilydale - City",
+    "color": "FE5000",
+    "station_count": 12
+  },
+  {
+    "route_id": "aus:vic:vic-02-MDD:",
+    "line_name": "Mernda - City",
+    "color": "BE1014",
+    "station_count": 29
+  },
+  {
+    "route_id": "aus:vic:vic-02-MDD-R:",
+    "line_name": "Mernda - City",
+    "color": "FE5000",
+    "station_count": 16
+  },
+  {
+    "route_id": "aus:vic:vic-02-PKM:",
+    "line_name": "Pakenham - City",
+    "color": "34ACE1",
+    "station_count": 26
+  },
+  {
+    "route_id": "aus:vic:vic-02-PKM-R:",
+    "line_name": "Pakenham - City",
+    "color": "FE5000",
+    "station_count": 14
+  },
+  {
+    "route_id": "aus:vic:vic-02-RCE:",
+    "line_name": "Flemington Racecourse - City",
+    "color": "95979A",
+    "station_count": 4
+  },
+  {
+    "route_id": "aus:vic:vic-02-RCE-R:",
+    "line_name": "City",
+    "color": "FE5000",
+    "station_count": 0
+  },
+  {
+    "route_id": "aus:vic:vic-02-SHM:",
+    "line_name": "Sandringham - City",
+    "color": "F178AF",
+    "station_count": 14
+  },
+  {
+    "route_id": "aus:vic:vic-02-SHM-R:",
+    "line_name": "Sandringham - City",
+    "color": "FE5000",
+    "station_count": 0
+  },
+  {
+    "route_id": "aus:vic:vic-02-STY:",
+    "line_name": "Stony Point - Frankston",
+    "color": "028430",
+    "station_count": 10
+  },
+  {
+    "route_id": "aus:vic:vic-02-STY-R:",
+    "line_name": "Stony Point - Frankston",
+    "color": "FE5000",
+    "station_count": 0
+  },
+  {
+    "route_id": "aus:vic:vic-02-SUY:",
+    "line_name": "Sunbury - City",
+    "color": "34ACE1",
+    "station_count": 16
+  },
+  {
+    "route_id": "aus:vic:vic-02-SUY-R:",
+    "line_name": "Sunbury - City",
+    "color": "FE5000",
+    "station_count": 0
+  },
+  {
+    "route_id": "aus:vic:vic-02-UFD:",
+    "line_name": "Upfield - City",
+    "color": "FFBE00",
+    "station_count": 19
+  },
+  {
+    "route_id": "aus:vic:vic-02-UFD-R:",
+    "line_name": "Upfield - City",
+    "color": "FE5000",
+    "station_count": 0
+  },
+  {
+    "route_id": "aus:vic:vic-02-WER:",
+    "line_name": "Werribee - City",
+    "color": "F178AF",
+    "station_count": 17
+  },
+  {
+    "route_id": "aus:vic:vic-02-WER-R:",
+    "line_name": "Werribee - City",
+    "color": "FE5000",
+    "station_count": 15
+  },
+  {
+    "route_id": "aus:vic:vic-02-WIL:",
+    "line_name": "Williamstown - City",
+    "color": "F178AF",
+    "station_count": 12
+  },
+  {
+    "route_id": "aus:vic:vic-02-WIL-R:",
+    "line_name": "Williamstown - City",
+    "color": "FE5000",
+    "station_count": 10
+  }
+]
