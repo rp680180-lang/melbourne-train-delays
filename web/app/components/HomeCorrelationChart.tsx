@@ -125,7 +125,8 @@ export default function HomeCorrelationChart() {
             <Tooltip
               content={({ active, payload }) => {
                 if (!active || !payload?.length) return null;
-                const d = payload[0].payload as Point & { x: number; y: number };
+                const d = payload[0]?.payload as Point & { x: number; y: number } | undefined;
+                if (!d?.punctuality) return null;
                 return (
                   <div
                     className="p-2 rounded-sm text-xs"

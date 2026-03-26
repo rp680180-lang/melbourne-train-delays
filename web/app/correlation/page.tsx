@@ -32,7 +32,8 @@ function CustomTooltip({
   payload?: Array<{ payload: Point & { x: number; y: number } }>;
 }) {
   if (!active || !payload?.length) return null;
-  const d = payload[0].payload;
+  const d = payload[0]?.payload;
+  if (!d?.punctuality) return null;
   return (
     <div
       className="p-3 rounded-sm text-sm"

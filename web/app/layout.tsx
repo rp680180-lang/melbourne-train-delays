@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Link from "next/link";
+import MobileNav from "./components/MobileNav";
 
 export const metadata: Metadata = {
   title: "Melbourne Train Delays vs Suburb Wealth",
@@ -14,25 +15,26 @@ export const metadata: Metadata = {
   },
 };
 
-function Nav() {
-  const links = [
-    { href: "/", label: "Home" },
-    { href: "/lines", label: "By Line" },
-    { href: "/correlation", label: "Correlation" },
-    { href: "/methodology", label: "Methodology" },
-  ];
+const navLinks = [
+  { href: "/", label: "Home" },
+  { href: "/lines", label: "By Line" },
+  { href: "/correlation", label: "Correlation" },
+  { href: "/methodology", label: "Methodology" },
+];
 
+function Nav() {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md" style={{ background: 'rgba(12,12,14,0.85)', borderBottom: '1px solid var(--border)' }}>
-      <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 group">
+    <nav className="fixed top-0 left-0 right-0 z-50" style={{ background: '#0c0c0e', borderBottom: '1px solid var(--border)' }}>
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
+        <Link href="/" className="flex items-center gap-2 group shrink-0">
           <span className="inline-block w-2 h-2 rounded-full" style={{ background: 'var(--accent-gold)' }} />
           <span className="text-sm font-medium tracking-wider uppercase" style={{ color: 'var(--text-secondary)', fontFamily: 'var(--font-body)', letterSpacing: '0.15em' }}>
             Track Record
           </span>
         </Link>
-        <div className="flex items-center gap-8">
-          {links.map((link) => (
+        {/* Desktop nav */}
+        <div className="hidden md:flex items-center gap-8">
+          {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
@@ -43,6 +45,8 @@ function Nav() {
             </Link>
           ))}
         </div>
+        {/* Mobile nav */}
+        <MobileNav />
       </div>
     </nav>
   );
