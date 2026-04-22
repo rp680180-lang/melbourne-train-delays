@@ -67,7 +67,7 @@ function Footer() {
           </div>
           <div className="text-right">
             <a
-              href="https://github.com/rp680180-lang/melbourne-train-delays"
+              href="https://github.com/Rift-Engineering/melbourne-train-delays"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm transition-colors hover:underline"
