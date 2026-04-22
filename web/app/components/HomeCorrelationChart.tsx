@@ -84,7 +84,7 @@ export default function HomeCorrelationChart() {
               domain={[940, 1150]}
               tick={{ fill: "var(--text-muted)", fontSize: 10 }}
               label={{
-                value: "IRSAD Score (Wealth)",
+                value: "IRSAD Score",
                 position: "bottom",
                 offset: 10,
                 fill: "var(--text-secondary)",

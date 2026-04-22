@@ -34,7 +34,7 @@
     "year": 2021
   },
   "methodology": {
-    "wealthMetric": "Median IRSAD score of suburbs served by each line",
+    "irsadMetric": "Median IRSAD score of suburbs served by each line",
     "stationMapping": "Station coordinates matched to ABS Suburb boundaries",
     "cbdExclusion": "CBD stations excluded from per-line SEIFA as they are shared",
     "statisticalTest": "Spearman rank correlation (robust with small n per year)",
@@ -44,7 +44,7 @@
   "limitations": [
     "Small sample size per year (n=15 train lines after excluding Stony Point)",
     "SEIFA scores are from 2021 Census while performance data spans 2000-2026",
-    "Ecological fallacy: suburb-level wealth applied to line-level analysis",
+    "Ecological fallacy: suburb-level IRSAD scores aggregated to the line level",
     "Confounders not controlled: line length, distance from CBD, infrastructure age, patronage levels",
     "Stony Point excluded as a rural shuttle service with different operational characteristics"
   ]

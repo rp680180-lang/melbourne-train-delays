@@ -4,21 +4,21 @@ import Link from "next/link";
 import MobileNav from "./components/MobileNav";
 
 export const metadata: Metadata = {
-  title: "Melbourne Train Delays vs Suburb Wealth",
+  title: "Track Record — Melbourne Metro Punctuality Dashboard",
   description:
-    "An interactive data analysis exploring whether wealthier Melbourne suburbs get better train service.",
+    "A dashboard of 26 years of Melbourne metro train punctuality, line by line, with socioeconomic indicators from the ABS SEIFA index.",
   openGraph: {
-    title: "Melbourne Train Delays vs Suburb Wealth",
+    title: "Track Record — Melbourne Metro Punctuality Dashboard",
     description:
-      "Do wealthier Melbourne suburbs get better train service? We analysed 16 metro lines to find out.",
+      "26 years of Melbourne metro train punctuality, line by line, paired with the ABS SEIFA (IRSAD) index.",
     type: "website",
   },
 };
 
 const navLinks = [
   { href: "/", label: "Home" },
-  { href: "/lines", label: "By Line" },
-  { href: "/correlation", label: "Correlation" },
+  { href: "/lines", label: "Lines" },
+  { href: "/correlation", label: "Analysis" },
   { href: "/methodology", label: "Methodology" },
 ];
 

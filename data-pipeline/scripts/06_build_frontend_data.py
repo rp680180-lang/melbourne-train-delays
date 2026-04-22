@@ -178,11 +178,11 @@ def main():
             'name': worst_line['line_name'],
             'punctualityPct': round(float(worst_line['punctuality_pct']), 1)
         },
-        'wealthiestLine': {
+        'highestIrsadLine': {
             'name': wealthiest['line_name'],
             'irsadScore': round(float(wealthiest['irsad_weighted_median']), 1)
         },
-        'leastWealthyLine': {
+        'lowestIrsadLine': {
             'name': poorest['line_name'],
             'irsadScore': round(float(poorest['irsad_weighted_median']), 1)
         },
@@ -213,7 +213,7 @@ def main():
             'lineCount': 16
         },
         'methodology': {
-            'wealthMetric': 'Population-weighted median IRSAD score per line',
+            'irsadMetric': 'Population-weighted median IRSAD score per line',
             'stationMapping': 'Station coordinates matched to ABS Suburb boundaries',
             'cbdExclusion': 'CBD stations (Flinders St, Southern Cross, etc.) excluded from per-line SEIFA as they are shared',
             'statisticalTest': 'Spearman rank correlation (robust with small n)',
@@ -223,7 +223,7 @@ def main():
             'Small sample size (n=16 train lines) limits statistical power',
             'Some line performance data is estimated from network averages',
             'SEIFA scores are from 2021 Census while performance data is from FY 2022-23',
-            'Ecological fallacy: suburb-level wealth applied to line-level analysis',
+            'Ecological fallacy: suburb-level IRSAD scores aggregated to the line level',
             'Confounders not controlled: line length, distance from CBD, infrastructure age',
             'Single time period analyzed - trends over time not captured'
         ],
@@ -254,8 +254,8 @@ def main():
           f"(rho={summary['spearmanR']}, p={summary['spearmanP']})")
     print(f"Best line: {summary['bestLine']['name']} ({summary['bestLine']['punctualityPct']}%)")
     print(f"Worst line: {summary['worstLine']['name']} ({summary['worstLine']['punctualityPct']}%)")
-    print(f"Wealthiest: {summary['wealthiestLine']['name']} (IRSAD {summary['wealthiestLine']['irsadScore']})")
-    print(f"Least wealthy: {summary['leastWealthyLine']['name']} (IRSAD {summary['leastWealthyLine']['irsadScore']})")
+    print(f"Highest IRSAD: {summary['highestIrsadLine']['name']} ({summary['highestIrsadLine']['irsadScore']})")
+    print(f"Lowest IRSAD: {summary['lowestIrsadLine']['name']} ({summary['lowestIrsadLine']['irsadScore']})")
 
 
 if __name__ == '__main__':

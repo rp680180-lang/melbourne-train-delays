@@ -135,14 +135,14 @@ export default function CorrelationPage() {
           className="text-4xl md:text-5xl mb-4"
           style={{ fontFamily: "var(--font-display)" }}
         >
-          Wealth vs. punctuality
+          IRSAD vs. punctuality
         </h1>
         <p
           className="text-base max-w-2xl mb-12"
           style={{ color: "var(--text-secondary)" }}
         >
-          Each dot represents a train line. Use the year selector to see how the
-          wealth-punctuality relationship has evolved over a decade.
+          Each dot is a train line. Use the year selector to see how the
+          IRSAD&ndash;punctuality correlation has moved over time.
         </p>
 
         {/* Year selector */}
@@ -239,7 +239,7 @@ export default function CorrelationPage() {
                   fontFamily: "var(--font-body)",
                 }}
                 label={{
-                  value: "IRSAD Score (Suburb Wealth)",
+                  value: "IRSAD Score",
                   position: "bottom",
                   offset: 15,
                   fill: "var(--text-secondary)",
@@ -319,11 +319,11 @@ export default function CorrelationPage() {
             className="text-xl mb-2"
             style={{ fontFamily: "var(--font-display)" }}
           >
-            How the correlation has changed over time
+            Correlation by year
           </h3>
           <p className="text-sm mb-4" style={{ color: "var(--text-secondary)" }}>
-            Spearman {"\u03C1"} by financial year. Higher values = stronger link
-            between wealth and punctuality.
+            Spearman {"\u03C1"} between IRSAD score and punctuality, by
+            financial year. Higher values indicate a stronger correlation.
           </p>
           <ResponsiveContainer width="100%" height={250}>
             <ComposedChart
@@ -456,7 +456,7 @@ export default function CorrelationPage() {
               style={{ color: "var(--text-secondary)" }}
             >
               <p>
-                The wealth-punctuality correlation was{" "}
+                The IRSAD&ndash;punctuality correlation was{" "}
                 <strong style={{ color: "var(--accent-gold)" }}>
                   statistically significant in {summary.significantYears} of{" "}
                   {summary.totalAnalyzedYears} years
@@ -464,12 +464,11 @@ export default function CorrelationPage() {
                 analysed, with Spearman {"\u03C1"} ranging from 0.24 to 0.77.
               </p>
               <p>
-                The <strong style={{ color: "var(--text-primary)" }}>
+                The{" "}
+                <strong style={{ color: "var(--text-primary)" }}>
                   strongest correlations were pre-COVID
                 </strong>{" "}
-                (2017&ndash;2020, {"\u03C1"} &gt; 0.7), suggesting the link between
-                wealth and service quality was most pronounced under normal
-                operating conditions.
+                (2017&ndash;2020, {"\u03C1"} &gt; 0.7).
               </p>
               <p>
                 The correlation{" "}
@@ -477,7 +476,7 @@ export default function CorrelationPage() {
                   weakened during 2021&ndash;2023
                 </strong>{" "}
                 as COVID disruptions, reduced services, and staffing issues
-                affected all lines more uniformly. It has begun recovering
+                affected all lines more uniformly, and has begun recovering
                 in 2023&ndash;2025.
               </p>
             </div>
@@ -503,11 +502,11 @@ export default function CorrelationPage() {
               {[
                 {
                   title: "Line length & distance from CBD",
-                  text: "Wealthier suburbs tend to be inner-city with shorter lines that naturally perform better.",
+                  text: "Lines with higher IRSAD scores tend to be inner-city with shorter routes that naturally perform better.",
                 },
                 {
                   title: "Infrastructure age & investment",
-                  text: "Older infrastructure is more fault-prone. Lines serving wealthy areas may receive more maintenance.",
+                  text: "Older infrastructure is more fault-prone, and maintenance investment varies across the network.",
                 },
                 {
                   title: "Level crossings",

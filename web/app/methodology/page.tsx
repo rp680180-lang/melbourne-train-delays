@@ -8,20 +8,20 @@ export default function MethodologyPage() {
           className="text-xs uppercase tracking-wider mb-4"
           style={{ color: "var(--accent-gold)", letterSpacing: "0.2em" }}
         >
-          Methodology
+          Data sources & methods
         </p>
         <h1
           className="text-4xl md:text-5xl mb-4"
           style={{ fontFamily: "var(--font-display)" }}
         >
-          How we did this
+          Methodology
         </h1>
         <p
           className="text-base mb-12 leading-relaxed"
           style={{ color: "var(--text-secondary)" }}
         >
-          Transparency about data sources, methods, and limitations is essential
-          for any data analysis. Here&rsquo;s exactly how this project works.
+          Data sources, methods, and limitations behind every chart on the
+          site.
         </p>
 
         {/* Data Sources */}
@@ -129,8 +129,9 @@ export default function MethodologyPage() {
                 IRSAD is a composite index derived from Census data including
                 household income, education levels, occupation types, housing
                 costs, and other indicators. Higher scores indicate greater
-                relative advantage. It is the standard measure used by
-                Australian governments for area-level socioeconomic analysis.
+                relative socioeconomic advantage on the ABS measure. It is
+                the standard measure used by Australian governments for
+                area-level socioeconomic analysis.
               </p>
             </div>
 
@@ -190,10 +191,10 @@ export default function MethodologyPage() {
             </div>
             <div>
               <h3 className="font-medium mb-1" style={{ color: "var(--text-primary)" }}>
-                3. Per-line wealth metric
+                3. Per-line IRSAD score
               </h3>
               <p>
-                {methodology.methodology.wealthMetric}. The population-weighted
+                {methodology.methodology.irsadMetric}. The population-weighted
                 median is preferred over the mean because lines pass through
                 suburbs with very different socioeconomic profiles, and the
                 median better represents the typical experience.

@@ -101,23 +101,24 @@ export default function Home() {
               className="text-xs uppercase tracking-wider mb-6"
               style={{ color: "var(--accent-gold)", letterSpacing: "0.2em" }}
             >
-              Data Investigation &middot; {summary.totalYears} Years of Data
+              Track Record &middot; {summary.totalYears} Years of Data
             </p>
             <h1
               className="text-5xl md:text-7xl leading-[1.05] mb-8"
               style={{ fontFamily: "var(--font-display)", color: "var(--text-primary)" }}
             >
-              Do wealthier suburbs get{" "}
-              <em style={{ color: "var(--accent-gold)" }}>better trains?</em>
+              {summary.totalYears} years of Melbourne metro punctuality,{" "}
+              <em style={{ color: "var(--accent-gold)" }}>line by line.</em>
             </h1>
             <p
               className="text-lg leading-relaxed max-w-xl mb-10"
               style={{ color: "var(--text-secondary)" }}
             >
-              Melbourne&rsquo;s 16 metro train lines serve suburbs ranging from
-              Australia&rsquo;s most affluent to its most disadvantaged. We
-              extracted {summary.totalYears} years of official performance data
-              to test whether wealthier lines really do get better service.
+              Official performance data for Melbourne&rsquo;s 16 metro train
+              lines, paired with the ABS SEIFA (IRSAD) index for each line.
+              Browse punctuality by line, see how the network has tracked
+              against its 92% target, and explore the correlation between
+              IRSAD score and on-time running.
             </p>
             <hr className="rule-gold mb-10 max-w-xs" />
             <p className="text-sm" style={{ color: "var(--text-muted)" }}>
@@ -139,9 +140,9 @@ export default function Home() {
               delay={100}
             />
             <StatCard
-              label="Wealth Gap (IRSAD)"
+              label="IRSAD Range"
               value={summary.seifaGap.toFixed(0)}
-              detail={`${summary.wealthiestLine.name} (${summary.wealthiestLine.irsadScore}) vs ${summary.leastWealthyLine.name} (${summary.leastWealthyLine.irsadScore})`}
+              detail={`${summary.highestIrsadLine.name} (${summary.highestIrsadLine.irsadScore}) vs ${summary.lowestIrsadLine.name} (${summary.lowestIrsadLine.irsadScore})`}
               delay={200}
             />
             <StatCard
@@ -153,7 +154,7 @@ export default function Home() {
             <StatCard
               label="Significant Years"
               value={`${summary.significantYears}/${summary.totalAnalyzedYears}`}
-              detail={`Years where wealth-punctuality link was statistically significant (p < 0.05)`}
+              detail={`Years where the IRSAD\u2013punctuality correlation was statistically significant (p < 0.05)`}
               delay={400}
             />
           </div>
@@ -175,7 +176,7 @@ export default function Home() {
                 className="text-3xl mb-8"
                 style={{ fontFamily: "var(--font-display)" }}
               >
-                Not all lines are created equal
+                Punctuality by line
               </h2>
               <div className="space-y-0.5">
                 {sorted.map((line) => (
@@ -195,13 +196,13 @@ export default function Home() {
                 className="text-xs uppercase tracking-wider mb-2"
                 style={{ color: "var(--accent-gold)", letterSpacing: "0.15em" }}
               >
-                Wealth vs. Punctuality
+                IRSAD vs. Punctuality
               </p>
               <h2
                 className="text-3xl mb-4"
                 style={{ fontFamily: "var(--font-display)" }}
               >
-                The correlation is real
+                Correlation across {summary.totalYears} years
               </h2>
               <div
                 className="rounded-sm p-4 mb-4"
@@ -213,12 +214,12 @@ export default function Home() {
                 className="text-sm leading-relaxed mb-6"
                 style={{ color: "var(--text-secondary)" }}
               >
-                Across {summary.totalYears} years, the link between wealth and
-                punctuality was statistically significant in{" "}
+                The IRSAD&ndash;punctuality correlation was statistically
+                significant in{" "}
                 <strong style={{ color: "var(--accent-gold)" }}>
                   {summary.significantYears} of {summary.totalAnalyzedYears} years
                 </strong>
-                , strongest pre-COVID ({"\u03C1"} &gt; 0.7).
+                {" "}analysed.
               </p>
               <div className="flex gap-4">
                 <Link
@@ -229,7 +230,7 @@ export default function Home() {
                     color: "var(--bg-primary)",
                   }}
                 >
-                  Explore all years
+                  View analysis
                   <span className="ml-2">&rarr;</span>
                 </Link>
                 <Link
@@ -259,7 +260,7 @@ export default function Home() {
               className="text-xs uppercase tracking-wider mb-4"
               style={{ color: "var(--accent-gold)", letterSpacing: "0.15em" }}
             >
-              How we measure wealth
+              About the IRSAD index
             </p>
             <h3
               className="text-2xl mb-4"
@@ -271,11 +272,11 @@ export default function Home() {
               className="text-base leading-relaxed mb-4"
               style={{ color: "var(--text-secondary)" }}
             >
-              IRSAD stands for the{" "}
+              IRSAD is the{" "}
               <strong style={{ color: "var(--text-primary)" }}>
                 Index of Relative Socio-economic Advantage and Disadvantage
               </strong>
-              . It&rsquo;s produced by the Australian Bureau of Statistics as part of{" "}
+              , produced by the Australian Bureau of Statistics as part of{" "}
               <a
                 href="https://www.abs.gov.au/websitedbs/censushome.nsf/home/seifa"
                 target="_blank"
@@ -285,29 +286,26 @@ export default function Home() {
               >
                 SEIFA (Socio-Economic Indexes for Areas)
               </a>
-              , using data from the Census.
+              , using Census data.
             </p>
             <p
               className="text-base leading-relaxed mb-4"
               style={{ color: "var(--text-secondary)" }}
             >
-              In plain terms: IRSAD is a single number that summarises how
-              well-off or disadvantaged a suburb is. It combines factors like
-              household income, education levels, employment, occupation types,
-              housing costs, and access to resources. A{" "}
-              <strong style={{ color: "var(--accent-gold)" }}>
-                higher score means a wealthier, more advantaged area
-              </strong>
-              ; a lower score means a more disadvantaged one.
+              It summarises the relative socioeconomic profile of an area into
+              a single score, combining factors like household income,
+              education, occupation, housing costs, and access to resources.
+              On the ABS measure, a higher score indicates greater relative
+              advantage; a lower score, greater relative disadvantage.
             </p>
             <p
               className="text-base leading-relaxed"
               style={{ color: "var(--text-secondary)" }}
             >
-              For each train line, we calculated the median IRSAD score across
-              all suburbs its stations serve (excluding shared CBD stations).
-              This gives a single wealth score per line that we can compare
-              against punctuality.
+              For each train line, we take the median IRSAD score across the
+              suburbs its stations serve (excluding shared CBD stations),
+              giving a single IRSAD score per line to compare against
+              punctuality.
             </p>
           </div>
         </div>
@@ -330,12 +328,11 @@ export default function Home() {
               className="text-base leading-relaxed"
               style={{ color: "var(--text-secondary)" }}
             >
-              Correlation does not imply causation. Many factors affect train
-              punctuality: line length, infrastructure age, number of level
-              crossings, patronage, and distance from the CBD. Wealthier suburbs
-              also tend to be inner-city with shorter lines. This analysis
-              explores the pattern but doesn&rsquo;t prove that wealth{" "}
-              <em>causes</em> better service.{" "}
+              Correlation does not imply causation. Many factors affect
+              punctuality &mdash; line length, infrastructure age, level
+              crossings, patronage, and distance from the CBD. Lines with
+              higher IRSAD scores also tend to be shorter and closer to the
+              CBD.{" "}
               <Link
                 href="/methodology"
                 className="underline transition-colors"

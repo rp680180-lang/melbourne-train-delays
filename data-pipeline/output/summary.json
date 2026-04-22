@@ -12,11 +12,11 @@
     "name": "Craigieburn",
     "punctualityPct": 89.4
   },
-  "wealthiestLine": {
+  "highestIrsadLine": {
     "name": "Sandringham",
     "irsadScore": 1128.7
   },
-  "leastWealthyLine": {
+  "lowestIrsadLine": {
     "name": "Werribee",
     "irsadScore": 951.0
   },

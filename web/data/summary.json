@@ -17,11 +17,11 @@
     "name": "Craigieburn",
     "punctualityPct": 87.95
   },
-  "wealthiestLine": {
+  "highestIrsadLine": {
     "name": "Alamein",
     "irsadScore": 1128.1
   },
-  "leastWealthyLine": {
+  "lowestIrsadLine": {
     "name": "Cranbourne",
     "irsadScore": 992.9
   },

@@ -68,8 +68,8 @@ export default function LinesPage() {
           className="text-sm sm:text-base max-w-2xl mb-8"
           style={{ color: "var(--text-secondary)" }}
         >
-          Melbourne&rsquo;s 16 metro train lines ranked by punctuality, with
-          their socioeconomic profile and trend.
+          Melbourne&rsquo;s 16 metro train lines, ranked by punctuality, with
+          IRSAD score and multi-year trend.
         </p>
 
         {/* Sort controls */}

@@ -1,17 +1,13 @@
-# Melbourne Train Delays vs Suburb Wealth
+# Track Record — Melbourne Metro Punctuality Dashboard
 
-An interactive data analysis exploring whether wealthier Melbourne suburbs get better train service.
-
-## The Question
-
-Melbourne's 16 metropolitan train lines serve suburbs ranging from some of Australia's wealthiest to its most disadvantaged. Do lines serving wealthier areas experience fewer delays?
+A dashboard of 26 years of Melbourne metro train punctuality, line by line, with socioeconomic indicators from the ABS SEIFA index.
 
 ## What This Project Does
 
 1. **Collects** train punctuality data by line from PTV (Public Transport Victoria)
-2. **Maps** each train station to its suburb's socioeconomic score (ABS SEIFA 2021)
-3. **Analyses** the correlation between line-level wealth and service quality
-4. **Presents** findings in an interactive web dashboard with charts and maps
+2. **Maps** each train station to its suburb's IRSAD score (ABS SEIFA 2021)
+3. **Analyses** the correlation between per-line IRSAD score and punctuality
+4. **Presents** the data in an interactive web dashboard with charts
 
 ## Data Sources
 
