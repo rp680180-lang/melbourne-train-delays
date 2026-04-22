@@ -18,6 +18,12 @@ Thumbs.db
 .env
 .env.local
 .env.*.local
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
 
 # IDE
 .idea/
@@ -27,3 +33,30 @@ Thumbs.db
 
 # Vercel
 .vercel
+
+# AI agents / assistants
+.claude/
+.claude-*/
+CLAUDE.md
+AGENTS.md
+.cursor/
+.cursorrules
+.cursorignore
+.cursor-*/
+.aider*
+.continue/
+.copilot/
+.github/copilot-*
+.windsurf/
+.codeium/
+.zed-ai/
+.anthropic/
+.openai/
+.chatgpt/
+.gemini/
+.specstory/
+.roo/
+.sweep/
+.agent/
+.agents/
+ai-context/
