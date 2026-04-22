@@ -55,8 +55,8 @@ function Nav() {
 function Footer() {
   return (
     <footer className="mt-auto" style={{ borderTop: '1px solid var(--border)', background: 'var(--bg-secondary)' }}>
-      <div className="max-w-6xl mx-auto px-6 py-12">
-        <div className="flex flex-col md:flex-row justify-between gap-8">
+      <div className="max-w-6xl mx-auto px-6 py-8">
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
           <div>
             <p className="text-sm" style={{ color: 'var(--text-muted)' }}>
               Data sources: PTV, ABS SEIFA 2021, GTFS
@@ -65,22 +65,6 @@ function Footer() {
               Analysis period: FY 2022-23
             </p>
           </div>
-          <div className="text-right">
-            <a
-              href="https://github.com/Rift-Engineering/Track-Record"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm transition-colors hover:underline"
-              style={{ color: 'var(--accent-gold)' }}
-            >
-              View on GitHub
-            </a>
-          </div>
-        </div>
-        <div
-          className="mt-10 pt-6 flex justify-center"
-          style={{ borderTop: '1px solid var(--border)' }}
-        >
           <a
             href="https://riftengineering.com.au"
             target="_blank"
@@ -100,6 +84,15 @@ function Footer() {
             <span style={{ letterSpacing: '0.1em', textTransform: 'uppercase' }}>
               Rift Engineering
             </span>
+          </a>
+          <a
+            href="https://github.com/Rift-Engineering/Track-Record"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm transition-colors hover:underline md:text-right"
+            style={{ color: 'var(--accent-gold)' }}
+          >
+            View on GitHub
           </a>
         </div>
       </div>

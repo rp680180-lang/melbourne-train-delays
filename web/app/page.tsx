@@ -97,33 +97,27 @@ export default function Home() {
         />
         <div className="max-w-6xl mx-auto px-6 pt-32 pb-20 relative">
           <div className="max-w-3xl">
-            <p
-              className="text-xs uppercase tracking-wider mb-6"
-              style={{ color: "var(--accent-gold)", letterSpacing: "0.2em" }}
-            >
-              Track Record &middot; {summary.totalYears} Years of Data
-            </p>
             <h1
               className="text-5xl md:text-7xl leading-[1.05] mb-8"
               style={{ fontFamily: "var(--font-display)", color: "var(--text-primary)" }}
             >
-              {summary.totalYears} years of Melbourne metro punctuality,{" "}
-              <em style={{ color: "var(--accent-gold)" }}>line by line.</em>
+              Melbourne metro punctuality,{" "}
+              <span style={{ color: "var(--accent-gold)" }}>line by line.</span>
             </h1>
             <p
               className="text-lg leading-relaxed max-w-xl mb-10"
               style={{ color: "var(--text-secondary)" }}
             >
-              Official performance data for Melbourne&rsquo;s 16 metro train
-              lines, paired with the ABS SEIFA (IRSAD) index for each line.
-              Browse punctuality by line, see how the network has tracked
-              against its 92% target, and explore the correlation between
-              IRSAD score and on-time running.
+              Performance data for Melbourne&rsquo;s 16 metro train lines,
+              paired with the ABS SEIFA (IRSAD) index for each line. Browse
+              punctuality by line, see how the network has tracked against its
+              92% target, and explore the correlation between IRSAD score and
+              on-time running.
             </p>
             <hr className="rule-gold mb-10 max-w-xs" />
             <p className="text-sm" style={{ color: "var(--text-muted)" }}>
               {summary.dataRange} &middot; {summary.lineCount}{" "}
-              metro lines &middot; Official Victorian Government data
+              metro lines &middot; Victorian Government data
             </p>
           </div>
         </div>

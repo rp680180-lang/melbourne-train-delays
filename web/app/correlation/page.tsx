@@ -385,17 +385,6 @@ export default function CorrelationPage() {
                   );
                 }}
               />
-              {/* Significance threshold reference */}
-              <Line
-                data={correlationTrend.map((d) => ({ ...d, threshold: 0.05 }))}
-                dataKey="threshold"
-                stroke="var(--accent-red)"
-                strokeWidth={1}
-                strokeDasharray="4 4"
-                strokeOpacity={0.3}
-                dot={false}
-                isAnimationActive={false}
-              />
               <Tooltip
                 content={({ active, payload }) => {
                   if (!active || !payload?.length) return null;
@@ -493,7 +482,7 @@ export default function CorrelationPage() {
               className="text-xl mb-4"
               style={{ fontFamily: "var(--font-display)" }}
             >
-              Potential confounders
+              Potential factors
             </h3>
             <div
               className="space-y-3 text-sm leading-relaxed"
