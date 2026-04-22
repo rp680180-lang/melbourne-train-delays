@@ -77,6 +77,31 @@ function Footer() {
             </a>
           </div>
         </div>
+        <div
+          className="mt-10 pt-6 flex justify-center"
+          style={{ borderTop: '1px solid var(--border)' }}
+        >
+          <a
+            href="https://riftengineering.com.au"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-xs transition-opacity"
+            style={{ color: 'var(--text-muted)', opacity: 0.7 }}
+            aria-label="Built by Rift Engineering"
+          >
+            <span>Built by</span>
+            <img
+              src="/rift-mark.svg"
+              alt="Rift Engineering"
+              width={32}
+              height={23}
+              style={{ display: 'block' }}
+            />
+            <span style={{ letterSpacing: '0.1em', textTransform: 'uppercase' }}>
+              Rift Engineering
+            </span>
+          </a>
+        </div>
       </div>
     </footer>
   );
