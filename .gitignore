@@ -60,3 +60,25 @@ AGENTS.md
 .agent/
 .agents/
 ai-context/
+
+# graphify outputs
+graphify-out/manifest.json
+graphify-out/cost.json
+# Claude Code: runtime state, never tracked (added by dotfiles maintenance)
+.claude/projects/
+.claude/sessions/
+.claude/session-env/
+.claude/cache/
+.claude/file-history/
+.claude/backups/
+.claude/shell-snapshots/
+.claude/telemetry/
+.claude/tasks/
+.claude/downloads/
+.claude/plugins/
+.claude/history.jsonl
+.claude/.last-cleanup
+.claude/mcp-needs-auth-cache.json
+.claude/*.bak
+.claude/CLAUDE.md
+.DS_Store
